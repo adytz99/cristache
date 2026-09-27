@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Romanian optician back-to-school Instagram WhatsApp AI automation case study">
+  <defs>
+    <linearGradient id="optBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02080f"/>
+      <stop offset="55%" stop-color="#061018"/>
+      <stop offset="100%" stop-color="#03060c"/>
+    </linearGradient>
+    <radialGradient id="optGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.34"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="optGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="optPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1a28"/>
+      <stop offset="100%" stop-color="#050a12"/>
+    </linearGradient>
+    <linearGradient id="optEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="optBubbleIn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#122033"/>
+      <stop offset="100%" stop-color="#1a2d44"/>
+    </linearGradient>
+    <linearGradient id="optBubbleAi" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="optLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <pattern id="optGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#38bdf8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="optBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#optBg)"/>
+  <rect width="1600" height="900" fill="url(#optGrid)"/>
+  <circle cx="1180" cy="430" r="520" fill="url(#optGlow1)"/>
+  <circle cx="1180" cy="430" r="340" fill="url(#optGlow2)"/>
+
+  <!-- Glasses motif -->
+  <g transform="translate(1180,300)" opacity="0.55" fill="none" stroke="url(#optEdge)" stroke-width="6">
+    <circle cx="-90" cy="0" r="70"/>
+    <circle cx="90" cy="0" r="70"/>
+    <path d="M -20 0 Q 0 -18 20 0" stroke-linecap="round"/>
+    <path d="M -160 0 L -160 -20" stroke-linecap="round"/>
+    <path d="M 160 0 L 160 -20" stroke-linecap="round"/>
+  </g>
+
+  <!-- Phone frame -->
+  <g transform="translate(1180,470)">
+    <g filter="url(#optBlur)" opacity="0.5">
+      <rect x="-150" y="-250" width="300" height="500" rx="42" fill="#38bdf8" opacity="0.22"/>
+    </g>
+    <rect x="-160" y="-260" width="320" height="520" rx="46" fill="none" stroke="url(#optEdge)" stroke-width="5"/>
+    <rect x="-150" y="-250" width="300" height="500" rx="40" fill="url(#optPanel)"/>
+
+    <g transform="translate(0,-215)">
+      <circle r="18" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+      <circle r="10" fill="#38bdf8"/>
+      <text x="28" y="5" font-family="'Segoe UI', sans-serif" font-size="13" fill="#bae6fd" letter-spacing="0.5">@optica.vedere</text>
+    </g>
+
+    <g transform="translate(-125,-160)">
+      <rect width="210" height="44" rx="20" fill="url(#optBubbleIn)"/>
+      <text x="16" y="28" font-family="'Segoe UI', sans-serif" font-size="13" fill="#e0f2fe">Ochelari pentru coal?</text>
+    </g>
+
+    <g transform="translate(-85,-95)">
+      <rect width="230" height="58" rx="20" fill="url(#optBubbleAi)"/>
+      <text x="14" y="24" font-family="'Segoe UI', sans-serif" font-size="12" fill="#f0f9ff">Sunt un asistent AI. Programez</text>
+      <text x="14" y="42" font-family="'Segoe UI', sans-serif" font-size="12" fill="#f0f9ff">controlul  fr diagnostic.</text>
+    </g>
+
+    <g transform="translate(-125,-15)">
+      <rect width="200" height="40" rx="18" fill="url(#optBubbleIn)"/>
+      <text x="16" y="26" font-family="'Segoe UI', sans-serif" font-size="13" fill="#e0f2fe">Mâine 17:30, Cluj </text>
+    </g>
+
+    <g transform="translate(-85,45)">
+      <rect width="220" height="44" rx="18" fill="url(#optBubbleAi)"/>
+      <text x="14" y="28" font-family="'Segoe UI', sans-serif" font-size="12" fill="#f0f9ff">Flows: date copil + locaie</text>
+    </g>
+
+    <text y="160" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#7dd3fc" letter-spacing="2">INSTAGRAM ’ WHATSAPP FLOWS</text>
+  </g>
+
+  <!-- Left copy block -->
+  <g transform="translate(120,180)">
+    <text font-family="'Segoe UI', sans-serif" font-size="18" fill="#7dd3fc" letter-spacing="4">CASE STUDY</text>
+    <text y="70" font-family="'Segoe UI', sans-serif" font-size="52" font-weight="700" fill="#f8fafc">Back-to-school</text>
+    <text y="130" font-family="'Segoe UI', sans-serif" font-size="52" font-weight="700" fill="#f8fafc">optician AI</text>
+    <text y="190" font-family="'Segoe UI', sans-serif" font-size="22" fill="#94a3b8">Reel ’ DM ’ exam booking in under 45s</text>
+    <rect y="230" width="420" height="2" fill="url(#optLine)"/>
+    <g transform="translate(0,280)">
+      <text font-family="'Segoe UI', sans-serif" font-size="42" font-weight="700" fill="#38bdf8">3.2×</text>
+      <text x="120" y="8" font-family="'Segoe UI', sans-serif" font-size="16" fill="#94a3b8">September booked exams</text>
+      <text y="70" font-family="'Segoe UI', sans-serif" font-size="42" font-weight="700" fill="#fbbf24">61%</text>
+      <text x="140" y="78" font-family="'Segoe UI', sans-serif" font-size="16" fill="#94a3b8">WhatsApp msgs / booking</text>
+    </g>
+    <text y="430" font-family="'Segoe UI', sans-serif" font-size="15" fill="#64748b">Art. 50 disclosure · Oct 1 Meta cliff · e-Factura B2C</text>
+  </g>
+</svg>

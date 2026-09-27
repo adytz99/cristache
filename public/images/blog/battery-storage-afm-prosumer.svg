@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Residential battery storage AFM prosumer AI automation case study">
+  <defs>
+    <linearGradient id="btBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050a12"/>
+      <stop offset="50%" stop-color="#071820"/>
+      <stop offset="100%" stop-color="#040c10"/>
+    </linearGradient>
+    <radialGradient id="btGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="btGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#84cc16" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#84cc16" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="btRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#84cc16"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="btBattery" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f2740"/>
+      <stop offset="100%" stop-color="#061018"/>
+    </linearGradient>
+    <linearGradient id="btCharge" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="55%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="btBubbleIn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0a1c24"/>
+      <stop offset="100%" stop-color="#0f2830"/>
+    </linearGradient>
+    <linearGradient id="btBubbleAi" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="btLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#84cc16"/>
+    </linearGradient>
+    <pattern id="btGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#22d3ee" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="btBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#btBg)"/>
+  <rect width="1600" height="900" fill="url(#btGrid)"/>
+  <circle cx="1180" cy="430" r="480" fill="url(#btGlow1)"/>
+  <circle cx="1180" cy="430" r="300" fill="url(#btGlow2)"/>
+
+  <!-- Left copy -->
+  <text x="96" y="210" font-family="'Segoe UI', sans-serif" font-size="22" fill="#86efac" letter-spacing="4">AFM · PROSUMER STORAGE 2026</text>
+  <text x="96" y="290" font-family="'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="#f8fafc">Battery retrofit,</text>
+  <text x="96" y="360" font-family="'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="#f8fafc">not more panels.</text>
+  <text x="96" y="430" font-family="'Segoe UI', sans-serif" font-size="22" fill="#94a3b8">AI intake · WhatsApp Flows · Instagram Reels</text>
+  <text x="96" y="470" font-family="'Segoe UI', sans-serif" font-size="22" fill="#94a3b8">before Meta&#39;s 1 Oct service-message cliff</text>
+
+  <rect x="96" y="540" width="220" height="72" rx="16" fill="#0b1f28" stroke="#164e63" stroke-width="2"/>
+  <text x="120" y="572" font-family="'Segoe UI', sans-serif" font-size="14" fill="#67e8f9">Msgs / dossier</text>
+  <text x="120" y="602" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#f8fafc">14 ’ 5.1</text>
+
+  <rect x="340" y="540" width="220" height="72" rx="16" fill="#0b1f28" stroke="#3f6212" stroke-width="2"/>
+  <text x="364" y="572" font-family="'Segoe UI', sans-serif" font-size="14" fill="#bef264">AFM dossiers filed</text>
+  <text x="364" y="602" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#f8fafc">610</text>
+
+  <rect x="96" y="640" width="464" height="8" rx="4" fill="url(#btLine)"/>
+
+  <!-- Battery visual -->
+  <g transform="translate(1180,430)">
+    <g filter="url(#btBlur)" opacity="0.5">
+      <rect x="-130" y="-200" width="260" height="400" rx="36" fill="#22d3ee" opacity="0.22"/>
+    </g>
+    <rect x="-140" y="-210" width="280" height="420" rx="40" fill="none" stroke="url(#btRing)" stroke-width="5"/>
+    <rect x="-120" y="-180" width="240" height="360" rx="28" fill="url(#btBattery)" stroke="#1e3a4a" stroke-width="2"/>
+    <!-- charge level -->
+    <rect x="-96" y="-20" width="192" height="180" rx="12" fill="url(#btCharge)" opacity="0.9"/>
+    <rect x="-96" y="-140" width="192" height="100" rx="12" fill="#0a1520" opacity="0.55"/>
+    <!-- battery terminal -->
+    <rect x="-40" y="-236" width="80" height="28" rx="8" fill="#22d3ee"/>
+    <text x="0" y="-70" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#e2e8f0">12+ kWh</text>
+    <text x="0" y="70" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="42" font-weight="700" fill="#052e16">78%</text>
+    <text x="0" y="110" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#052e16" letter-spacing="2">SELF-CONSUMPTION</text>
+  </g>
+
+  <!-- Chat bubbles -->
+  <g transform="translate(980,120)">
+    <rect width="280" height="52" rx="22" fill="url(#btBubbleIn)"/>
+    <text x="22" y="33" font-family="'Segoe UI', sans-serif" font-size="15" fill="#a5f3fc">Prind AFM pe baterie? =</text>
+  </g>
+  <g transform="translate(1040,190)">
+    <rect width="320" height="68" rx="22" fill="url(#btBubbleAi)"/>
+    <text x="20" y="28" font-family="'Segoe UI', sans-serif" font-size="14" fill="#ecfdf5">AI assistant · Flow for dossier check</text>
+    <text x="20" y="50" font-family="'Segoe UI', sans-serif" font-size="14" fill="#ecfdf5">A human validates every AFM claim.</text>
+  </g>
+</svg>

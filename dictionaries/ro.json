@@ -1,0 +1,935 @@
+{
+  "metadata": {
+    "title": "Cristache | Creare conținut, social media, web și aplicații mobile",
+    "description": "Studio din București pentru creare conținut, social media marketing, campanii ADS, site-uri, magazine online, aplicații mobile, platforme cu plăți și baze de date.",
+    "keywords": "creare conținut, social media marketing, campanii ADS, TikTok Ads, dezvoltare web, magazine online, aplicații mobile, platforme online, integrare plăți, baze de date, București, Cristache"
+  },
+  "header": {
+    "home": "Acasă",
+    "services": "Servicii",
+    "process": "Proces",
+    "portfolio": "Proiecte",
+    "about": "Despre",
+    "blog": "Blog",
+    "contact": "Contact",
+    "requestAnalysis": "Cere o propunere"
+  },
+  "hero": {
+    "titleLine1": "Cristache",
+    "titleLine2": "Web & Creative",
+    "titleLine3": "",
+    "titleLine4": "",
+    "description": "Filmăm, publicăm și promovăm brandul tău pe social media, apoi construim site-ul, aplicația sau platforma prin care clienții cumpără. Totul într-un singur loc, cu aceiași oameni de la brief până la lansare.",
+    "demo": "Cere o propunere",
+    "services": "Vezi serviciile",
+    "heading": "Creare conținut, social media, site-uri și aplicații mobile"
+  },
+  "features": {
+    "title": "De ce Cristache",
+    "description": "Conținutul care aduce oameni și produsul care îi transformă în clienți, făcute de aceeași echipă.",
+    "items": {
+      "analytics": {
+        "title": "Conținut făcut pentru platformă",
+        "description": "Un clip pentru TikTok nu este același cu unul pentru YouTube. Fiecare material are formatul lui."
+      },
+      "speed": {
+        "title": "Un calendar pe care îl vezi",
+        "description": "Știi dinainte ce se publică și când. Aprobi planul, noi ne ținem de el."
+      },
+      "targeting": {
+        "title": "Recomandări sincere",
+        "description": "Dacă un site simplu rezolvă problema, nu îți propunem o aplicație."
+      },
+      "secure": {
+        "title": "Produs care merge și după lansare",
+        "description": "Site-uri, aplicații și platforme construite să poată crește fără să fie rescrise."
+      },
+      "rocket": {
+        "title": "Plăți și date puse corect",
+        "description": "Încasări, abonamente și baze de date configurate de la început, nu adăugate pe urmă."
+      },
+      "support": {
+        "title": "Lucrezi direct cu noi",
+        "description": "Vorbești cu Adrian și Nicoleta, oamenii care conduc proiectul, nu cu un intermediar."
+      }
+    }
+  },
+  "stats": {
+    "title": "Un singur partener, de la idee la produs",
+    "description": "Nu mai coordonezi separat agenția de social media, firma de web și dezvoltatorul de aplicații.",
+    "items": {
+      "sites": "Conținut și social media",
+      "growth": "Campanii ADS",
+      "uptime": "Site-uri, magazine și aplicații",
+      "support": "Platforme, plăți și date"
+    }
+  },
+  "cta": {
+    "title": "Ai un proiect în minte?",
+    "description": "Scrie-ne în câteva rânduri ce vrei să obții. Revenim cu o direcție clară și cu pașii următori.",
+    "startFree": "Scrie-ne",
+    "demo": "Vezi proiectele",
+    "noSetup": "Răspundem în maxim 24 de ore"
+  },
+  "services": {
+    "title": "Ce facem pentru",
+    "titleHighlight": " brandul tău",
+    "description": "Alegi doar serviciile de care ai nevoie acum. Conținutul, reclamele și produsul digital pot fi luate separat sau împreună.",
+    "items": {
+      "strategy": {
+        "title": "Strategie",
+        "subtitle": "Ce spui, cui și când",
+        "description": "Stabilim temele, tonul și ritmul de publicare înainte de prima filmare.",
+        "features": [
+          "Plan de conținut pe măsură",
+          "Concepte și unghiuri creative",
+          "Calendar editorial",
+          "Cuvinte cheie și căutări"
+        ]
+      },
+      "production": {
+        "title": "Producție",
+        "subtitle": "Conținut nativ pe fiecare canal",
+        "description": "Filmăm și pregătim materialele pentru fiecare platformă în parte.",
+        "features": [
+          "Filmări și ședințe foto",
+          "Postări recurente și coperți",
+          "TikTok, Instagram, Facebook, YouTube",
+          "Structură de hashtag-uri"
+        ]
+      },
+      "post": {
+        "title": "Post-producție",
+        "subtitle": "Gata de publicat",
+        "description": "Montaj, culoare și subtitrări care țin atenția până la final.",
+        "features": [
+          "Montaj și ritm",
+          "Corecție de culoare",
+          "Subtitrări",
+          "Formate pentru reach organic"
+        ]
+      },
+      "ads": {
+        "title": "Campanii ADS",
+        "subtitle": "Buget urmărit pe rezultat",
+        "description": "Reclame măsurate după cereri și vânzări, nu după afișări.",
+        "features": [
+          "TikTok Ads",
+          "Instagram Ads",
+          "Facebook Ads",
+          "Google Ads"
+        ]
+      },
+      "web": {
+        "title": "Dezvoltare web",
+        "subtitle": "Rapide și ușor de găsit",
+        "description": "Site-uri de prezentare și magazine online gândite întâi pentru telefon.",
+        "features": [
+          "Design adaptat pe mobil",
+          "Pagini de prezentare și magazine",
+          "Viteză și structură clară",
+          "Formulare și integrări"
+        ]
+      },
+      "mobile": {
+        "title": "Aplicații mobile",
+        "subtitle": "iOS și Android",
+        "description": "De la ecranele desenate până la aplicația publicată în store-uri.",
+        "features": [
+          "Interfață atentă",
+          "Dezvoltare pentru ambele platforme",
+          "Backend și API",
+          "Publicare în store-uri"
+        ]
+      },
+      "platforms": {
+        "title": "Platforme online",
+        "subtitle": "Conturi, administrare, plăți",
+        "description": "Un singur flux pentru înscrieri, plăți, abonamente și echipă.",
+        "features": [
+          "Conturi, roluri și fluxuri",
+          "Panou de administrare",
+          "Integrare plăți",
+          "Creștere fără rescriere de la zero"
+        ]
+      },
+      "data": {
+        "title": "Baze de date",
+        "subtitle": "O singură sursă de adevăr",
+        "description": "Structură, rapoarte și backup pentru datele de care depinzi.",
+        "features": [
+          "Modelare și structură",
+          "Stocare sigură",
+          "Interogări și rapoarte",
+          "Backup și acces controlat"
+        ]
+      }
+    },
+    "more": "Vezi detalii"
+  },
+  "process": {
+    "title": "Cum lucrăm",
+    "titleHighlight": "",
+    "description": "Patru pași clari. Știi mereu în ce etapă este proiectul și ce urmează.",
+    "steps": {
+      "analysis": {
+        "title": "Discuție",
+        "description": "Aflăm ce vinzi, cui și ce trebuie să se schimbe.",
+        "duration": "Primul pas"
+      },
+      "strategy": {
+        "title": "Propunere",
+        "description": "Primești planul, livrabilele și ordinea în care lucrăm.",
+        "duration": "Plan aprobat"
+      },
+      "implementation": {
+        "title": "Producție",
+        "description": "Filmăm, scriem, proiectăm și construim, cu verificări pe parcurs.",
+        "duration": "Livrare pe etape"
+      },
+      "monitoring": {
+        "title": "Lansare și măsurare",
+        "description": "Publicăm, urmărim rezultatele și ajustăm ce merită îmbunătățit.",
+        "duration": "După lansare"
+      }
+    }
+  },
+  "finalCTA": {
+    "title": "Pornim",
+    "titleHighlight": " proiectul",
+    "subtitle": "tău?",
+    "description": "Spune-ne ce vrei să existe online. Îți răspundem cu o propunere concretă, nu cu un șablon.",
+    "demo": "Cere o propunere",
+    "contact": "Contact",
+    "freeConsultation": "Răspundem în maxim 24 de ore",
+    "cancelAnytime": ""
+  },
+  "contact": {
+    "title": "Spune-ne despre proiectul tău",
+    "description": "Completează formularul sau scrie-ne direct. Îți răspundem în maxim 24 de ore.",
+    "form": {
+      "name": "Nume complet",
+      "namePlaceholder": "Ion Popescu",
+      "email": "Adresă email",
+      "emailPlaceholder": "ion@firma.ro",
+      "phone": "Telefon",
+      "phonePlaceholder": "0712345678 sau +40712345678",
+      "service": "Serviciu dorit",
+      "selectService": "Selectează serviciul",
+      "budget": "Buget estimat",
+      "selectBudget": "Selectează bugetul",
+      "message": "Descrie proiectul tău",
+      "messagePlaceholder": "Ce vrei să obții, pentru cine și până când. Orice detaliu ne ajută.",
+      "agreeToTerms": "Sunt de acord cu procesarea datelor personale conform",
+      "terms": "Termenii și Condițiilor",
+      "privacy": "Politicii de confidențialitate",
+      "submit": "Trimite mesajul",
+      "sending": "Se trimite...",
+      "responseTime": "Răspundem în maxim 24 de ore",
+      "required": "*",
+      "error": "Eroare",
+      "errorFillFields": "Te rugăm să completezi toate câmpurile obligatorii și să accepți termenii.",
+      "successTitle": "Mesaj trimis",
+      "successDesc": "Mulțumim! Îți răspundem în maxim 24 de ore cu pașii următori pentru proiectul tău.",
+      "sendAnother": "Trimite alt mesaj",
+      "serviceOptions": {
+        "ecommerce": "Magazin Online (E-commerce)",
+        "crm": "Sistem CRM Personalizat",
+        "api": "Integrări API și Automatizări",
+        "marketing": "Marketing Automation"
+      },
+      "budgetOptions": {
+        "tier1": "Sub 1.000 EUR",
+        "tier2": "1.000 - 2.500 EUR",
+        "tier3": "2.500 - 5.000 EUR",
+        "tier4": "5.000 - 10.000 EUR",
+        "tier5": "10.000 - 25.000 EUR",
+        "tier6": "Peste 25.000 EUR"
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Proiecte",
+    "titleHighlight": "livrate",
+    "description": "Site-uri, magazine, platforme și aplicații mobile, construite de la prima schiță până la lansare. La fiecare proiect vezi rezultatul, nu doar tehnologiile.",
+    "resultLabel": "Rezultatul",
+    "developedBy": "Realizat de",
+    "viewAppStore": "Vezi în App Store",
+    "categories": {
+      "all": "Toate",
+      "web": "Web și platforme",
+      "ecommerce": "Magazine online",
+      "automation": "Automatizări",
+      "mobile": "Aplicații mobile"
+    },
+    "details": "Detalii",
+    "visit": "Vizitează",
+    "techTitle": "Tehnologii",
+    "featuresTitle": "Ce include",
+    "visitSite": "Vezi proiectul",
+    "close": "Închide",
+    "ctaTitle": "Urmează proiectul tău?",
+    "ctaDesc": "Spune-ne ce vrei să construiești. Îți răspundem cu o direcție clară și cu pașii următori.",
+    "ctaConsultation": "Cere o propunere",
+    "ctaContact": "Scrie-ne"
+  },
+  "footer": {
+    "description": "Studio de conținut și produs digital din București.",
+    "services": "Servicii",
+    "content": "Creare conținut",
+    "social": "Social media marketing",
+    "development": "Dezvoltare web",
+    "platforms": "Platforme online",
+    "company": "Companie",
+    "about": "Despre noi",
+    "process": "Procesul nostru",
+    "portfolio": "Proiecte",
+    "blog": "Blog",
+    "contact": "Contact",
+    "legal": "Legal",
+    "terms": "Termeni și condiții",
+    "privacy": "Politica de confidențialitate",
+    "cookies": "Politica cookies",
+    "rights": "© 2026 Cristache. Toate drepturile rezervate.",
+    "ads": "Campanii ADS",
+    "mobile": "Aplicații mobile",
+    "data": "Baze de date"
+  },
+  "despre": {
+    "hero": {
+      "title": "Despre",
+      "description": "Cristache este un studio de conținut și produs digital din București. Creăm conținut și campanii pentru social media și construim site-uri, aplicații mobile și platforme online, cu plăți și baze de date incluse."
+    },
+    "stats": {
+      "projects": "Proiecte Finalizate",
+      "years": "Ani Experiență",
+      "clients": "Clienți Mulțumiți",
+      "support": "Suport Disponibil"
+    },
+    "mission": {
+      "title": "Ce facem",
+      "titleHighlight": "concret",
+      "p1": "Ducem un brand de la idee până la materialul care se vede și produsul care funcționează. Conținutul, site-ul și aplicația sunt gândite împreună, nu în trei agenții care nu vorbesc între ele.",
+      "p2": "Pe partea de social media ne ocupăm de strategie, filmări, montaj, publicare și campanii ADS. Pe partea de produs construim site-uri, magazine online, aplicații mobile, platforme cu plăți și baze de date.",
+      "p3": "Lucrezi direct cu Adrian Cristin Cristache și Nicoleta Alexandra Cristache. Fiecare proiect are un plan, un ritm și un loc unde vezi progresul.",
+      "ctaCollab": "Cere o propunere",
+      "ctaProjects": "Vezi proiectele"
+    },
+    "diff": {
+      "title": "Cum lucrăm",
+      "item1": {
+        "title": "Plan înainte de producție:",
+        "desc": "Știi ce se livrează, în ce ordine și cine se ocupă."
+      },
+      "item2": {
+        "title": "Rezultate explicate:",
+        "desc": "Primești rapoarte pe înțeles și ce schimbăm în continuare."
+      },
+      "item3": {
+        "title": "Recomandări sincere:",
+        "desc": "Propunem ce rezolvă problema, nu cel mai mare pachet."
+      },
+      "item4": {
+        "title": "Rămânem și după lansare:",
+        "desc": "Ajustăm, actualizăm și construim pașii următori."
+      }
+    },
+    "values": {
+      "title": "Ce",
+      "titleHighlight": "contează pentru noi",
+      "description": "Principiile după care lucrăm la fiecare proiect.",
+      "results": {
+        "title": "Rezultat înainte de estetică",
+        "description": "Un material frumos care nu aduce clienți nu este un proiect reușit."
+      },
+      "partnership": {
+        "title": "Comunicare directă",
+        "description": "Vorbești cu oamenii care lucrează la proiect, fără intermediari."
+      },
+      "innovation": {
+        "title": "Unelte potrivite",
+        "description": "Alegem tehnologia după nevoie, nu după modă."
+      },
+      "quality": {
+        "title": "Detalii verificate",
+        "description": "Testăm pe telefoane reale, verificăm textele și măsurăm înainte de lansare."
+      }
+    },
+    "team": {
+      "title": "Administratorii",
+      "titleHighlight": "",
+      "description": "Doi oameni care conduc fiecare proiect, de la brief până la lansare.",
+      "ceo": {
+        "role": "Administrator",
+        "description": "Conduce direcția de produs: site-uri, aplicații mobile, platforme și baze de date."
+      },
+      "seo": {
+        "role": "Administrator",
+        "description": "Conduce conținutul, social media, campaniile și relația cu clienții."
+      }
+    },
+    "cta": {
+      "title": "Vrei să",
+      "titleHighlight": "lucrăm împreună",
+      "description": "Spune-ne despre proiect. Revenim cu o propunere de pași, nu cu un șablon.",
+      "consultation": "Scrie-ne",
+      "contact": "Contact"
+    }
+  },
+  "blog": {
+    "metaTitle": "Blog și studii de caz",
+    "metaDescription": "Studii de caz despre automatizări, social media, WhatsApp, Instagram și produse digitale pentru afaceri din România.",
+    "eyebrow": "Studii de caz",
+    "title": "Din proiecte",
+    "titleHighlight": "reale",
+    "description": "Cum au transformat afaceri din România mesajele, programările și vânzările în fluxuri care merg singure.",
+    "readMore": "Citește studiul de caz",
+    "backToBlog": "Înapoi la blog",
+    "toolsUsed": "Unelte folosite",
+    "relatedTitle": "Alte studii de caz",
+    "cta": {
+      "title": "Vrei un proiect",
+      "titleHighlight": "în aceeași notă?",
+      "description": "Scrie-ne ce vrei să existe online. Revenim cu o direcție și următorii pași.",
+      "consultation": "Scrie-ne",
+      "contact": "Vezi proiectele"
+    }
+  },
+  "cookie": {
+    "settings": "Setări cookie",
+    "floatingLabel": "Schimbă setările cookie",
+    "consentModal": {
+      "title": "Folosim cookie-uri",
+      "description": "Folosim cookie-uri pentru a îmbunătăți experiența, a analiza traficul și a personaliza conținutul. Poți gestiona preferințele. Citește <a href=\"/cookies\" class=\"cc-link\">Politica Cookies</a> pentru detalii.",
+      "acceptAllBtn": "Acceptă tot",
+      "acceptNecessaryBtn": "Doar necesare",
+      "showPreferencesBtn": "Gestionează preferințele"
+    },
+    "preferencesModal": {
+      "title": "Preferințe cookie",
+      "subtitle": "Selectează categoriile pe care dorești să le permiți.",
+      "acceptAllBtn": "Acceptă tot",
+      "acceptNecessaryBtn": "Doar necesare",
+      "savePreferencesBtn": "Salvează preferințele",
+      "closeIconLabel": "Închide",
+      "sections": {
+        "usage": {
+          "title": "Utilizarea cookie-urilor",
+          "description": "Cookie-urile ne ajută să asigurăm funcționarea corectă a site-ului, să analizăm utilizarea și să oferim conținut relevant."
+        },
+        "necessary": {
+          "title": "Strict necesare",
+          "description": "Aceste cookie-uri sunt esențiale pentru funcționarea site-ului și nu pot fi dezactivate."
+        },
+        "analytics": {
+          "title": "Analiză",
+          "description": "Cookie-uri folosite pentru statistici anonime și îmbunătățirea performanței."
+        },
+        "marketing": {
+          "title": "Marketing",
+          "description": "Cookie-uri utilizate pentru personalizarea conținutului și publicitate."
+        }
+      }
+    }
+  },
+  "legal_cookies": {
+    "title": "Politica de Utilizare a Cookie-urilor",
+    "intro": "Politica de utilizare a cookie-urilor pe site-ul Cristache. Află cum folosim cookie-urile pentru îmbunătățirea experienței tale.",
+    "section1": {
+      "title": "1. Ce sunt Cookie-urile?",
+      "content": "Cookie-urile sunt fișiere text mici care sunt stocate pe dispozitivul dumneavoastră (computer, telefon mobil sau tabletă) atunci când vizitați un site web. Acestea permit site-ului să-și 'amintească' acțiunile și preferințele dumneavoastră (cum ar fi limba, mărimea fontului și alte preferințe de afișare) pentru o anumită perioadă de timp."
+    },
+    "section2": {
+      "title": "2. Cum Folosim Cookie-urile",
+      "content": "Cristache utilizează cookie-uri pentru următoarele scopuri:",
+      "list": [
+        {
+          "title": "Funcționalitate:",
+          "desc": "Pentru a vă oferi o experiență personalizată și pentru a vă aminti preferințele"
+        },
+        {
+          "title": "Analiză:",
+          "desc": "Pentru a înțelege cum utilizați site-ul nostru și pentru a-l îmbunătăți"
+        },
+        {
+          "title": "Marketing:",
+          "desc": "Pentru a vă afișa reclame relevante și pentru a măsura eficacitatea campaniilor"
+        },
+        {
+          "title": "Securitate:",
+          "desc": "Pentru a proteja site-ul și utilizatorii împotriva activităților frauduloase"
+        }
+      ]
+    },
+    "section3": {
+      "title": "3. Tipuri de Cookie-uri Utilizate",
+      "items": [
+        {
+          "title": "3.1 Cookie-uri Esențiale",
+          "desc": "Aceste cookie-uri sunt necesare pentru funcționarea corectă a site-ului și nu pot fi dezactivate.",
+          "list": [
+            "Cookie-uri de sesiune pentru navigare",
+            "Cookie-uri de securitate și autentificare",
+            "Cookie-uri pentru formularul de contact",
+            "Cookie-uri pentru preferințele de limbă"
+          ]
+        },
+        {
+          "title": "3.2 Cookie-uri de Performanță și Analiză",
+          "desc": "Aceste cookie-uri ne ajută să înțelegem cum interactionați cu site-ul nostru.",
+          "list": [
+            "Google Analytics: Pentru statistici de trafic și comportament",
+            "Google Tag Manager: Pentru gestionarea tag-urilor de urmărire",
+            "Hotjar: Pentru înregistrări de sesiuni și heatmaps",
+            "Cookie-uri pentru măsurarea vitezei site-ului"
+          ]
+        },
+        {
+          "title": "3.3 Cookie-uri de Marketing și Publicitate",
+          "desc": "Utilizate pentru a vă afișa reclame relevante și pentru a măsura eficacitatea campaniilor.",
+          "list": [
+            "Google Ads: Pentru remarketing și conversii",
+            "Facebook Pixel: Pentru reclame pe Facebook și Instagram",
+            "LinkedIn Insight Tag: Pentru reclame pe LinkedIn",
+            "Cookie-uri pentru urmărirea conversiilor",
+            "Cookie-uri pentru personalizarea reclamelor"
+          ]
+        },
+        {
+          "title": "3.4 Cookie-uri de Funcționalitate",
+          "desc": "Îmbunătățesc experiența utilizatorului prin personalizare și funcții avansate.",
+          "list": [
+            "Cookie-uri pentru chat-ul live",
+            "Cookie-uri pentru preferințele de design (dark/light mode)",
+            "Cookie-uri pentru formulare pre-completate",
+            "Cookie-uri pentru recomandări personalizate"
+          ]
+        }
+      ]
+    },
+    "section4": {
+      "title": "4. Cookie-uri de la Terți",
+      "content": "Site-ul nostru poate conține cookie-uri plasate de servicii terțe pentru a oferi funcționalități suplimentare:",
+      "services": [
+        {
+          "title": "Google Services",
+          "list": [
+            "Google Analytics",
+            "Google Ads",
+            "Google Tag Manager",
+            "reCAPTCHA"
+          ]
+        },
+        {
+          "title": "Social Media",
+          "list": [
+            "Facebook Pixel",
+            "LinkedIn Insight Tag",
+            "YouTube (pentru video-uri)"
+          ]
+        },
+        {
+          "title": "Alte Servicii",
+          "list": [
+            "Hotjar (analiză comportament)",
+            "Calendly (programări)",
+            "Crisp (chat live)"
+          ]
+        },
+        {
+          "title": "Email Marketing",
+          "list": [
+            "Mailchimp",
+            "Resend",
+            "SendGrid"
+          ]
+        }
+      ]
+    },
+    "section5": {
+      "title": "5. Durata de Stocare",
+      "content": "Cookie-urile sunt stocate pentru perioade diferite, în funcție de tipul lor:",
+      "list": [
+        {
+          "title": "Cookie-uri de sesiune:",
+          "desc": "Se șterg automat când închideți browserul"
+        },
+        {
+          "title": "Cookie-uri persistente:",
+          "desc": "Rămân pe dispozitiv pentru o perioadă determinată (de obicei 1-24 luni)"
+        },
+        {
+          "title": "Cookie-uri de analiză:",
+          "desc": "2 ani (Google Analytics)"
+        },
+        {
+          "title": "Cookie-uri de marketing:",
+          "desc": "30-90 zile (în funcție de serviciu)"
+        }
+      ]
+    },
+    "section6": {
+      "title": "6. Gestionarea Cookie-urilor",
+      "content": "Aveți control complet asupra cookie-urilor și puteți să le gestionați în mai multe moduri:",
+      "browserSettings": {
+        "title": "6.1 Setări Browser",
+        "desc": "Puteți configura browserul să respingă cookie-urile sau să vă notifice când sunt trimise:",
+        "list": [
+          "Chrome: Setări → Confidențialitate și securitate → Cookie-uri",
+          "Firefox: Opțiuni → Confidențialitate și securitate",
+          "Safari: Preferințe → Confidențialitate",
+          "Edge: Setări → Cookie-uri și permisiuni site"
+        ]
+      },
+      "optOut": {
+        "title": "6.2 Opt-out din Servicii Terțe",
+        "list": [
+          "Google Analytics",
+          "Google Ads",
+          "Facebook",
+          "LinkedIn"
+        ]
+      }
+    },
+    "section7": {
+      "title": "7. Impactul Dezactivării Cookie-urilor",
+      "content": "Dezactivarea cookie-urilor poate afecta funcționarea site-ului:",
+      "list": [
+        {
+          "title": "Cookie-uri esențiale:",
+          "desc": "Site-ul poate să nu funcționeze corect"
+        },
+        {
+          "title": "Cookie-uri de analiză:",
+          "desc": "Nu vom putea îmbunătăți experiența utilizatorului"
+        },
+        {
+          "title": "Cookie-uri de marketing:",
+          "desc": "Veți vedea reclame mai puțin relevante"
+        },
+        {
+          "title": "Cookie-uri de funcționalitate:",
+          "desc": "Veți pierde personalizările și preferințele"
+        }
+      ]
+    },
+    "section8": {
+      "title": "8. Cookie-uri pentru Formularul de Contact",
+      "content": "Pentru formularul nostru de contact, utilizăm cookie-uri pentru:",
+      "list": [
+        "Prevenirea spam-ului și a trimiterii multiple",
+        "Salvarea temporară a datelor în caz de eroare",
+        "Urmărirea conversiilor din formulare",
+        "Îmbunătățirea ratei de succes a trimiterii",
+        "Personalizarea mesajelor de confirmare"
+      ]
+    },
+    "section9": {
+      "title": "9. Securitatea Cookie-urilor",
+      "content": "Luăm măsuri pentru a proteja cookie-urile și datele pe care le conțin:",
+      "list": [
+        "Utilizăm conexiuni HTTPS securizate",
+        "Cookie-urile sensibile sunt criptate",
+        "Implementăm flag-uri de securitate (Secure, HttpOnly, SameSite)",
+        "Monitorizăm și auditam utilizarea cookie-urilor",
+        "Respectăm principiile de minimizare a datelor"
+      ]
+    },
+    "section10": {
+      "title": "10. Drepturile Dumneavoastră",
+      "content": "Conform GDPR și legislației române, aveți următoarele drepturi:",
+      "list": [
+        {
+          "title": "Dreptul la informare:",
+          "desc": "Să știți ce cookie-uri folosim"
+        },
+        {
+          "title": "Dreptul la consimțământ:",
+          "desc": "Să acceptați sau să refuzați cookie-urile"
+        },
+        {
+          "title": "Dreptul de retragere:",
+          "desc": "Să vă retrageți consimțământul oricând"
+        },
+        {
+          "title": "Dreptul de acces:",
+          "desc": "Să solicitați informații despre cookie-urile stocate"
+        },
+        {
+          "title": "Dreptul de ștergere:",
+          "desc": "Să solicitați ștergerea cookie-urilor"
+        }
+      ]
+    },
+    "section11": {
+      "title": "11. Modificări ale Politicii",
+      "content": "Ne rezervăm dreptul de a modifica această politică de cookie-uri pentru a reflecta schimbările în practicile noastre sau în cerințele legale. Orice modificări vor fi publicate pe această pagină cu data actualizării. Vă recomandăm să verificați periodic această pagină pentru a fi la curent cu cele mai recente informații."
+    },
+    "section12": {
+      "title": "12. Contact",
+      "content": "Pentru întrebări despre această politică de cookie-uri sau pentru exercitarea drepturilor dumneavoastră, ne puteți contacta la:",
+      "email": "Email",
+      "phone": "Telefon",
+      "address": "Adresă",
+      "dpo": "Responsabil DPO"
+    },
+    "lastUpdated": "Data ultimei actualizări",
+    "lastUpdatedDate": "25 Decembrie 2024",
+    "gdprCompliance": "Această politică este în conformitate cu Regulamentul General privind Protecția Datelor (GDPR) și Legea nr. 506/2004 privind prelucrarea datelor cu caracter personal și protecția vieții private în sectorul comunicațiilor electronice."
+  },
+  "legal_privacy": {
+    "title": "Politica de Confidențialitate",
+    "section1": {
+      "title": "1. Introducere",
+      "content": "Cristache respectă confidențialitatea datelor personale și se angajează să protejeze informațiile pe care ni le furnizați. Această politică explică cum colectăm, utilizăm și protejăm datele dumneavoastră personale."
+    },
+    "section2": {
+      "title": "2. Datele pe care le Colectăm",
+      "content": "Colectăm următoarele tipuri de date personale:",
+      "list": [
+        {
+          "title": "Date de identificare:",
+          "desc": "nume, prenume, adresă email, număr de telefon"
+        },
+        {
+          "title": "Date despre companie:",
+          "desc": "denumirea companiei, domeniul de activitate, site web"
+        },
+        {
+          "title": "Date tehnice:",
+          "desc": "adresa IP, tipul browserului, sistemul de operare"
+        },
+        {
+          "title": "Date de utilizare:",
+          "desc": "paginile vizitate, timpul petrecut pe site"
+        }
+      ]
+    },
+    "section3": {
+      "title": "3. Cum Utilizăm Datele",
+      "content": "Utilizăm datele personale pentru următoarele scopuri:",
+      "list": [
+        "Furnizarea serviciilor de conținut, social media, web, aplicații și platforme",
+        "Comunicarea cu clienții și suportul tehnic",
+        "Îmbunătățirea serviciilor și dezvoltarea de noi funcționalități",
+        "Marketing direct (doar cu consimțământul dumneavoastră)",
+        "Respectarea obligațiilor legale"
+      ]
+    },
+    "section4": {
+      "title": "4. Temeiurile Legale pentru Prelucrare",
+      "content": "Prelucrăm datele personale pe baza următoarelor temeiuri legale:",
+      "list": [
+        {
+          "title": "Consimțământul:",
+          "desc": "pentru activități de marketing și newsletter"
+        },
+        {
+          "title": "Executarea contractului:",
+          "desc": "pentru furnizarea serviciilor"
+        },
+        {
+          "title": "Interesul legitim:",
+          "desc": "pentru îmbunătățirea serviciilor"
+        },
+        {
+          "title": "Obligația legală:",
+          "desc": "pentru respectarea legislației"
+        }
+      ]
+    },
+    "section5": {
+      "title": "5. Partajarea Datelor",
+      "content": "Nu vindem, nu închiriem și nu partajăm datele personale cu terți, cu excepția următoarelor situații:",
+      "list": [
+        "Furnizori de servicii care ne ajută să operăm (hosting, email marketing)",
+        "Autorități publice, când este cerut de lege",
+        "În cazul unei fuziuni sau achiziții (cu notificare prealabilă)"
+      ]
+    },
+    "section6": {
+      "title": "6. Securitatea Datelor",
+      "content": "Implementăm măsuri tehnice și organizatorice adecvate pentru protejarea datelor personale împotriva accesului neautorizat, modificării, divulgării sau distrugerii. Acestea includ criptarea datelor, accesul restricționat și monitorizarea sistemelor."
+    },
+    "section7": {
+      "title": "7. Păstrarea Datelor",
+      "content": "Păstrăm datele personale doar pe perioada necesară pentru îndeplinirea scopurilor pentru care au fost colectate sau conform cerințelor legale. În general, datele sunt păstrate:",
+      "list": [
+        {
+          "title": "Date de contact:",
+          "desc": "3 ani de la ultima interacțiune"
+        },
+        {
+          "title": "Date contractuale:",
+          "desc": "10 ani conform legislației fiscale"
+        },
+        {
+          "title": "Date de marketing:",
+          "desc": "până la retragerea consimțământului"
+        }
+      ]
+    },
+    "section8": {
+      "title": "8. Drepturile Dumneavoastră",
+      "content": "Conform GDPR, aveți următoarele drepturi:",
+      "list": [
+        {
+          "title": "Dreptul de acces:",
+          "desc": "să solicitați informații despre datele prelucrate"
+        },
+        {
+          "title": "Dreptul de rectificare:",
+          "desc": "să corectați datele inexacte"
+        },
+        {
+          "title": "Dreptul de ștergere:",
+          "desc": "să solicitați ștergerea datelor"
+        },
+        {
+          "title": "Dreptul de restricționare:",
+          "desc": "să limitați prelucrarea"
+        },
+        {
+          "title": "Dreptul la portabilitate:",
+          "desc": "să primiți datele într-un format structurat"
+        },
+        {
+          "title": "Dreptul de opoziție:",
+          "desc": "să vă opuneți prelucrării"
+        }
+      ]
+    },
+    "section9": {
+      "title": "9. Cookies",
+      "content": "Site-ul nostru utilizează cookies pentru îmbunătățirea experienței utilizatorului și pentru analize. Puteți controla utilizarea cookies prin setările browserului. Pentru mai multe informații, consultați Politica noastră de Cookies."
+    },
+    "section10": {
+      "title": "10. Contact",
+      "content": "Pentru orice întrebări legate de această politică de confidențialitate sau pentru exercitarea drepturilor dumneavoastră, ne puteți contacta la:",
+      "email": "Email",
+      "phone": "Telefon",
+      "address": "Adresă"
+    },
+    "section11": {
+      "title": "11. Modificări ale Politicii",
+      "content": "Ne rezervăm dreptul de a modifica această politică de confidențialitate. Orice modificări vor fi publicate pe această pagină și, dacă sunt semnificative, vă vom notifica prin email."
+    },
+    "lastUpdated": "Data ultimei actualizări",
+    "lastUpdatedDate": "25 Decembrie 2024"
+  },
+  "legal_terms": {
+    "title": "Termeni și Condiții",
+    "section1": {
+      "title": "1. Definiții",
+      "content": "În prezentul document, următorii termeni au semnificațiile de mai jos:",
+      "list": [
+        {
+          "title": "Cristache",
+          "desc": "- furnizorul de conținut, social media, dezvoltare web, aplicații, platforme, plăți și baze de date"
+        },
+        {
+          "title": "Client",
+          "desc": "- persoana fizică sau juridică care utilizează serviciile Cristache"
+        },
+        {
+          "title": "Servicii",
+          "desc": "- serviciile de conținut, promovare, web, aplicații mobile, platforme online, integrare plăți și baze de date"
+        }
+      ]
+    },
+    "section2": {
+      "title": "2. Obiectul Contractului",
+      "content": "Cristache oferă creare de conținut, social media marketing, dezvoltare web, aplicații mobile, platforme online, integrare de plăți și baze de date. Serviciile se stabilesc în funcție de proiect."
+    },
+    "section3": {
+      "title": "3. Obligațiile Părților",
+      "uziweb": {
+        "title": "3.1 Obligațiile Cristache:",
+        "list": [
+          "Furnizarea serviciilor conform specificațiilor agreate",
+          "Respectarea termenelor de livrare stabilite",
+          "Confidențialitatea datelor clientului",
+          "Suport tehnic pe durata contractului"
+        ]
+      },
+      "client": {
+        "title": "3.2 Obligațiile Clientului:",
+        "list": [
+          "Furnizarea informațiilor necesare pentru prestarea serviciilor",
+          "Plata la termen a serviciilor contractate",
+          "Colaborarea activă în procesul de implementare",
+          "Respectarea recomandărilor tehnice"
+        ]
+      }
+    },
+    "section4": {
+      "title": "4. Prețuri și Plăți",
+      "content": "Prețurile serviciilor sunt stabilite prin oferta comercială. Plățile se efectuează conform termenelor agreate. În cazul întârzierii plăților, se pot aplica penalități conform legislației în vigoare."
+    },
+    "section5": {
+      "title": "5. Proprietatea Intelectuală",
+      "content": "Toate drepturile de proprietate intelectuală asupra soluțiilor dezvoltate rămân ale Cristache, cu excepția cazurilor în care se specifică altfel în contract. Clientul primește licența de utilizare conform termenilor agreați."
+    },
+    "section6": {
+      "title": "6. Confidențialitate",
+      "content": "Cristache se angajează să păstreze confidențialitatea tuturor informațiilor primite de la client și să nu le divulge către terți fără acordul scris al clientului."
+    },
+    "section7": {
+      "title": "7. Limitarea Răspunderii",
+      "content": "Răspunderea Cristache este limitată la valoarea serviciilor contractate. Cristache nu răspunde pentru daunele indirecte sau pierderea de profit a clientului."
+    },
+    "section8": {
+      "title": "8. Rezilierea Contractului",
+      "content": "Contractul poate fi reziliat de oricare dintre părți cu un preaviz de 30 de zile. În cazul încălcării grave a obligațiilor contractuale, contractul poate fi reziliat imediat."
+    },
+    "section9": {
+      "title": "9. Legea Aplicabilă",
+      "content": "Prezentul contract este guvernat de legea română. Orice litigiu va fi soluționat pe cale amiabilă sau, în caz contrar, de către instanțele competente din România."
+    },
+    "section10": {
+      "title": "10. Dispoziții Finale",
+      "content": "Prezentii termeni și condiții intră în vigoare la data acceptării serviciilor Cristache și pot fi modificați cu acordul ambelor părți."
+    },
+    "lastUpdated": "Data ultimei actualizări",
+    "lastUpdatedDate": "25 Decembrie 2024"
+  },
+  "homeFaq": {
+    "title": "Întrebări frecvente",
+    "items": [
+      {
+        "question": "Ce servicii oferă Cristache?",
+        "answer": "Cristache oferă creare conținut, social media marketing, campanii ADS pe TikTok, Meta și Google, dezvoltare de site-uri și magazine online, aplicații mobile pentru iOS și Android, platforme online cu integrare de plăți și baze de date. Poți lua un singur serviciu sau mai multe împreună."
+      },
+      {
+        "question": "Unde lucrați?",
+        "answer": "Suntem în București și lucrăm cu clienți din toată România. Filmările au loc de obicei la locația clientului, iar proiectele web și mobile se desfășoară online, cu întâlniri stabilite la fiecare etapă."
+      },
+      {
+        "question": "Pot lua doar un singur serviciu?",
+        "answer": "Da. Poți începe, de exemplu, doar cu un site sau doar cu administrarea conturilor de social media. Avantajul de a lucra cu aceeași echipă apare când ai nevoie de mai multe, pentru că mesajul, conținutul și produsul rămân legate."
+      },
+      {
+        "question": "Cum primesc o ofertă?",
+        "answer": "Completezi formularul de contact sau ne scrii la contact@cristache.ro. Îți răspundem în maxim 24 de ore, stabilim o discuție scurtă și îți trimitem o propunere cu livrabilele și etapele proiectului."
+      }
+    ]
+  },
+  "servicesPage": {
+    "eyebrow": "Servicii",
+    "title": "Conținut, promovare și produs digital",
+    "intro": "Șapte servicii care pot fi luate separat sau împreună: creare conținut, social media marketing, campanii ADS, dezvoltare web, aplicații mobile, platforme online cu plăți și baze de date.",
+    "more": "Vezi ce include",
+    "includes": "Ce include",
+    "deliverables": "Ce primești",
+    "forWho": "Pentru cine este",
+    "steps": "Cum lucrăm",
+    "projects": "Proiecte din portofoliu",
+    "faq": "Întrebări frecvente",
+    "related": "Servicii înrudite",
+    "seeProjects": "Vezi proiectele",
+    "allServices": "Toate serviciile",
+    "ctaTitle": "Vrei o propunere pentru proiectul tău?",
+    "ctaDesc": "Spune-ne ce vrei să obții. Îți răspundem în maxim 24 de ore cu pașii următori.",
+    "ctaButton": "Cere o propunere"
+  }
+}

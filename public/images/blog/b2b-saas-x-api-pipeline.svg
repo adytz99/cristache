@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="B2B SaaS X API reply restriction pipeline automation case study">
+  <defs>
+    <linearGradient id="xBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070c"/>
+      <stop offset="50%" stop-color="#0a1218"/>
+      <stop offset="100%" stop-color="#030508"/>
+    </linearGradient>
+    <radialGradient id="xGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="xGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a3e635" stop-opacity="0.16"/>
+      <stop offset="70%" stop-color="#a3e635" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="xPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1720"/>
+      <stop offset="100%" stop-color="#070b10"/>
+    </linearGradient>
+    <linearGradient id="xEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a3e635"/>
+    </linearGradient>
+    <linearGradient id="xLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a3e635"/>
+    </linearGradient>
+    <pattern id="xGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#38bdf8" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <filter id="xBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#xBg)"/>
+  <rect width="1600" height="900" fill="url(#xGrid)"/>
+  <circle cx="1180" cy="420" r="480" fill="url(#xGlow1)"/>
+  <circle cx="420" cy="620" r="360" fill="url(#xGlow2)"/>
+
+  <!-- Left copy block -->
+  <g transform="translate(96,170)">
+    <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="22" fill="#7dd3fc" letter-spacing="3">CASE STUDY · X / TWITTER GTM</text>
+    <text x="0" y="72" font-family="'Segoe UI', sans-serif" font-size="52" font-weight="700" fill="#f8fafc">When auto-replies died,</text>
+    <text x="0" y="138" font-family="'Segoe UI', sans-serif" font-size="52" font-weight="700" fill="#f8fafc">pipeline got rebuilt.</text>
+    <rect x="0" y="172" width="280" height="3" fill="url(#xLine)"/>
+    <text x="0" y="230" font-family="'Segoe UI', sans-serif" font-size="22" fill="#94a3b8">Feb 2026 API reply lock ’ original posts,</text>
+    <text x="0" y="264" font-family="'Segoe UI', sans-serif" font-size="22" fill="#94a3b8">mention-only agents, WhatsApp demos.</text>
+
+    <g transform="translate(0,320)">
+      <rect width="170" height="96" rx="16" fill="url(#xPanel)" stroke="#1e3a4a" stroke-width="2"/>
+      <text x="22" y="42" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#a3e635">+214%</text>
+      <text x="22" y="72" font-family="'Segoe UI', sans-serif" font-size="14" fill="#94a3b8">qualified demos</text>
+      <rect x="190" width="170" height="96" rx="16" fill="url(#xPanel)" stroke="#1e3a4a" stroke-width="2"/>
+      <text x="212" y="42" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#38bdf8">¬180K</text>
+      <text x="212" y="72" font-family="'Segoe UI', sans-serif" font-size="14" fill="#94a3b8">monthly pipeline</text>
+      <rect x="380" width="170" height="96" rx="16" fill="url(#xPanel)" stroke="#1e3a4a" stroke-width="2"/>
+      <text x="402" y="42" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#f8fafc">0</text>
+      <text x="402" y="72" font-family="'Segoe UI', sans-serif" font-size="14" fill="#94a3b8">API suspensions</text>
+    </g>
+  </g>
+
+  <!-- Right: X feed + pipeline card -->
+  <g transform="translate(980,120)">
+    <g filter="url(#xBlur)" opacity="0.45">
+      <rect x="0" y="20" width="460" height="620" rx="28" fill="#38bdf8" opacity="0.2"/>
+    </g>
+    <rect x="10" y="30" width="440" height="600" rx="26" fill="url(#xPanel)" stroke="url(#xEdge)" stroke-width="2"/>
+
+    <!-- X logo mark -->
+    <g transform="translate(48,78)">
+      <rect width="44" height="44" rx="12" fill="#0b1220" stroke="#38bdf8" stroke-width="2"/>
+      <path d="M12 12 L32 32 M32 12 L12 32" stroke="#f8fafc" stroke-width="3.5" stroke-linecap="round"/>
+      <text x="60" y="18" font-family="'Segoe UI', sans-serif" font-size="16" fill="#e2e8f0" font-weight="600">@ops.saas.ro</text>
+      <text x="60" y="40" font-family="'Segoe UI', sans-serif" font-size="13" fill="#64748b">Original post · scheduled</text>
+    </g>
+
+    <g transform="translate(48,150)">
+      <rect width="364" height="110" rx="16" fill="#0b1220" stroke="#1e3a4a" stroke-width="1.5"/>
+      <text x="20" y="36" font-family="'Segoe UI', sans-serif" font-size="15" fill="#cbd5e1">3 signals that Romanian SMEs</text>
+      <text x="20" y="60" font-family="'Segoe UI', sans-serif" font-size="15" fill="#cbd5e1">are ready for agentic ops </text>
+      <text x="20" y="84" font-family="'Segoe UI', sans-serif" font-size="15" fill="#7dd3fc">thread 1/5 · no reply spam</text>
+    </g>
+
+    <!-- Broken auto-reply vs allowed mention -->
+    <g transform="translate(48,290)">
+      <rect width="170" height="88" rx="14" fill="#1a0c0c" stroke="#7f1d1d" stroke-width="1.5"/>
+      <text x="16" y="32" font-family="'Segoe UI', sans-serif" font-size="13" fill="#fca5a5">AUTO-REPLY</text>
+      <text x="16" y="56" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#ef4444">BLOCKED</text>
+      <text x="16" y="76" font-family="'Segoe UI', sans-serif" font-size="12" fill="#94a3b8">API Feb 24 · 2026</text>
+
+      <rect x="194" width="170" height="88" rx="14" fill="#0c1a12" stroke="#166534" stroke-width="1.5"/>
+      <text x="210" y="32" font-family="'Segoe UI', sans-serif" font-size="13" fill="#86efac">@MENTION</text>
+      <text x="210" y="56" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#a3e635">ALLOWED</text>
+      <text x="210" y="76" font-family="'Segoe UI', sans-serif" font-size="12" fill="#94a3b8">opt-in only</text>
+    </g>
+
+    <!-- Pipeline flow -->
+    <g transform="translate(48,410)">
+      <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="13" fill="#64748b" letter-spacing="2">PIPELINE</text>
+      <rect y="20" width="100" height="44" rx="12" fill="#0b1220" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="18" y="48" font-family="'Segoe UI', sans-serif" font-size="13" fill="#7dd3fc">Signal</text>
+      <path d="M108 42 L128 42" stroke="#38bdf8" stroke-width="2"/>
+      <rect x="128" y="20" width="100" height="44" rx="12" fill="#0b1220" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="146" y="48" font-family="'Segoe UI', sans-serif" font-size="13" fill="#7dd3fc">Score</text>
+      <path d="M236 42 L256 42" stroke="#a3e635" stroke-width="2"/>
+      <rect x="256" y="20" width="108" height="44" rx="12" fill="#0b1220" stroke="#a3e635" stroke-width="1.5"/>
+      <text x="274" y="48" font-family="'Segoe UI', sans-serif" font-size="13" fill="#a3e635">WhatsApp</text>
+    </g>
+
+    <g transform="translate(48,500)">
+      <rect width="364" height="72" rx="16" fill="#071018" stroke="#1e3a4a" stroke-width="1.5"/>
+      <circle cx="36" cy="36" r="10" fill="#a3e635"/>
+      <text x="60" y="32" font-family="'Segoe UI', sans-serif" font-size="15" fill="#e2e8f0">Demo booked · Cluj founder</text>
+      <text x="60" y="54" font-family="'Segoe UI', sans-serif" font-size="13" fill="#64748b">Mention ’ agent ’ Cal.com · 11m</text>
+    </g>
+  </g>
+</svg>

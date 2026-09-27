@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Romanian insurance broker RCA CASCO AI Act automation case study">
+  <defs>
+    <linearGradient id="insBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05080f"/>
+      <stop offset="55%" stop-color="#0a1528"/>
+      <stop offset="100%" stop-color="#061018"/>
+    </linearGradient>
+    <radialGradient id="insGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.34"/>
+      <stop offset="70%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="insGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="insPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1e38"/>
+      <stop offset="100%" stop-color="#050d18"/>
+    </linearGradient>
+    <linearGradient id="insEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="insStream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#60a5fa" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="insLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <pattern id="insGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#60a5fa" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="insBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#insBg)"/>
+  <rect width="1600" height="900" fill="url(#insGrid)"/>
+  <circle cx="1180" cy="440" r="520" fill="url(#insGlow1)"/>
+  <circle cx="1180" cy="440" r="320" fill="url(#insGlow2)"/>
+
+  <!-- Shield / policy card -->
+  <g transform="translate(1180,440)">
+    <g filter="url(#insBlur)" opacity="0.5">
+      <path d="M0,-210 L150,-150 L150,80 Q0,180 -150,80 L-150,-150 Z" fill="#60a5fa" opacity="0.25"/>
+    </g>
+    <path d="M0,-200 L140,-145 L140,70 Q0,165 -140,70 L-140,-145 Z" fill="url(#insPanel)" stroke="url(#insEdge)" stroke-width="5"/>
+    <path d="M0,-175 L110,-130 L110,55 Q0,135 -110,55 L-110,-130 Z" fill="none" stroke="#1e3a5f" stroke-width="2"/>
+
+    <g font-family="'JetBrains Mono', 'Consolas', monospace" fill="#93c5fd">
+      <text x="-90" y="-95" font-size="12" fill="#fbbf24" letter-spacing="3">POLI · RCA</text>
+      <text x="-90" y="-68" font-size="14">B0 ’ B3 · CEDAM OK</text>
+      <text x="-90" y="-42" font-size="14">Allianz · Groupama · Omniasig</text>
+      <line x1="-90" y1="-24" x2="90" y2="-24" stroke="#60a5fa" stroke-opacity="0.35"/>
+      <text x="-90" y="0" font-size="13" fill="#fbbf24">3 oferte · BAAR check</text>
+      <text x="-90" y="26" font-size="13">Human approve · ASF log</text>
+      <text x="-90" y="52" font-size="13" fill="#86efac">EU AI Act · READY </text>
+      <text x="-90" y="82" font-size="11" fill="#fbbf24" letter-spacing="2">AUG 2 2026</text>
+    </g>
+  </g>
+
+  <!-- Left copy block -->
+  <g transform="translate(90,160)" font-family="'IBM Plex Sans', 'Segoe UI', sans-serif">
+    <text x="0" y="0" font-size="18" fill="#fbbf24" letter-spacing="4" font-weight="600">CASE STUDY</text>
+    <text x="0" y="58" font-size="42" fill="#e2e8f0" font-weight="700">Insurance broker</text>
+    <text x="0" y="112" font-size="42" fill="#e2e8f0" font-weight="700">RCA · CASCO · AI Act</text>
+    <rect x="0" y="140" width="420" height="3" fill="url(#insLine)"/>
+    <text x="0" y="190" font-size="22" fill="#94a3b8">WhatsApp quotes · BAAR high-risk</text>
+    <text x="0" y="226" font-size="22" fill="#94a3b8">Human-signed premiums · ASF-ready logs</text>
+  </g>
+
+  <!-- Metric pills -->
+  <g transform="translate(90,560)" font-family="'IBM Plex Sans', 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="200" height="90" rx="14" fill="#0c1e38" stroke="#1e3a5f" stroke-width="2"/>
+    <text x="24" y="40" font-size="28" fill="#60a5fa" font-weight="700">22K</text>
+    <text x="24" y="68" font-size="14" fill="#94a3b8">monthly chats</text>
+
+    <rect x="220" y="0" width="200" height="90" rx="14" fill="#0c1e38" stroke="#1e3a5f" stroke-width="2"/>
+    <text x="244" y="40" font-size="28" fill="#fbbf24" font-weight="700">same-day</text>
+    <text x="244" y="68" font-size="14" fill="#94a3b8">RCA renewals</text>
+
+    <rect x="440" y="0" width="220" height="90" rx="14" fill="#0c1e38" stroke="#1e3a5f" stroke-width="2"/>
+    <text x="464" y="40" font-size="28" fill="#86efac" font-weight="700">100%</text>
+    <text x="464" y="68" font-size="14" fill="#94a3b8">human-signed quotes</text>
+  </g>
+
+  <!-- Data streams -->
+  <g opacity="0.7">
+    <path d="M520 420 C700 400, 900 380, 1040 400" fill="none" stroke="url(#insStream)" stroke-width="3"/>
+    <path d="M520 460 C720 480, 900 500, 1040 470" fill="none" stroke="url(#insStream)" stroke-width="2"/>
+    <path d="M520 500 C740 540, 920 520, 1040 500" fill="none" stroke="url(#insStream)" stroke-width="2.5"/>
+  </g>
+
+  <!-- Channel chips -->
+  <g transform="translate(90,700)" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="13">
+    <rect x="0" y="0" width="130" height="36" rx="8" fill="#0c1e38" stroke="#60a5fa" stroke-opacity="0.5"/>
+    <text x="18" y="23" fill="#93c5fd">WhatsApp</text>
+    <rect x="145" y="0" width="100" height="36" rx="8" fill="#0c1e38" stroke="#60a5fa" stroke-opacity="0.5"/>
+    <text x="163" y="23" fill="#93c5fd">CEDAM</text>
+    <rect x="260" y="0" width="90" height="36" rx="8" fill="#0c1e38" stroke="#fbbf24" stroke-opacity="0.5"/>
+    <text x="278" y="23" fill="#fde68a">BAAR</text>
+    <rect x="365" y="0" width="90" height="36" rx="8" fill="#0c1e38" stroke="#86efac" stroke-opacity="0.5"/>
+    <text x="383" y="23" fill="#bbf7d0">ASF</text>
+  </g>
+</svg>

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Wedding planner Instagram WhatsApp AI automation case study">
+  <defs>
+    <linearGradient id="wpBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050308"/>
+      <stop offset="45%" stop-color="#12081a"/>
+      <stop offset="100%" stop-color="#061018"/>
+    </linearGradient>
+    <radialGradient id="wpGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8b4c8" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#e8b4c8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wpGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wpPhone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0f18"/>
+      <stop offset="100%" stop-color="#08040a"/>
+    </linearGradient>
+    <linearGradient id="wpRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5d0c5"/>
+      <stop offset="40%" stop-color="#e8b4c8"/>
+      <stop offset="75%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+    <linearGradient id="wpBubbleIn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a1824"/>
+      <stop offset="100%" stop-color="#3a2234"/>
+    </linearGradient>
+    <linearGradient id="wpBubbleAi" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e8b4c8"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <pattern id="wpGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#e8b4c8" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <filter id="wpBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#wpBg)"/>
+  <rect width="1600" height="900" fill="url(#wpGrid)"/>
+  <circle cx="1180" cy="430" r="500" fill="url(#wpGlow1)"/>
+  <circle cx="1180" cy="430" r="340" fill="url(#wpGlow2)"/>
+
+  <!-- Left copy -->
+  <text x="90" y="210" font-family="'Segoe UI', sans-serif" font-size="28" fill="#e8b4c8" letter-spacing="4" opacity="0.9">CASE STUDY</text>
+  <text x="90" y="290" font-family="'Segoe UI', sans-serif" font-size="64" font-weight="700" fill="#f8f4f6">Wedding planner</text>
+  <text x="90" y="360" font-family="'Segoe UI', sans-serif" font-size="64" font-weight="700" fill="#f8f4f6">AI inbox</text>
+  <text x="90" y="430" font-family="'Segoe UI', sans-serif" font-size="28" fill="#9ec9d8">Instagram · WhatsApp · Meta token cliff</text>
+
+  <g transform="translate(90,500)">
+    <rect width="220" height="90" rx="16" fill="#120a14" stroke="#e8b4c8" stroke-opacity="0.35"/>
+    <text x="24" y="40" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#00e5ff">&lt;45s</text>
+    <text x="24" y="68" font-family="'Segoe UI', sans-serif" font-size="16" fill="#c9b8c4">DM reply, 24/7</text>
+  </g>
+  <g transform="translate(330,500)">
+    <rect width="220" height="90" rx="16" fill="#120a14" stroke="#7dd3fc" stroke-opacity="0.35"/>
+    <text x="24" y="40" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#e8b4c8">-68%</text>
+    <text x="24" y="68" font-family="'Segoe UI', sans-serif" font-size="16" fill="#c9b8c4">Meta AI token bill</text>
+  </g>
+  <g transform="translate(570,500)">
+    <rect width="220" height="90" rx="16" fill="#120a14" stroke="#f5d0c5" stroke-opacity="0.35"/>
+    <text x="24" y="40" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#f5d0c5">+41</text>
+    <text x="24" y="68" font-family="'Segoe UI', sans-serif" font-size="16" fill="#c9b8c4">booked weddings</text>
+  </g>
+
+  <!-- Phone -->
+  <g transform="translate(1180,430)">
+    <g filter="url(#wpBlur)" opacity="0.5">
+      <rect x="-150" y="-260" width="300" height="520" rx="44" fill="#e8b4c8" opacity="0.22"/>
+    </g>
+    <rect x="-160" y="-270" width="320" height="540" rx="46" fill="none" stroke="url(#wpRing)" stroke-width="6"/>
+    <rect x="-150" y="-260" width="300" height="520" rx="40" fill="url(#wpPhone)"/>
+    <rect x="-150" y="-260" width="300" height="520" rx="40" fill="none" stroke="#3a2234" stroke-width="2"/>
+
+    <g transform="translate(0,-230)">
+      <circle r="22" fill="none" stroke="url(#wpRing)" stroke-width="3"/>
+      <circle r="13" fill="#e8b4c8"/>
+      <text x="32" y="6" font-family="'Segoe UI', sans-serif" font-size="14" fill="#f5d0c5" letter-spacing="1">@atelier.nunti</text>
+      <circle cx="115" cy="0" r="3" fill="#9af0ff"/>
+      <circle cx="123" cy="0" r="3" fill="#9af0ff"/>
+      <circle cx="131" cy="0" r="3" fill="#9af0ff"/>
+    </g>
+
+    <g transform="translate(-130,-165)">
+      <rect width="230" height="52" rx="22" fill="url(#wpBubbleIn)"/>
+      <text x="18" y="32" font-family="'Segoe UI', sans-serif" font-size="14" fill="#f5d0c5">Available for Sept 2027?</text>
+    </g>
+
+    <g transform="translate(-100,-95)">
+      <rect width="240" height="70" rx="22" fill="url(#wpBubbleAi)"/>
+      <text x="16" y="30" font-family="'Segoe UI', sans-serif" font-size="13" fill="#1a0a14" font-weight="600">AI · checking calendar&amp;</text>
+      <text x="16" y="52" font-family="'Segoe UI', sans-serif" font-size="13" fill="#1a0a14">2 Saturdays open. Book a call?</text>
+    </g>
+
+    <g transform="translate(-130,-5)">
+      <rect width="210" height="46" rx="22" fill="url(#wpBubbleIn)"/>
+      <text x="18" y="29" font-family="'Segoe UI', sans-serif" font-size="14" fill="#f5d0c5">Budget ~¬8k, Braov</text>
+    </g>
+
+    <g transform="translate(-100,60)">
+      <rect width="250" height="68" rx="22" fill="url(#wpBubbleAi)"/>
+      <text x="16" y="28" font-family="'Segoe UI', sans-serif" font-size="13" fill="#1a0a14" font-weight="600">Qualified · partial planning</text>
+      <text x="16" y="50" font-family="'Segoe UI', sans-serif" font-size="13" fill="#1a0a14">Cal.com link + AI Act notice </text>
+    </g>
+
+    <g transform="translate(-70,160)">
+      <rect width="200" height="36" rx="18" fill="#0d1a20" stroke="#00e5ff" stroke-opacity="0.5"/>
+      <text x="28" y="24" font-family="'Segoe UI', sans-serif" font-size="13" fill="#00e5ff">Token spend capped</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Construction renovation Instagram WhatsApp speed-to-lead AI automation case study">
+  <defs>
+    <linearGradient id="cnBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0c10"/>
+      <stop offset="50%" stop-color="#121008"/>
+      <stop offset="100%" stop-color="#0b1014"/>
+    </linearGradient>
+    <radialGradient id="cnGlowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cnGlowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cnPhone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a160e"/>
+      <stop offset="100%" stop-color="#0a0906"/>
+    </linearGradient>
+    <linearGradient id="cnRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="45%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="cnBubbleIn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a2114"/>
+      <stop offset="100%" stop-color="#3a2c18"/>
+    </linearGradient>
+    <linearGradient id="cnBubbleAi" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="cnHouse" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#243044"/>
+      <stop offset="100%" stop-color="#121820"/>
+    </linearGradient>
+    <pattern id="cnGrid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M 56 0 L 0 0 0 56" fill="none" stroke="#f59e0b" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="cnBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#cnBg)"/>
+  <rect width="1600" height="900" fill="url(#cnGrid)"/>
+  <circle cx="1180" cy="460" r="500" fill="url(#cnGlowA)"/>
+  <circle cx="420" cy="520" r="360" fill="url(#cnGlowB)"/>
+
+  <!-- House / scaffold silhouette -->
+  <g transform="translate(280,520)" opacity="0.92">
+    <path d="M0 40 L140 -80 L280 40 Z" fill="#1a2430" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="3"/>
+    <rect x="28" y="40" width="224" height="170" fill="url(#cnHouse)" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="2"/>
+    <rect x="70" y="90" width="52" height="70" rx="4" fill="#0b1218" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="2"/>
+    <rect x="160" y="90" width="52" height="70" rx="4" fill="#0b1218" stroke="#f59e0b" stroke-opacity="0.45" stroke-width="2"/>
+    <rect x="118" y="140" width="44" height="70" rx="3" fill="#0a1016" stroke="#94a3b8" stroke-opacity="0.35" stroke-width="2"/>
+    <!-- Scaffold -->
+    <g stroke="#fbbf24" stroke-opacity="0.55" stroke-width="3" fill="none">
+      <line x1="-20" y1="210" x2="300" y2="210"/>
+      <line x1="-10" y1="40" x2="-10" y2="210"/>
+      <line x1="290" y1="40" x2="290" y2="210"/>
+      <line x1="-10" y1="120" x2="290" y2="120"/>
+      <line x1="-10" y1="40" x2="40" y2="90"/>
+      <line x1="290" y1="40" x2="240" y2="90"/>
+    </g>
+    <!-- Insulation strip -->
+    <rect x="36" y="48" width="208" height="14" rx="3" fill="#38bdf8" opacity="0.35"/>
+    <text x="140" y="-98" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#fde68a" letter-spacing="1.5">PNRR I7 · REPOWEREU</text>
+  </g>
+
+  <!-- Phone with Instagram/WhatsApp DMs -->
+  <g transform="translate(1180,450)">
+    <g filter="url(#cnBlur)" opacity="0.5">
+      <rect x="-150" y="-260" width="300" height="520" rx="44" fill="#f59e0b" opacity="0.22"/>
+    </g>
+    <rect x="-160" y="-270" width="320" height="540" rx="46" fill="none" stroke="url(#cnRing)" stroke-width="6"/>
+    <rect x="-150" y="-260" width="300" height="520" rx="40" fill="url(#cnPhone)"/>
+    <rect x="-150" y="-260" width="300" height="520" rx="40" fill="none" stroke="#3a2c18" stroke-width="2"/>
+
+    <g transform="translate(0,-228)">
+      <circle r="20" fill="none" stroke="url(#cnRing)" stroke-width="3"/>
+      <circle r="11" fill="#f59e0b"/>
+      <text x="30" y="6" font-family="'Segoe UI', sans-serif" font-size="14" fill="#fde68a" letter-spacing="0.5">@renovat.plus</text>
+      <circle cx="118" cy="0" r="3" fill="#7dd3fc"/>
+      <circle cx="126" cy="0" r="3" fill="#7dd3fc"/>
+      <circle cx="134" cy="0" r="3" fill="#7dd3fc"/>
+    </g>
+
+    <g transform="translate(-130,-165)">
+      <rect width="220" height="52" rx="22" fill="url(#cnBubbleIn)"/>
+      <text x="18" y="22" font-family="'Segoe UI', sans-serif" font-size="13" fill="#fde68a">Cât cost termoizolarea</text>
+      <text x="18" y="40" font-family="'Segoe UI', sans-serif" font-size="13" fill="#fde68a">pe 120 mp? Am voucher PNRR</text>
+    </g>
+
+    <g transform="translate(-90,-95)">
+      <rect width="240" height="58" rx="22" fill="url(#cnBubbleAi)"/>
+      <text x="16" y="24" font-family="'Segoe UI', sans-serif" font-size="13" fill="#1a1004" font-weight="600">Gata  te calific acum.</text>
+      <text x="16" y="44" font-family="'Segoe UI', sans-serif" font-size="13" fill="#1a1004">Vizit pe antier mâine 10:00?</text>
+    </g>
+
+    <g transform="translate(-130,-20)">
+      <rect width="200" height="44" rx="22" fill="url(#cnBubbleIn)"/>
+      <text x="18" y="28" font-family="'Segoe UI', sans-serif" font-size="13" fill="#fde68a">Da, Bucureti sector 3 </text>
+    </g>
+
+    <g transform="translate(-90,40)">
+      <rect width="240" height="58" rx="22" fill="url(#cnBubbleAi)"/>
+      <text x="16" y="24" font-family="'Segoe UI', sans-serif" font-size="13" fill="#1a1004" font-weight="600">Programat. Trimis pe</text>
+      <text x="16" y="44" font-family="'Segoe UI', sans-serif" font-size="13" fill="#1a1004">WhatsApp + checklist dosar.</text>
+    </g>
+
+    <g transform="translate(-40,130)">
+      <rect width="180" height="36" rx="18" fill="#0f1720" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="2"/>
+      <text x="90" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#7dd3fc" font-weight="600">Lead ’ visit · 47s</text>
+    </g>
+  </g>
+
+  <!-- Left copy -->
+  <g transform="translate(80,120)">
+    <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="18" fill="#fbbf24" letter-spacing="3">CASE STUDY</text>
+    <text x="0" y="58" font-family="'Segoe UI', sans-serif" font-size="42" fill="#f8fafc" font-weight="700">Speed-to-lead</text>
+    <text x="0" y="112" font-family="'Segoe UI', sans-serif" font-size="42" fill="#f8fafc" font-weight="700">for renovations</text>
+    <text x="0" y="170" font-family="'Segoe UI', sans-serif" font-size="20" fill="#94a3b8">Instagram + WhatsApp AI that books</text>
+    <text x="0" y="200" font-family="'Segoe UI', sans-serif" font-size="20" fill="#94a3b8">site visits before the competitor replies</text>
+  </g>
+
+  <g transform="translate(80,760)">
+    <rect width="140" height="56" rx="12" fill="#111827" stroke="#f59e0b" stroke-opacity="0.5" stroke-width="2"/>
+    <text x="70" y="24" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#fbbf24" font-weight="700">&lt;1 min</text>
+    <text x="70" y="44" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#94a3b8">median reply</text>
+    <rect x="160" y="0" width="140" height="56" rx="12" fill="#111827" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="2"/>
+    <text x="230" y="24" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#7dd3fc" font-weight="700">+61%</text>
+    <text x="230" y="44" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#94a3b8">signed jobs</text>
+    <rect x="320" y="0" width="160" height="56" rx="12" fill="#111827" stroke="#f97316" stroke-opacity="0.45" stroke-width="2"/>
+    <text x="400" y="24" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#fdba74" font-weight="700">¬2.8M</text>
+    <text x="400" y="44" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#94a3b8">pipeline / quarter</text>
+  </g>
+</svg>

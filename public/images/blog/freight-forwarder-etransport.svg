@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Romanian freight forwarder RO e-Transport AI automation case study">
+  <defs>
+    <linearGradient id="frBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02060d"/>
+      <stop offset="55%" stop-color="#04101c"/>
+      <stop offset="100%" stop-color="#020610"/>
+    </linearGradient>
+    <radialGradient id="frGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.32"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="frGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.24"/>
+      <stop offset="70%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="frPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1f3a"/>
+      <stop offset="100%" stop-color="#040a16"/>
+    </linearGradient>
+    <linearGradient id="frEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="frStream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="frRoad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.0"/>
+      <stop offset="20%" stop-color="#1e293b" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#1e293b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="frLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <pattern id="frGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#38bdf8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="frBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#frBg)"/>
+  <rect width="1600" height="900" fill="url(#frGrid)"/>
+  <circle cx="1180" cy="430" r="520" fill="url(#frGlow1)"/>
+  <circle cx="1180" cy="430" r="340" fill="url(#frGlow2)"/>
+
+  <g transform="translate(1180,430)" opacity="0.4" stroke-width="2" fill="none">
+    <circle r="170" stroke="#38bdf8" opacity="0.9"/>
+    <circle r="230" stroke="#f59e0b" opacity="0.55"/>
+    <circle r="300" stroke="#38bdf8" opacity="0.4"/>
+    <circle r="380" stroke="#0ea5e9" opacity="0.22"/>
+  </g>
+
+  <g transform="translate(1180,430)">
+    <g filter="url(#frBlur)" opacity="0.55">
+      <rect x="-150" y="-200" width="300" height="400" rx="16" fill="#38bdf8" opacity="0.22"/>
+    </g>
+    <rect x="-160" y="-210" width="320" height="420" rx="18" fill="none" stroke="url(#frEdge)" stroke-width="6"/>
+    <rect x="-150" y="-200" width="300" height="400" rx="14" fill="url(#frPanel)"/>
+    <rect x="-150" y="-200" width="300" height="400" rx="14" fill="none" stroke="#0b1f3a" stroke-width="2"/>
+
+    <g transform="translate(-128,-170)" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="13" fill="#9cdcfe">
+      <text x="0" y="0" font-size="11" fill="#f59e0b" letter-spacing="3">RO e-TRANSPORT · UIT</text>
+      <text x="0" y="28">UIT 2026 050B 71A4 9C03</text>
+      <text x="0" y="52">RUTĂ  TM → IT (NĂDLAC)</text>
+      <text x="0" y="76">PLĂCUȚĂ  TM-62-AAA</text>
+      <text x="0" y="100">NC8       6109 10 00</text>
+      <text x="0" y="124">GREUTATE  21.480 kg</text>
+      <text x="0" y="148">CMR  ATTACHED ✓</text>
+
+      <line x1="0" y1="168" x2="240" y2="168" stroke="#38bdf8" stroke-opacity="0.4"/>
+
+      <text x="0" y="194" fill="#f59e0b">ANAF API · 200 OK</text>
+      <text x="0" y="218" fill="#f59e0b">DTI VAMAL · QUEUED</text>
+      <text x="0" y="242" fill="#9cdcfe">DRIVER · WHATSAPP ✓</text>
+
+      <line x1="0" y1="262" x2="240" y2="262" stroke="#38bdf8" stroke-opacity="0.4"/>
+
+      <text x="0" y="288" fill="#bae6fd">AI · 38.000 / 38.000 OK</text>
+      <text x="0" y="312" font-size="11" fill="#f59e0b" letter-spacing="3">DISPATCHED ✓</text>
+    </g>
+
+    <g transform="translate(78,-180)">
+      <rect x="0" y="0" width="58" height="58" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.9"/>
+      <g fill="#f59e0b" opacity="0.85">
+        <rect x="4" y="4" width="8" height="8"/>
+        <rect x="20" y="4" width="6" height="8"/>
+        <rect x="32" y="4" width="10" height="6"/>
+        <rect x="46" y="4" width="8" height="8"/>
+        <rect x="4" y="18" width="6" height="10"/>
+        <rect x="14" y="22" width="10" height="6"/>
+        <rect x="28" y="18" width="6" height="10"/>
+        <rect x="38" y="22" width="8" height="6"/>
+        <rect x="50" y="18" width="4" height="10"/>
+        <rect x="4" y="32" width="10" height="6"/>
+        <rect x="18" y="34" width="6" height="8"/>
+        <rect x="28" y="32" width="8" height="6"/>
+        <rect x="40" y="34" width="6" height="8"/>
+        <rect x="50" y="32" width="4" height="10"/>
+        <rect x="4" y="46" width="8" height="8"/>
+        <rect x="16" y="46" width="6" height="8"/>
+        <rect x="26" y="50" width="10" height="4"/>
+        <rect x="40" y="46" width="6" height="8"/>
+        <rect x="50" y="46" width="4" height="8"/>
+      </g>
+    </g>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 660 230 Q 880 270 1020 330" fill="none" stroke="url(#frStream)" stroke-width="2"/>
+    <path d="M 660 350 Q 880 370 1020 400" fill="none" stroke="url(#frStream)" stroke-width="2"/>
+    <path d="M 660 470 Q 880 460 1020 460" fill="none" stroke="url(#frStream)" stroke-width="2"/>
+    <path d="M 660 590 Q 880 550 1020 510" fill="none" stroke="url(#frStream)" stroke-width="2"/>
+  </g>
+
+  <g font-family="'JetBrains Mono', 'Consolas', monospace" font-size="11" fill="#9cdcfe">
+    <g transform="translate(560,215)">
+      <rect x="0" y="0" width="100" height="32" rx="4" fill="#04101c" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="10" y="20" letter-spacing="2">ANAF API</text>
+    </g>
+    <g transform="translate(560,335)">
+      <rect x="0" y="0" width="100" height="32" rx="4" fill="#04101c" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="14" y="20" letter-spacing="2">VAMĂ DTI</text>
+    </g>
+    <g transform="translate(560,455)">
+      <rect x="0" y="0" width="100" height="32" rx="4" fill="#04101c" stroke="#f59e0b" stroke-opacity="0.6"/>
+      <text x="10" y="20" fill="#fde68a" letter-spacing="2">WHATSAPP</text>
+    </g>
+    <g transform="translate(560,575)">
+      <rect x="0" y="0" width="100" height="32" rx="4" fill="#04101c" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="18" y="20" letter-spacing="2">GPS / TMS</text>
+    </g>
+  </g>
+
+  <g transform="translate(110,200)" font-family="'Orbitron', 'Segoe UI', sans-serif">
+    <text x="0" y="0" font-size="18" fill="#38bdf8" letter-spacing="6">CASE STUDY // 09</text>
+    <text x="0" y="70" font-size="54" font-weight="800" fill="#ffffff" letter-spacing="2">FREIGHT FORWARDER</text>
+    <text x="0" y="120" font-size="30" fill="#bae6fd" letter-spacing="3">RO e-TRANSPORT · CMR · AI</text>
+
+    <g transform="translate(0,180)">
+      <rect x="0" y="0" width="260" height="90" rx="6" fill="none" stroke="#38bdf8" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#bae6fd" letter-spacing="3">UIT / 90 DAYS</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#38bdf8">38.000</text>
+    </g>
+
+    <g transform="translate(280,180)">
+      <rect x="0" y="0" width="240" height="90" rx="6" fill="none" stroke="#f59e0b" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#fde68a" letter-spacing="3">BORDER STOPS</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#f59e0b">ZERO</text>
+    </g>
+
+    <g transform="translate(0,310)" font-size="14" fill="#94a3b8" letter-spacing="2">
+      <text>ANAF · DTI · TIMOCOM · n8n · OPENAI · WHATSAPP API</text>
+    </g>
+  </g>
+
+  <g transform="translate(0,720)">
+    <rect x="0" y="0" width="1600" height="80" fill="url(#frRoad)" opacity="0.4"/>
+    <g stroke="#f59e0b" stroke-width="3" stroke-dasharray="40,30" opacity="0.55">
+      <line x1="80" y1="40" x2="1520" y2="40"/>
+    </g>
+
+    <g transform="translate(220,12)">
+      <rect x="0" y="6" width="78" height="32" fill="#0b1f3a" stroke="#38bdf8" stroke-width="1.5"/>
+      <rect x="78" y="14" width="36" height="24" fill="#04101c" stroke="#38bdf8" stroke-width="1.5"/>
+      <rect x="84" y="18" width="14" height="10" fill="#38bdf8" opacity="0.7"/>
+      <circle cx="20" cy="42" r="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+      <circle cx="58" cy="42" r="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+      <circle cx="96" cy="42" r="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+    </g>
+
+    <g transform="translate(660,12)">
+      <rect x="0" y="6" width="78" height="32" fill="#0b1f3a" stroke="#38bdf8" stroke-width="1.5"/>
+      <rect x="78" y="14" width="36" height="24" fill="#04101c" stroke="#38bdf8" stroke-width="1.5"/>
+      <rect x="84" y="18" width="14" height="10" fill="#38bdf8" opacity="0.7"/>
+      <circle cx="20" cy="42" r="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+      <circle cx="58" cy="42" r="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+      <circle cx="96" cy="42" r="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+    </g>
+
+    <g transform="translate(1100,12)">
+      <rect x="0" y="6" width="78" height="32" fill="#0b1f3a" stroke="#f59e0b" stroke-width="1.5"/>
+      <rect x="78" y="14" width="36" height="24" fill="#04101c" stroke="#f59e0b" stroke-width="1.5"/>
+      <rect x="84" y="18" width="14" height="10" fill="#f59e0b" opacity="0.8"/>
+      <circle cx="20" cy="42" r="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+      <circle cx="58" cy="42" r="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+      <circle cx="96" cy="42" r="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+    </g>
+  </g>
+
+  <rect x="0" y="870" width="1600" height="2" fill="url(#frLine)"/>
+</svg>

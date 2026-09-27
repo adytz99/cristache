@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Romanian coworking flexible office Instagram WhatsApp AI automation case study Meta October 2026">
+  <defs>
+    <linearGradient id="cwBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02060d"/>
+      <stop offset="55%" stop-color="#061018"/>
+      <stop offset="100%" stop-color="#020610"/>
+    </linearGradient>
+    <radialGradient id="cwGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.30"/>
+      <stop offset="70%" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cwGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.26"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cwPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1a22"/>
+      <stop offset="100%" stop-color="#050c12"/>
+    </linearGradient>
+    <linearGradient id="cwEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="cwStream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#34d399" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="cwGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#34d399" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="cwBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#cwBg)"/>
+  <rect width="1600" height="900" fill="url(#cwGrid)"/>
+  <circle cx="1180" cy="420" r="520" fill="url(#cwGlow1)"/>
+  <circle cx="1180" cy="420" r="340" fill="url(#cwGlow2)"/>
+
+  <g transform="translate(1180,420)" opacity="0.4" stroke-width="2" fill="none">
+    <circle r="170" stroke="#34d399" opacity="0.9"/>
+    <circle r="230" stroke="#38bdf8" opacity="0.55"/>
+    <circle r="300" stroke="#34d399" opacity="0.4"/>
+    <circle r="380" stroke="#a7f3d0" opacity="0.22"/>
+  </g>
+
+  <g transform="translate(1180,420)">
+    <g filter="url(#cwBlur)" opacity="0.55">
+      <rect x="-150" y="-205" width="300" height="410" rx="16" fill="#34d399" opacity="0.22"/>
+    </g>
+    <rect x="-160" y="-215" width="320" height="430" rx="18" fill="none" stroke="url(#cwEdge)" stroke-width="6"/>
+    <rect x="-150" y="-205" width="300" height="410" rx="14" fill="url(#cwPanel)"/>
+    <rect x="-150" y="-205" width="300" height="410" rx="14" fill="none" stroke="#0c1a22" stroke-width="2"/>
+
+    <g transform="translate(-128,-176)" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="13" fill="#9cdcfe">
+      <text x="0" y="0" font-size="11" fill="#34d399" letter-spacing="3">COWORKING · TOUR FLOW</text>
+      <text x="0" y="28">LEAD  REEL · PIPERA LOFT</text>
+      <text x="0" y="52">CANAL  IG ’ WHATSAPP</text>
+      <text x="0" y="76">NEED  PRIVATE · 6 DESKS</text>
+      <text x="0" y="100">CITY  BUC · MOVE-IN 14D</text>
+      <text x="0" y="124">SEDIU SOCIAL  YES</text>
+      <text x="0" y="148">SLOT  JOI 11:00 </text>
+
+      <line x1="0" y1="168" x2="244" y2="168" stroke="#34d399" stroke-opacity="0.4"/>
+
+      <text x="0" y="194" fill="#34d399">OFFICERND · SYNC </text>
+      <text x="0" y="218" fill="#34d399">FLOW · 3 BUBBLES</text>
+      <text x="0" y="242" fill="#9cdcfe">OCT COST · 69%</text>
+
+      <line x1="0" y1="262" x2="244" y2="262" stroke="#34d399" stroke-opacity="0.4"/>
+
+      <text x="0" y="288" fill="#a7f3d0">AI · 214 TOURS / 90Z</text>
+      <text x="0" y="312" font-size="11" fill="#34d399" letter-spacing="3">BOOKED </text>
+    </g>
+
+    <g transform="translate(78,-188)">
+      <rect x="4" y="8" width="50" height="42" fill="none" stroke="#34d399" stroke-width="2" opacity="0.9"/>
+      <rect x="12" y="16" width="10" height="10" fill="#38bdf8" opacity="0.7"/>
+      <rect x="28" y="16" width="10" height="10" fill="#34d399" opacity="0.7"/>
+      <rect x="12" y="32" width="10" height="10" fill="#34d399" opacity="0.55"/>
+      <rect x="28" y="32" width="18" height="10" fill="#38bdf8" opacity="0.55"/>
+      <path d="M 4 8 L 29 -6 L 54 8" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 660 240 Q 880 280 1020 330" fill="none" stroke="url(#cwStream)" stroke-width="2"/>
+    <path d="M 660 360 Q 880 380 1020 405" fill="none" stroke="url(#cwStream)" stroke-width="2"/>
+    <path d="M 660 480 Q 880 470 1020 470" fill="none" stroke="url(#cwStream)" stroke-width="2"/>
+    <path d="M 660 600 Q 880 560 1020 540" fill="none" stroke="url(#cwStream)" stroke-width="2"/>
+  </g>
+
+  <g font-family="'JetBrains Mono', 'Consolas', monospace" font-size="11" fill="#9cdcfe">
+    <g transform="translate(556,225)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#050c12" stroke="#34d399" stroke-opacity="0.6"/>
+      <text x="18" y="20" fill="#a7f3d0" letter-spacing="2">REELS</text>
+    </g>
+    <g transform="translate(556,345)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#050c12" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="10" y="20" letter-spacing="2">WHATSAPP</text>
+    </g>
+    <g transform="translate(556,465)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#050c12" stroke="#34d399" stroke-opacity="0.6"/>
+      <text x="22" y="20" letter-spacing="2">FLOWS</text>
+    </g>
+    <g transform="translate(556,585)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#050c12" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="8" y="20" letter-spacing="1">OFFICERND</text>
+    </g>
+  </g>
+
+  <g transform="translate(110,190)" font-family="'Orbitron', 'Segoe UI', sans-serif">
+    <text x="0" y="0" font-size="18" fill="#34d399" letter-spacing="6">CASE STUDY // SEP 2026</text>
+    <text x="0" y="70" font-size="54" font-weight="800" fill="#ffffff" letter-spacing="2">FLEXIBLE OFFICE</text>
+    <text x="0" y="130" font-size="28" fill="#94a3b8" letter-spacing="1">Instagram tours ’ WhatsApp Flows</text>
+    <text x="0" y="190" font-size="18" fill="#38bdf8" letter-spacing="3">META OCT 1 · 69% COST / TOUR</text>
+  </g>
+
+  <g transform="translate(110,620)" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="14">
+    <text x="0" y="0" fill="#64748b">BUCURETI · CLUJ · 3 LOCAII</text>
+    <text x="0" y="28" fill="#34d399">214 TOURS · 91 MEMBERSHIPS · ART. 50</text>
+    <text x="0" y="56" fill="#94a3b8">1.000 FREE SERVICE MSGS / NUMBER</text>
+  </g>
+</svg>

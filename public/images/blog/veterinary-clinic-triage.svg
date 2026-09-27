@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Romanian veterinary clinic AI triage WhatsApp Instagram case study">
+  <defs>
+    <linearGradient id="vetBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02060d"/>
+      <stop offset="55%" stop-color="#0a0612"/>
+      <stop offset="100%" stop-color="#020610"/>
+    </linearGradient>
+    <radialGradient id="vetGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.32"/>
+      <stop offset="70%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vetGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.26"/>
+      <stop offset="70%" stop-color="#f472b6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vetPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141033"/>
+      <stop offset="100%" stop-color="#060512"/>
+    </linearGradient>
+    <linearGradient id="vetEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="vetStream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="vetLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <pattern id="vetGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#22d3ee" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="vetBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#vetBg)"/>
+  <rect width="1600" height="900" fill="url(#vetGrid)"/>
+  <circle cx="1180" cy="420" r="520" fill="url(#vetGlow1)"/>
+  <circle cx="1180" cy="420" r="340" fill="url(#vetGlow2)"/>
+
+  <g transform="translate(1180,420)" opacity="0.4" stroke-width="2" fill="none">
+    <circle r="170" stroke="#22d3ee" opacity="0.9"/>
+    <circle r="230" stroke="#f472b6" opacity="0.55"/>
+    <circle r="300" stroke="#22d3ee" opacity="0.4"/>
+    <circle r="380" stroke="#a78bfa" opacity="0.22"/>
+  </g>
+
+  <g transform="translate(1180,420)">
+    <g filter="url(#vetBlur)" opacity="0.55">
+      <rect x="-150" y="-205" width="300" height="410" rx="16" fill="#22d3ee" opacity="0.22"/>
+    </g>
+    <rect x="-160" y="-215" width="320" height="430" rx="18" fill="none" stroke="url(#vetEdge)" stroke-width="6"/>
+    <rect x="-150" y="-205" width="300" height="410" rx="14" fill="url(#vetPanel)"/>
+    <rect x="-150" y="-205" width="300" height="410" rx="14" fill="none" stroke="#141033" stroke-width="2"/>
+
+    <g transform="translate(-128,-176)" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="13" fill="#9cdcfe">
+      <text x="0" y="0" font-size="11" fill="#f472b6" letter-spacing="3">TRIAJ · CABINET VET</text>
+      <text x="0" y="28">PACIENT  REX · GOLDEN · 5Y</text>
+      <text x="0" y="52">CANAL  WHATSAPP · 23:47</text>
+      <text x="0" y="76">SIMPTOM  VOMĂ · LETARGIE</text>
+      <text x="0" y="100">RED-FLAG  GDV? · ESCALATE</text>
+      <text x="0" y="124">CLINICĂ  CLUJ · ER 24/7</text>
+      <text x="0" y="148">VET DE GARDĂ  DR. M ✓</text>
+
+      <line x1="0" y1="168" x2="244" y2="168" stroke="#22d3ee" stroke-opacity="0.4"/>
+
+      <text x="0" y="194" fill="#f472b6">ANSVSA · SYNC ✓</text>
+      <text x="0" y="218" fill="#f472b6">e-FACTURA B2C · QUEUED</text>
+      <text x="0" y="242" fill="#9cdcfe">ASIG. CLAIM · 5 ZILE</text>
+
+      <line x1="0" y1="262" x2="244" y2="262" stroke="#22d3ee" stroke-opacity="0.4"/>
+
+      <text x="0" y="288" fill="#bae6fd">AI · 18.4K MSG / LUNĂ</text>
+      <text x="0" y="312" font-size="11" fill="#f472b6" letter-spacing="3">CALL ROUTED ✓</text>
+    </g>
+
+    <g transform="translate(82,-188)">
+      <path d="M 18 22 C 12 14 4 14 4 22 C 4 28 12 32 18 38 C 24 32 32 28 32 22 C 32 14 24 14 18 22 Z" fill="none" stroke="#f472b6" stroke-width="2"/>
+      <circle cx="6" cy="12" r="5" fill="none" stroke="#f472b6" stroke-width="2"/>
+      <circle cx="18" cy="6" r="5" fill="none" stroke="#f472b6" stroke-width="2"/>
+      <circle cx="30" cy="12" r="5" fill="none" stroke="#f472b6" stroke-width="2"/>
+      <circle cx="38" cy="22" r="5" fill="none" stroke="#f472b6" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 660 240 Q 880 280 1020 330" fill="none" stroke="url(#vetStream)" stroke-width="2"/>
+    <path d="M 660 360 Q 880 380 1020 405" fill="none" stroke="url(#vetStream)" stroke-width="2"/>
+    <path d="M 660 480 Q 880 470 1020 470" fill="none" stroke="url(#vetStream)" stroke-width="2"/>
+    <path d="M 660 600 Q 880 560 1020 540" fill="none" stroke="url(#vetStream)" stroke-width="2"/>
+  </g>
+
+  <g font-family="'JetBrains Mono', 'Consolas', monospace" font-size="11" fill="#9cdcfe">
+    <g transform="translate(556,225)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#0a0612" stroke="#f472b6" stroke-opacity="0.6"/>
+      <text x="6" y="20" fill="#fbcfe8" letter-spacing="2">INSTAGRAM</text>
+    </g>
+    <g transform="translate(556,345)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#0a0612" stroke="#22d3ee" stroke-opacity="0.6"/>
+      <text x="10" y="20" letter-spacing="2">WHATSAPP</text>
+    </g>
+    <g transform="translate(556,465)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#0a0612" stroke="#22d3ee" stroke-opacity="0.6"/>
+      <text x="16" y="20" letter-spacing="2">PROVET</text>
+    </g>
+    <g transform="translate(556,585)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#0a0612" stroke="#f472b6" stroke-opacity="0.6"/>
+      <text x="6" y="20" fill="#fbcfe8" letter-spacing="2">e-FACTURA</text>
+    </g>
+  </g>
+
+  <g transform="translate(110,190)" font-family="'Orbitron', 'Segoe UI', sans-serif">
+    <text x="0" y="0" font-size="18" fill="#f472b6" letter-spacing="6">CASE STUDY // 12</text>
+    <text x="0" y="70" font-size="54" font-weight="800" fill="#ffffff" letter-spacing="2">VETERINARY · AI TRIAGE</text>
+    <text x="0" y="120" font-size="30" fill="#bae6fd" letter-spacing="3">WHATSAPP · INSTAGRAM · ER 24/7</text>
+
+    <g transform="translate(0,180)">
+      <rect x="0" y="0" width="260" height="90" rx="6" fill="none" stroke="#22d3ee" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#bae6fd" letter-spacing="3">DM REPLY · 24/7</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#22d3ee">&lt;60s</text>
+    </g>
+
+    <g transform="translate(280,180)">
+      <rect x="0" y="0" width="240" height="90" rx="6" fill="none" stroke="#f472b6" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#fbcfe8" letter-spacing="3">CLAIM TURNAROUND</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#f472b6">5 ZILE</text>
+    </g>
+
+    <g transform="translate(0,310)" font-size="14" fill="#94a3b8" letter-spacing="2">
+      <text>PROVET · e-FACTURA B2C · ANSVSA · TWILIO · n8n · OPENAI</text>
+    </g>
+  </g>
+
+  <g transform="translate(0,724)">
+    <rect x="0" y="0" width="1600" height="80" fill="#0a0612" opacity="0.4"/>
+    <g stroke="#22d3ee" stroke-width="2" opacity="0.35">
+      <line x1="0" y1="78" x2="1600" y2="78"/>
+    </g>
+    <g fill="none" stroke="#1e293b" stroke-width="2" opacity="0.9">
+      <g transform="translate(200,18)">
+        <path d="M 18 38 C 12 30 4 30 4 38 C 4 44 12 48 18 54 C 24 48 32 44 32 38 C 32 30 24 30 18 38 Z" fill="#141033" stroke="#22d3ee" stroke-width="1.5"/>
+        <circle cx="6" cy="28" r="5" fill="#141033" stroke="#22d3ee" stroke-width="1.5"/>
+        <circle cx="18" cy="22" r="5" fill="#141033" stroke="#22d3ee" stroke-width="1.5"/>
+        <circle cx="30" cy="28" r="5" fill="#141033" stroke="#22d3ee" stroke-width="1.5"/>
+        <circle cx="38" cy="38" r="5" fill="#141033" stroke="#22d3ee" stroke-width="1.5"/>
+      </g>
+      <g transform="translate(640,18)">
+        <rect x="0" y="14" width="50" height="50" rx="6" fill="#141033" stroke="#f472b6" stroke-width="1.5"/>
+        <path d="M 16 30 L 24 38 L 38 24" fill="none" stroke="#22d3ee" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(1080,18)">
+        <path d="M 18 38 C 12 30 4 30 4 38 C 4 44 12 48 18 54 C 24 48 32 44 32 38 C 32 30 24 30 18 38 Z" fill="#141033" stroke="#f472b6" stroke-width="1.5"/>
+        <circle cx="6" cy="28" r="5" fill="#141033" stroke="#f472b6" stroke-width="1.5"/>
+        <circle cx="18" cy="22" r="5" fill="#141033" stroke="#f472b6" stroke-width="1.5"/>
+        <circle cx="30" cy="28" r="5" fill="#141033" stroke="#f472b6" stroke-width="1.5"/>
+        <circle cx="38" cy="38" r="5" fill="#141033" stroke="#f472b6" stroke-width="1.5"/>
+      </g>
+      <g transform="translate(1400,18)">
+        <rect x="0" y="14" width="50" height="50" rx="6" fill="#141033" stroke="#22d3ee" stroke-width="1.5"/>
+        <path d="M 16 30 L 24 38 L 38 24" fill="none" stroke="#f472b6" stroke-width="2.5"/>
+      </g>
+    </g>
+  </g>
+
+  <rect x="0" y="870" width="1600" height="2" fill="url(#vetLine)"/>
+</svg>

@@ -1,0 +1,191 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+@theme inline {
+  --color-beige: #e8dcc8;
+  --color-beige-deep: #c4a882;
+  --color-ivory: #f6f1ea;
+  --color-ink: #0a0a0a;
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --font-sans: var(--font-geist), system-ui, sans-serif;
+  --font-serif: var(--font-display), "Times New Roman", serif;
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+@layer base {
+  :root {
+    --beige: #e8dcc8;
+    --beige-deep: #c4a882;
+    --ivory: #f6f1ea;
+    --ink: #0a0a0a;
+
+    --background: 0 0% 0%;
+    --foreground: 36 33% 91%;
+    --card: 0 0% 7%;
+    --card-foreground: 36 33% 91%;
+    --popover: 0 0% 7%;
+    --popover-foreground: 36 33% 91%;
+    --primary: 36 33% 84%;
+    --primary-foreground: 0 0% 6%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 36 33% 91%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 30 8% 62%;
+    --accent: 36 33% 84%;
+    --accent-foreground: 0 0% 6%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 36 14% 18%;
+    --input: 0 0% 14%;
+    --ring: 36 33% 70%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #000;
+    color: var(--ivory);
+    font-family: var(--font-geist), system-ui, sans-serif;
+    overflow-x: hidden;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display), "Times New Roman", serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+}
+
+#servicii,
+#proces {
+  scroll-margin-top: 5rem;
+}
+
+.brand-rule {
+  height: 1px;
+  width: 4.5rem;
+  background: var(--beige-deep);
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--beige);
+  color: #111;
+  padding: 0.85rem 1.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: #fff;
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--beige);
+  padding: 0.85rem 1.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(232, 220, 200, 0.45);
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-outline:hover {
+  background: var(--beige);
+  color: #111;
+  border-color: var(--beige);
+}
+
+@keyframes menu-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.menu-link-in {
+  animation: menu-fade-in 0.55s ease both;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  main section.reveal-pending {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+
+  main section.reveal-in {
+    opacity: 1;
+    transform: none;
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  main section.reveal-pending .reveal-card {
+    opacity: 0;
+  }
+
+  main section.reveal-in .reveal-card {
+    animation: card-rise 0.6s ease both;
+    animation-delay: calc(var(--i, 0) * 90ms + 120ms);
+  }
+}
+
+@keyframes card-rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menu-link-in {
+    animation: none;
+  }
+}

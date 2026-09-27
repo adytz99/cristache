@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Romanian short-term rental regim hotelier AI property management case study">
+  <defs>
+    <linearGradient id="strBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02060d"/>
+      <stop offset="55%" stop-color="#0a0612"/>
+      <stop offset="100%" stop-color="#020610"/>
+    </linearGradient>
+    <radialGradient id="strGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.30"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="strGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.26"/>
+      <stop offset="70%" stop-color="#fb7185" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="strPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141033"/>
+      <stop offset="100%" stop-color="#060512"/>
+    </linearGradient>
+    <linearGradient id="strEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+    <linearGradient id="strStream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fb7185" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="strLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+    <pattern id="strGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#38bdf8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="strBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#strBg)"/>
+  <rect width="1600" height="900" fill="url(#strGrid)"/>
+  <circle cx="1180" cy="420" r="520" fill="url(#strGlow1)"/>
+  <circle cx="1180" cy="420" r="340" fill="url(#strGlow2)"/>
+
+  <g transform="translate(1180,420)" opacity="0.4" stroke-width="2" fill="none">
+    <circle r="170" stroke="#38bdf8" opacity="0.9"/>
+    <circle r="230" stroke="#fb7185" opacity="0.55"/>
+    <circle r="300" stroke="#38bdf8" opacity="0.4"/>
+    <circle r="380" stroke="#a78bfa" opacity="0.22"/>
+  </g>
+
+  <g transform="translate(1180,420)">
+    <g filter="url(#strBlur)" opacity="0.55">
+      <rect x="-150" y="-205" width="300" height="410" rx="16" fill="#38bdf8" opacity="0.22"/>
+    </g>
+    <rect x="-160" y="-215" width="320" height="430" rx="18" fill="none" stroke="url(#strEdge)" stroke-width="6"/>
+    <rect x="-150" y="-205" width="300" height="410" rx="14" fill="url(#strPanel)"/>
+    <rect x="-150" y="-205" width="300" height="410" rx="14" fill="none" stroke="#141033" stroke-width="2"/>
+
+    <g transform="translate(-128,-176)" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="13" fill="#9cdcfe">
+      <text x="0" y="0" font-size="11" fill="#fb7185" letter-spacing="3">REGIM HOTELIER · BOOKING</text>
+      <text x="0" y="28">UNIT  BUC-CALEA-VICT-07</text>
+      <text x="0" y="52">CHECK-IN  16:00 · 4 NOPȚI</text>
+      <text x="0" y="76">OASPETE  DE · 5 PERS</text>
+      <text x="0" y="100">REG. NR.  SITUR 26-AB-9041</text>
+      <text x="0" y="124">CLASIF.  VALID ✓</text>
+      <text x="0" y="148">PREȚ/NOAPTE  AI · 412 RON</text>
+
+      <line x1="0" y1="168" x2="244" y2="168" stroke="#38bdf8" stroke-opacity="0.4"/>
+
+      <text x="0" y="194" fill="#fb7185">ANAF · DAC7 SYNC ✓</text>
+      <text x="0" y="218" fill="#fb7185">e-FACTURA · QUEUED</text>
+      <text x="0" y="242" fill="#9cdcfe">CLEANER · ASSIGNED ✓</text>
+
+      <line x1="0" y1="262" x2="244" y2="262" stroke="#38bdf8" stroke-opacity="0.4"/>
+
+      <text x="0" y="288" fill="#bae6fd">AI · 140 / 140 COMPLIANT</text>
+      <text x="0" y="312" font-size="11" fill="#fb7185" letter-spacing="3">CODE SENT ✓</text>
+    </g>
+
+    <g transform="translate(78,-188)">
+      <rect x="0" y="10" width="58" height="48" fill="none" stroke="#fb7185" stroke-width="2" opacity="0.9"/>
+      <path d="M 0 10 L 29 -8 L 58 10 Z" fill="none" stroke="#fb7185" stroke-width="2" opacity="0.9"/>
+      <rect x="10" y="22" width="12" height="12" fill="#fb7185" opacity="0.55"/>
+      <rect x="36" y="22" width="12" height="12" fill="#fb7185" opacity="0.55"/>
+      <rect x="23" y="40" width="12" height="18" fill="#38bdf8" opacity="0.7"/>
+    </g>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 660 240 Q 880 280 1020 330" fill="none" stroke="url(#strStream)" stroke-width="2"/>
+    <path d="M 660 360 Q 880 380 1020 405" fill="none" stroke="url(#strStream)" stroke-width="2"/>
+    <path d="M 660 480 Q 880 470 1020 470" fill="none" stroke="url(#strStream)" stroke-width="2"/>
+    <path d="M 660 600 Q 880 560 1020 540" fill="none" stroke="url(#strStream)" stroke-width="2"/>
+  </g>
+
+  <g font-family="'JetBrains Mono', 'Consolas', monospace" font-size="11" fill="#9cdcfe">
+    <g transform="translate(556,225)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#0a0612" stroke="#fb7185" stroke-opacity="0.6"/>
+      <text x="12" y="20" fill="#fecdd3" letter-spacing="2">AIRBNB</text>
+    </g>
+    <g transform="translate(556,345)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#0a0612" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="12" y="20" letter-spacing="2">BOOKING</text>
+    </g>
+    <g transform="translate(556,465)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#0a0612" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="10" y="20" letter-spacing="2">WHATSAPP</text>
+    </g>
+    <g transform="translate(556,585)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#0a0612" stroke="#fb7185" stroke-opacity="0.6"/>
+      <text x="14" y="20" fill="#fecdd3" letter-spacing="2">SITUR</text>
+    </g>
+  </g>
+
+  <g transform="translate(110,190)" font-family="'Orbitron', 'Segoe UI', sans-serif">
+    <text x="0" y="0" font-size="18" fill="#fb7185" letter-spacing="6">CASE STUDY // 11</text>
+    <text x="0" y="70" font-size="54" font-weight="800" fill="#ffffff" letter-spacing="2">SHORT-TERM RENTALS</text>
+    <text x="0" y="120" font-size="30" fill="#bae6fd" letter-spacing="3">REGIM HOTELIER · SITUR · AI</text>
+
+    <g transform="translate(0,180)">
+      <rect x="0" y="0" width="260" height="90" rx="6" fill="none" stroke="#38bdf8" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#bae6fd" letter-spacing="3">UNITS / SAME TEAM</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#38bdf8">140</text>
+    </g>
+
+    <g transform="translate(280,180)">
+      <rect x="0" y="0" width="240" height="90" rx="6" fill="none" stroke="#fb7185" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#fecdd3" letter-spacing="3">ANAF FINES</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#fb7185">ZERO</text>
+    </g>
+
+    <g transform="translate(0,310)" font-size="14" fill="#94a3b8" letter-spacing="2">
+      <text>SITUR · e-FACTURA · DAC7 · PRICELABS · n8n · OPENAI</text>
+    </g>
+  </g>
+
+  <g transform="translate(0,724)">
+    <rect x="0" y="0" width="1600" height="80" fill="#0a0612" opacity="0.4"/>
+    <g stroke="#38bdf8" stroke-width="2" opacity="0.35">
+      <line x1="0" y1="78" x2="1600" y2="78"/>
+    </g>
+    <g fill="none" stroke="#1e293b" stroke-width="2" opacity="0.9">
+      <g transform="translate(200,18)">
+        <rect x="0" y="20" width="60" height="40" fill="#141033" stroke="#38bdf8" stroke-width="1.5"/>
+        <path d="M 0 20 L 30 2 L 60 20 Z" stroke="#38bdf8" stroke-width="1.5"/>
+        <rect x="10" y="30" width="12" height="12" fill="#38bdf8" opacity="0.6"/>
+        <rect x="38" y="30" width="12" height="12" fill="#38bdf8" opacity="0.6"/>
+        <rect x="24" y="46" width="12" height="14" fill="#fb7185" opacity="0.55"/>
+      </g>
+      <g transform="translate(640,18)">
+        <rect x="0" y="8" width="46" height="52" fill="#141033" stroke="#fb7185" stroke-width="1.5"/>
+        <rect x="8" y="16" width="10" height="10" fill="#fb7185" opacity="0.5"/>
+        <rect x="28" y="16" width="10" height="10" fill="#fb7185" opacity="0.5"/>
+        <rect x="8" y="32" width="10" height="10" fill="#fb7185" opacity="0.5"/>
+        <rect x="28" y="32" width="10" height="10" fill="#fb7185" opacity="0.5"/>
+        <rect x="16" y="48" width="14" height="12" fill="#38bdf8" opacity="0.6"/>
+      </g>
+      <g transform="translate(1080,18)">
+        <rect x="0" y="20" width="64" height="40" fill="#141033" stroke="#38bdf8" stroke-width="1.5"/>
+        <path d="M 0 20 L 32 0 L 64 20 Z" stroke="#38bdf8" stroke-width="1.5"/>
+        <rect x="12" y="30" width="12" height="12" fill="#38bdf8" opacity="0.6"/>
+        <rect x="40" y="30" width="12" height="12" fill="#38bdf8" opacity="0.6"/>
+        <rect x="26" y="46" width="12" height="14" fill="#fb7185" opacity="0.55"/>
+      </g>
+      <g transform="translate(1400,18)">
+        <rect x="0" y="8" width="46" height="52" fill="#141033" stroke="#fb7185" stroke-width="1.5"/>
+        <rect x="8" y="16" width="10" height="10" fill="#fb7185" opacity="0.5"/>
+        <rect x="28" y="16" width="10" height="10" fill="#fb7185" opacity="0.5"/>
+        <rect x="8" y="32" width="10" height="10" fill="#fb7185" opacity="0.5"/>
+        <rect x="28" y="32" width="10" height="10" fill="#fb7185" opacity="0.5"/>
+        <rect x="16" y="48" width="14" height="12" fill="#38bdf8" opacity="0.6"/>
+      </g>
+    </g>
+  </g>
+
+  <rect x="0" y="870" width="1600" height="2" fill="url(#strLine)"/>
+</svg>

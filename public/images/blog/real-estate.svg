@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Real estate developer automation case study">
+  <defs>
+    <linearGradient id="rBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06030f"/>
+      <stop offset="55%" stop-color="#100a24"/>
+      <stop offset="100%" stop-color="#02060f"/>
+    </linearGradient>
+    <radialGradient id="rGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff2bd6" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#ff2bd6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rBuilding" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#ff2bd6"/>
+    </linearGradient>
+    <linearGradient id="rLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#ff2bd6"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+    <pattern id="rGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#ff2bd6" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#rBg)"/>
+  <rect width="1600" height="900" fill="url(#rGrid)"/>
+  <circle cx="1150" cy="480" r="500" fill="url(#rGlow)"/>
+
+  <g transform="translate(900,200)" opacity="0.9">
+    <g>
+      <rect x="0" y="100" width="120" height="500" fill="none" stroke="#00f0ff" stroke-width="2"/>
+      <rect x="140" y="40" width="140" height="560" fill="none" stroke="#ff2bd6" stroke-width="2"/>
+      <rect x="300" y="160" width="110" height="440" fill="none" stroke="#00f0ff" stroke-width="2"/>
+      <rect x="430" y="80" width="130" height="520" fill="none" stroke="#ff2bd6" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g transform="translate(900,200)">
+    <g id="unitsA" fill="#00f0ff">
+      <rect x="10" y="120" width="30" height="22"/>
+      <rect x="50" y="120" width="30" height="22"/>
+      <rect x="90" y="120" width="22" height="22" opacity="0.25"/>
+      <rect x="10" y="160" width="30" height="22"/>
+      <rect x="50" y="160" width="30" height="22" opacity="0.25"/>
+      <rect x="90" y="160" width="22" height="22"/>
+      <rect x="10" y="200" width="30" height="22" opacity="0.25"/>
+      <rect x="50" y="200" width="30" height="22"/>
+      <rect x="90" y="200" width="22" height="22"/>
+      <rect x="10" y="240" width="30" height="22"/>
+      <rect x="50" y="240" width="30" height="22"/>
+      <rect x="90" y="240" width="22" height="22" opacity="0.25"/>
+      <rect x="10" y="280" width="30" height="22"/>
+      <rect x="50" y="280" width="30" height="22" opacity="0.25"/>
+      <rect x="90" y="280" width="22" height="22"/>
+      <rect x="10" y="320" width="30" height="22" opacity="0.25"/>
+      <rect x="50" y="320" width="30" height="22"/>
+      <rect x="90" y="320" width="22" height="22"/>
+      <rect x="10" y="360" width="30" height="22"/>
+      <rect x="50" y="360" width="30" height="22"/>
+      <rect x="90" y="360" width="22" height="22" opacity="0.25"/>
+      <rect x="10" y="400" width="30" height="22" opacity="0.25"/>
+      <rect x="50" y="400" width="30" height="22"/>
+      <rect x="90" y="400" width="22" height="22"/>
+      <rect x="10" y="440" width="30" height="22"/>
+      <rect x="50" y="440" width="30" height="22" opacity="0.25"/>
+      <rect x="90" y="440" width="22" height="22"/>
+      <rect x="10" y="480" width="30" height="22"/>
+      <rect x="50" y="480" width="30" height="22"/>
+      <rect x="90" y="480" width="22" height="22" opacity="0.25"/>
+      <rect x="10" y="520" width="30" height="22" opacity="0.25"/>
+      <rect x="50" y="520" width="30" height="22"/>
+      <rect x="90" y="520" width="22" height="22"/>
+    </g>
+
+    <g fill="#ff2bd6">
+      <rect x="152" y="60" width="36" height="24"/>
+      <rect x="200" y="60" width="36" height="24" opacity="0.25"/>
+      <rect x="248" y="60" width="24" height="24"/>
+      <rect x="152" y="100" width="36" height="24" opacity="0.25"/>
+      <rect x="200" y="100" width="36" height="24"/>
+      <rect x="248" y="100" width="24" height="24"/>
+      <rect x="152" y="140" width="36" height="24"/>
+      <rect x="200" y="140" width="36" height="24"/>
+      <rect x="248" y="140" width="24" height="24" opacity="0.25"/>
+      <rect x="152" y="180" width="36" height="24"/>
+      <rect x="200" y="180" width="36" height="24" opacity="0.25"/>
+      <rect x="248" y="180" width="24" height="24"/>
+      <rect x="152" y="220" width="36" height="24" opacity="0.25"/>
+      <rect x="200" y="220" width="36" height="24"/>
+      <rect x="248" y="220" width="24" height="24"/>
+      <rect x="152" y="260" width="36" height="24"/>
+      <rect x="200" y="260" width="36" height="24"/>
+      <rect x="248" y="260" width="24" height="24" opacity="0.25"/>
+      <rect x="152" y="300" width="36" height="24" opacity="0.25"/>
+      <rect x="200" y="300" width="36" height="24"/>
+      <rect x="248" y="300" width="24" height="24"/>
+      <rect x="152" y="340" width="36" height="24"/>
+      <rect x="200" y="340" width="36" height="24" opacity="0.25"/>
+      <rect x="248" y="340" width="24" height="24"/>
+      <rect x="152" y="380" width="36" height="24"/>
+      <rect x="200" y="380" width="36" height="24"/>
+      <rect x="248" y="380" width="24" height="24" opacity="0.25"/>
+      <rect x="152" y="420" width="36" height="24" opacity="0.25"/>
+      <rect x="200" y="420" width="36" height="24"/>
+      <rect x="248" y="420" width="24" height="24"/>
+      <rect x="152" y="460" width="36" height="24"/>
+      <rect x="200" y="460" width="36" height="24"/>
+      <rect x="248" y="460" width="24" height="24" opacity="0.25"/>
+      <rect x="152" y="500" width="36" height="24"/>
+      <rect x="200" y="500" width="36" height="24" opacity="0.25"/>
+      <rect x="248" y="500" width="24" height="24"/>
+      <rect x="152" y="540" width="36" height="24" opacity="0.25"/>
+      <rect x="200" y="540" width="36" height="24"/>
+      <rect x="248" y="540" width="24" height="24"/>
+    </g>
+  </g>
+
+  <g transform="translate(110,200)" font-family="'Orbitron', 'Segoe UI', sans-serif">
+    <text x="0" y="0" font-size="18" fill="#ff2bd6" letter-spacing="6">CASE STUDY // 03</text>
+    <text x="0" y="70" font-size="54" font-weight="800" fill="#ffffff" letter-spacing="2">REAL ESTATE</text>
+    <text x="0" y="120" font-size="32" fill="#ffb3ef" letter-spacing="3">DEVELOPER</text>
+
+    <g transform="translate(0,180)">
+      <rect x="0" y="0" width="240" height="90" rx="6" fill="none" stroke="#ff2bd6" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#ffb3ef" letter-spacing="3">UNITS SOLD</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#ff2bd6">34 / 68</text>
+    </g>
+
+    <g transform="translate(260,180)">
+      <rect x="0" y="0" width="260" height="90" rx="6" fill="none" stroke="#00f0ff" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#7ff7ff" letter-spacing="3">LEAD RESPONSE</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#00f0ff">-73%</text>
+    </g>
+
+    <g transform="translate(0,310)" font-size="14" fill="#9aa3b2" letter-spacing="2">
+      <text>HUBSPOT · DOCUSIGN · STRIPE · WHATSAPP API</text>
+    </g>
+  </g>
+
+  <rect x="0" y="870" width="1600" height="2" fill="url(#rLine)"/>
+</svg>

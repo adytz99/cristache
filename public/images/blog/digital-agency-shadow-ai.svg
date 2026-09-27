@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Digital agency shadow AI governance and content repurposing automation case study">
+  <defs>
+    <linearGradient id="daBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020408"/>
+      <stop offset="50%" stop-color="#0a0618"/>
+      <stop offset="100%" stop-color="#020610"/>
+    </linearGradient>
+    <radialGradient id="daGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="daGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="daPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1030"/>
+      <stop offset="100%" stop-color="#080512"/>
+    </linearGradient>
+    <linearGradient id="daEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="daStream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="daLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <pattern id="daGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#8b5cf6" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <filter id="daBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#daBg)"/>
+  <rect width="1600" height="900" fill="url(#daGrid)"/>
+  <circle cx="1150" cy="420" r="500" fill="url(#daGlow1)"/>
+  <circle cx="1150" cy="420" r="340" fill="url(#daGlow2)"/>
+
+  <!-- Hub: pillar asset -->
+  <g transform="translate(1150,200)">
+    <rect x="-90" y="-50" width="180" height="100" rx="12" fill="url(#daPanel)" stroke="url(#daEdge)" stroke-width="3"/>
+    <text x="0" y="-12" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#c4b5fd" letter-spacing="2">PILLAR</text>
+    <text x="0" y="18" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#ffffff" font-weight="600">Podcast 45min</text>
+    <text x="0" y="38" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#94a3b8">webinar · interview</text>
+  </g>
+
+  <!-- Distribution nodes -->
+  <g transform="translate(1150,420)" stroke="url(#daStream)" stroke-width="2" fill="none" opacity="0.7">
+    <line x1="0" y1="-120" x2="-200" y2="-40"/>
+    <line x1="0" y1="-120" x2="200" y2="-40"/>
+    <line x1="0" y1="-120" x2="-220" y2="80"/>
+    <line x1="0" y1="-120" x2="220" y2="80"/>
+    <line x1="0" y1="-120" x2="0" y2="120"/>
+    <line x1="0" y1="-120" x2="-120" y2="160"/>
+    <line x1="0" y1="-120" x2="120" y2="160"/>
+  </g>
+
+  <g transform="translate(1150,420)" font-family="'Segoe UI', sans-serif" font-size="12" fill="#e2e8f0">
+    <g transform="translate(-200,-40)">
+      <rect x="-55" y="-22" width="110" height="44" rx="8" fill="#1e1035" stroke="#ec4899" stroke-width="1.5"/>
+      <text x="0" y="6" text-anchor="middle" fill="#fbcfe8">Instagram</text>
+    </g>
+    <g transform="translate(200,-40)">
+      <rect x="-40" y="-22" width="80" height="44" rx="8" fill="#1e1035" stroke="#06b6d4" stroke-width="1.5"/>
+      <text x="0" y="6" text-anchor="middle" fill="#a5f3fc">X thread</text>
+    </g>
+    <g transform="translate(-220,80)">
+      <rect x="-50" y="-22" width="100" height="44" rx="8" fill="#1e1035" stroke="#8b5cf6" stroke-width="1.5"/>
+      <text x="0" y="6" text-anchor="middle" fill="#ddd6fe">LinkedIn</text>
+    </g>
+    <g transform="translate(220,80)">
+      <rect x="-45" y="-22" width="90" height="44" rx="8" fill="#1e1035" stroke="#22d3ee" stroke-width="1.5"/>
+      <text x="0" y="6" text-anchor="middle" fill="#a5f3fc">Reels ×4</text>
+    </g>
+    <g transform="translate(0,120)">
+      <rect x="-55" y="-22" width="110" height="44" rx="8" fill="#1e1035" stroke="#a78bfa" stroke-width="1.5"/>
+      <text x="0" y="6" text-anchor="middle" fill="#e9d5ff">Newsletter</text>
+    </g>
+    <g transform="translate(-120,160)">
+      <rect x="-40" y="-22" width="80" height="44" rx="8" fill="#1e1035" stroke="#34d399" stroke-width="1.5"/>
+      <text x="0" y="6" text-anchor="middle" fill="#a7f3d0">Blog RO</text>
+    </g>
+    <g transform="translate(120,160)">
+      <rect x="-40" y="-22" width="80" height="44" rx="8" fill="#1e1035" stroke="#34d399" stroke-width="1.5"/>
+      <text x="0" y="6" text-anchor="middle" fill="#a7f3d0">Blog EN</text>
+    </g>
+  </g>
+
+  <!-- Shield: governance -->
+  <g transform="translate(1150,620)">
+    <g filter="url(#daBlur)" opacity="0.4">
+      <path d="M0,-70 L60,-40 L60,20 Q60,70 0,90 Q-60,70 -60,20 L-60,-40 Z" fill="#8b5cf6"/>
+    </g>
+    <path d="M0,-65 L55,-38 L55,18 Q55,62 0,80 Q-55,62 -55,18 L-55,-38 Z" fill="none" stroke="url(#daEdge)" stroke-width="3"/>
+    <text x="0" y="8" text-anchor="middle" font-family="'Orbitron', 'Segoe UI', sans-serif" font-size="11" fill="#ffffff" letter-spacing="2">GOVERNED</text>
+    <text x="0" y="28" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#c4b5fd">0 shadow AI</text>
+  </g>
+
+  <!-- Left copy -->
+  <g transform="translate(110,200)" font-family="'Orbitron', 'Segoe UI', sans-serif">
+    <text x="0" y="0" font-size="18" fill="#8b5cf6" letter-spacing="6">CASE STUDY // 13</text>
+    <text x="0" y="70" font-size="50" font-weight="800" fill="#ffffff" letter-spacing="2">DIGITAL AGENCY</text>
+    <text x="0" y="120" font-size="28" fill="#ddd6fe" letter-spacing="2">SHADOW AI + REPURPOSING</text>
+
+    <g transform="translate(0,180)">
+      <rect x="0" y="0" width="260" height="90" rx="6" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#c4b5fd" letter-spacing="3">ASSETS / PILLAR</text>
+      <text x="20" y="78" font-size="42" font-weight="800" fill="#8b5cf6">47</text>
+    </g>
+
+    <g transform="translate(280,180)">
+      <rect x="0" y="0" width="240" height="90" rx="6" fill="none" stroke="#06b6d4" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#a5f3fc" letter-spacing="3">PROD HOURS</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#06b6d4">-61%</text>
+    </g>
+
+    <g transform="translate(0,310)" font-size="14" fill="#94a3b8" letter-spacing="2">
+      <text>CLAUDE FOR WORK · n8n · META · X API · EU AI ACT</text>
+    </g>
+  </g>
+
+  <g transform="translate(140,720)" opacity="0.65">
+    <polyline points="0,40 40,40 55,18 70,52 85,12 100,55 115,22 130,48 145,40 180,40 195,28 210,50 225,20 240,52 255,15 270,48 285,40 320,40" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+    <polyline points="320,40 340,40 355,25 370,50 385,18 400,55 415,30 430,48 445,22 460,52 475,28 490,45 505,40 540,40" fill="none" stroke="#06b6d4" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <rect x="0" y="870" width="1600" height="2" fill="url(#daLine)"/>
+</svg>

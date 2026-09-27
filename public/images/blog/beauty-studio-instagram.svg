@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Beauty studio Instagram DM AI agent automation case study">
+  <defs>
+    <linearGradient id="igBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#03050b"/>
+      <stop offset="55%" stop-color="#11041a"/>
+      <stop offset="100%" stop-color="#04020c"/>
+    </linearGradient>
+    <radialGradient id="igGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff5fb3" stop-opacity="0.32"/>
+      <stop offset="70%" stop-color="#ff5fb3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="igGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.20"/>
+      <stop offset="70%" stop-color="#00f0ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="igPhone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0a18"/>
+      <stop offset="100%" stop-color="#080208"/>
+    </linearGradient>
+    <linearGradient id="igRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="35%" stop-color="#ff5fb3"/>
+      <stop offset="70%" stop-color="#a64bff"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+    <linearGradient id="igBubbleIn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a0a24"/>
+      <stop offset="100%" stop-color="#3a0e34"/>
+    </linearGradient>
+    <linearGradient id="igBubbleAi" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff5fb3"/>
+      <stop offset="100%" stop-color="#a64bff"/>
+    </linearGradient>
+    <linearGradient id="igLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#ff5fb3"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+    <pattern id="igGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#ff5fb3" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <filter id="igBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#igBg)"/>
+  <rect width="1600" height="900" fill="url(#igGrid)"/>
+  <circle cx="1180" cy="450" r="520" fill="url(#igGlow1)"/>
+  <circle cx="1180" cy="450" r="360" fill="url(#igGlow2)"/>
+
+  <g transform="translate(1180,450)" opacity="0.45" stroke-width="2" fill="none">
+    <circle r="160" stroke="#ff5fb3" opacity="0.85"/>
+    <circle r="220" stroke="#a64bff" opacity="0.55"/>
+    <circle r="290" stroke="#00f0ff" opacity="0.4"/>
+    <circle r="370" stroke="#ff5fb3" opacity="0.22"/>
+  </g>
+
+  <g transform="translate(1180,450)">
+    <g filter="url(#igBlur)" opacity="0.55">
+      <rect x="-150" y="-260" width="300" height="520" rx="44" fill="#ff5fb3" opacity="0.25"/>
+    </g>
+    <rect x="-160" y="-270" width="320" height="540" rx="46" fill="none" stroke="url(#igRing)" stroke-width="6"/>
+    <rect x="-150" y="-260" width="300" height="520" rx="40" fill="url(#igPhone)"/>
+    <rect x="-150" y="-260" width="300" height="520" rx="40" fill="none" stroke="#3a0e34" stroke-width="2"/>
+
+    <g transform="translate(0,-230)">
+      <circle r="22" fill="none" stroke="url(#igRing)" stroke-width="3"/>
+      <circle r="13" fill="#ff5fb3"/>
+      <text x="32" y="6" font-family="'Segoe UI', sans-serif" font-size="14" fill="#f7c8e6" letter-spacing="1">@studio.estetic</text>
+      <circle cx="115" cy="0" r="3" fill="#9af0ff"/>
+      <circle cx="123" cy="0" r="3" fill="#9af0ff"/>
+      <circle cx="131" cy="0" r="3" fill="#9af0ff"/>
+    </g>
+
+    <g transform="translate(-130,-160)">
+      <rect width="200" height="46" rx="22" fill="url(#igBubbleIn)"/>
+      <text x="20" y="29" font-family="'Segoe UI', sans-serif" font-size="14" fill="#f7c8e6">Cât costă laser-ul? 💖</text>
+    </g>
+
+    <g transform="translate(-50,-90)">
+      <rect width="180" height="46" rx="22" fill="url(#igBubbleAi)"/>
+      <text x="20" y="29" font-family="'Segoe UI', sans-serif" font-size="14" fill="#ffffff">Salut! 9 sloturi azi.</text>
+    </g>
+
+    <g transform="translate(-130,-20)">
+      <rect width="170" height="46" rx="22" fill="url(#igBubbleIn)"/>
+      <text x="20" y="29" font-family="'Segoe UI', sans-serif" font-size="14" fill="#f7c8e6">Mâine, 18:00?</text>
+    </g>
+
+    <g transform="translate(-50,50)">
+      <rect width="200" height="46" rx="22" fill="url(#igBubbleAi)"/>
+      <text x="20" y="29" font-family="'Segoe UI', sans-serif" font-size="14" fill="#ffffff">Rezervat ✨ Avans 50 RON.</text>
+    </g>
+
+    <g transform="translate(-130,120)">
+      <rect width="200" height="46" rx="22" fill="#0a2228" stroke="#00f0ff" stroke-opacity="0.5" stroke-width="1"/>
+      <text x="20" y="29" font-family="'Segoe UI', sans-serif" font-size="14" fill="#9af0ff">Plată confirmată ✓</text>
+    </g>
+
+    <g transform="translate(0,210)" opacity="0.95">
+      <rect x="-110" y="-22" width="220" height="48" rx="12" fill="none" stroke="url(#igRing)" stroke-width="2"/>
+      <text x="0" y="8" text-anchor="middle" font-family="'Orbitron', 'Segoe UI', sans-serif" font-size="14" fill="#ffffff" letter-spacing="3">AI · &lt; 30s · 24/7</text>
+    </g>
+  </g>
+
+  <g transform="translate(110,200)" font-family="'Orbitron', 'Segoe UI', sans-serif">
+    <text x="0" y="0" font-size="18" fill="#ff5fb3" letter-spacing="6">CASE STUDY // 05</text>
+    <text x="0" y="70" font-size="54" font-weight="800" fill="#ffffff" letter-spacing="2">BEAUTY STUDIO</text>
+    <text x="0" y="120" font-size="32" fill="#f7c8e6" letter-spacing="3">INSTAGRAM DM AI AGENT</text>
+
+    <g transform="translate(0,180)">
+      <rect x="0" y="0" width="260" height="90" rx="6" fill="none" stroke="#ff5fb3" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#f7c8e6" letter-spacing="3">DMs RESOLVED / MO</text>
+      <text x="20" y="78" font-size="42" font-weight="800" fill="#ff5fb3">+3,200</text>
+    </g>
+
+    <g transform="translate(280,180)">
+      <rect x="0" y="0" width="240" height="90" rx="6" fill="none" stroke="#00f0ff" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#9af0ff" letter-spacing="3">REEL → BOOKING</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#00f0ff">10.5x</text>
+    </g>
+
+    <g transform="translate(0,310)" font-size="14" fill="#9aa3b2" letter-spacing="2">
+      <text>INSTAGRAM API · OPENAI REALTIME · n8n · CAL.COM · STRIPE</text>
+    </g>
+  </g>
+
+  <g transform="translate(140,720)" opacity="0.7">
+    <polyline
+      points="0,40 30,40 40,22 50,55 60,8 70,58 80,18 90,48 100,40 130,40 140,28 150,45 160,25 170,55 180,18 190,52 200,40 240,40 250,30 260,48 270,22 280,50 290,15 300,55 310,40 350,40"
+      fill="none" stroke="#ff5fb3" stroke-width="2"/>
+    <polyline
+      points="350,40 370,40 380,28 390,52 400,18 410,55 420,22 430,50 440,30 470,40 480,15 490,60 500,25 510,48 520,18 530,55 540,28 550,45 560,40 600,40"
+      fill="none" stroke="#00f0ff" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <rect x="0" y="870" width="1600" height="2" fill="url(#igLine)"/>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Romanian HVAC heat-pump installer WhatsApp October 2026 cost cliff AI automation case study">
+  <defs>
+    <linearGradient id="hvBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#061018"/>
+      <stop offset="50%" stop-color="#0a1a22"/>
+      <stop offset="100%" stop-color="#04120e"/>
+    </linearGradient>
+    <radialGradient id="hvGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.30"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hvGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.24"/>
+      <stop offset="70%" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hvPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f2433"/>
+      <stop offset="100%" stop-color="#061018"/>
+    </linearGradient>
+    <linearGradient id="hvEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="hvWarm" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="hvLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <pattern id="hvGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#38bdf8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="hvBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#hvBg)"/>
+  <rect width="1600" height="900" fill="url(#hvGrid)"/>
+  <circle cx="1180" cy="430" r="500" fill="url(#hvGlow1)"/>
+  <circle cx="1180" cy="430" r="320" fill="url(#hvGlow2)"/>
+
+  <!-- Left copy block -->
+  <g transform="translate(96,210)" font-family="'JetBrains Mono', 'Consolas', monospace">
+    <text x="0" y="0" font-size="18" fill="#f97316" letter-spacing="4">OCT 1 2026 · META CLIFF</text>
+    <text x="0" y="56" font-size="42" fill="#e2e8f0" font-weight="700">HVAC · HEAT PUMP</text>
+    <text x="0" y="112" font-size="42" fill="#e2e8f0" font-weight="700">WHATSAPP FLOWS</text>
+    <text x="0" y="168" font-size="20" fill="#94a3b8">Instagram Reel ’ DM ’ site survey</text>
+    <text x="0" y="208" font-size="20" fill="#94a3b8">58% msgs / booking before billing starts</text>
+    <rect x="0" y="248" width="420" height="3" fill="url(#hvLine)"/>
+    <text x="0" y="290" font-size="16" fill="#38bdf8">1.000 free service msgs / number / month</text>
+    <text x="0" y="322" font-size="16" fill="#f97316">Art. 50 AI disclosure · human signs quotes</text>
+  </g>
+
+  <!-- Phone / flow panel -->
+  <g transform="translate(1180,430)">
+    <g filter="url(#hvBlur)" opacity="0.5">
+      <rect x="-150" y="-205" width="300" height="410" rx="16" fill="#38bdf8" opacity="0.2"/>
+    </g>
+    <rect x="-160" y="-215" width="320" height="430" rx="18" fill="none" stroke="url(#hvEdge)" stroke-width="6"/>
+    <rect x="-150" y="-205" width="300" height="410" rx="14" fill="url(#hvPanel)"/>
+
+    <g transform="translate(-128,-176)" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="13" fill="#9cdcfe">
+      <text x="0" y="0" font-size="11" fill="#f97316" letter-spacing="3">LEAD · CLUJ · REEL DM</text>
+      <text x="0" y="28">TIP  POMP DE CLDUR</text>
+      <text x="0" y="52">SUPRAF.  142 m² · 2008</text>
+      <text x="0" y="76">COMBUST.  GAZ · CENTRAL</text>
+      <text x="0" y="100">POZE  4 · FLOW CAPTURED</text>
+      <text x="0" y="124">SLOT  JOI 10:00 · SURVEY</text>
+
+      <line x1="0" y1="148" x2="244" y2="148" stroke="#38bdf8" stroke-opacity="0.4"/>
+
+      <text x="0" y="176" fill="#f97316">MSGS / BOOK  11 ’ 4.6</text>
+      <text x="0" y="200" fill="#38bdf8">OCT 1 COST  58%</text>
+      <text x="0" y="224" fill="#9cdcfe">QUOTE  HUMAN APPROVED</text>
+
+      <line x1="0" y1="248" x2="244" y2="248" stroke="#38bdf8" stroke-opacity="0.4"/>
+
+      <text x="0" y="276" fill="#bae6fd">AI · 9.2K MSG / LUN</text>
+      <text x="0" y="300" font-size="11" fill="#f97316" letter-spacing="3">PAYMENT ON FILE </text>
+      <text x="0" y="328" font-size="11" fill="#38bdf8" letter-spacing="2">FLOWS · NOT CHATTY BOT</text>
+    </g>
+
+    <!-- Warm accent bar -->
+    <rect x="-150" y="160" width="300" height="45" fill="url(#hvWarm)" opacity="0.85"/>
+    <text x="-128" y="188" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="14" fill="#fff7ed">AUTUMN PEAK · READY</text>
+  </g>
+
+  <!-- Decorative heat-pump outline -->
+  <g transform="translate(720,520)" opacity="0.35" fill="none" stroke="#38bdf8" stroke-width="3">
+    <rect x="0" y="0" width="120" height="160" rx="8"/>
+    <circle cx="60" cy="70" r="36"/>
+    <circle cx="60" cy="70" r="18"/>
+    <path d="M20 140 H100 M35 150 H85" stroke="#f97316"/>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Dental clinic automation case study">
+  <defs>
+    <linearGradient id="dBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030414"/>
+      <stop offset="60%" stop-color="#061226"/>
+      <stop offset="100%" stop-color="#02070f"/>
+    </linearGradient>
+    <radialGradient id="dGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#00f0ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dTooth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ff7ff"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="dLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#ff2bd6"/>
+    </linearGradient>
+    <pattern id="dGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#00f0ff" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="dBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#dBg)"/>
+  <rect width="1600" height="900" fill="url(#dGrid)"/>
+  <circle cx="1100" cy="450" r="500" fill="url(#dGlow)"/>
+
+  <g opacity="0.25" stroke="#00f0ff" stroke-width="1" fill="none">
+    <circle cx="1100" cy="450" r="180"/>
+    <circle cx="1100" cy="450" r="260"/>
+    <circle cx="1100" cy="450" r="340"/>
+  </g>
+
+  <g transform="translate(1020,270)">
+    <path d="M 80 0 C 30 0, 0 40, 0 100 C 0 170, 15 260, 35 330 C 45 365, 70 370, 80 340 C 85 320, 90 295, 100 280 C 110 295, 115 320, 120 340 C 130 370, 155 365, 165 330 C 185 260, 200 170, 200 100 C 200 40, 170 0, 120 0 C 110 0, 105 5, 100 10 C 95 5, 90 0, 80 0 Z"
+          fill="url(#dTooth)" opacity="0.95" filter="url(#dBlur)"/>
+    <path d="M 80 0 C 30 0, 0 40, 0 100 C 0 170, 15 260, 35 330 C 45 365, 70 370, 80 340 C 85 320, 90 295, 100 280 C 110 295, 115 320, 120 340 C 130 370, 155 365, 165 330 C 185 260, 200 170, 200 100 C 200 40, 170 0, 120 0 C 110 0, 105 5, 100 10 C 95 5, 90 0, 80 0 Z"
+          fill="none" stroke="#7ff7ff" stroke-width="2"/>
+  </g>
+
+  <g opacity="0.7">
+    <polyline points="1000,620 1050,620 1070,580 1090,660 1120,540 1150,640 1200,620 1260,620"
+              fill="none" stroke="#00f0ff" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(110,200)" font-family="'Orbitron', 'Segoe UI', sans-serif">
+    <text x="0" y="0" font-size="18" fill="#00f0ff" letter-spacing="6">CASE STUDY // 01</text>
+    <text x="0" y="70" font-size="56" font-weight="800" fill="#ffffff" letter-spacing="2">DENTAL CLINIC</text>
+    <text x="0" y="120" font-size="32" fill="#7ff7ff" letter-spacing="3">AUTOMATION</text>
+
+    <g transform="translate(0,180)">
+      <rect x="0" y="0" width="220" height="90" rx="6" fill="none" stroke="#00f0ff" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#7ff7ff" letter-spacing="3">NO-SHOW RATE</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#00f0ff">-62%</text>
+    </g>
+
+    <g transform="translate(240,180)">
+      <rect x="0" y="0" width="220" height="90" rx="6" fill="none" stroke="#ff2bd6" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#ffb3ef" letter-spacing="3">BOOKINGS</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#ff2bd6">+28%</text>
+    </g>
+
+    <g transform="translate(0,310)" font-size="14" fill="#9aa3b2" letter-spacing="2">
+      <text>WHATSAPP · N8N · GOOGLE CALENDAR · TYPEFORM</text>
+    </g>
+  </g>
+
+  <rect x="0" y="870" width="1600" height="2" fill="url(#dLine)"/>
+</svg>

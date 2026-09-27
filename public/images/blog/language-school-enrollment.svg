@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Romanian language school September enrollment AI WhatsApp Instagram automation case study">
+  <defs>
+    <linearGradient id="lsBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#041018"/>
+      <stop offset="55%" stop-color="#061820"/>
+      <stop offset="100%" stop-color="#030c12"/>
+    </linearGradient>
+    <radialGradient id="lsGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.34"/>
+      <stop offset="70%" stop-color="#14b8a6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lsGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lsPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c2430"/>
+      <stop offset="100%" stop-color="#06141c"/>
+    </linearGradient>
+    <linearGradient id="lsEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="lsBubbleIn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f2a36"/>
+      <stop offset="100%" stop-color="#123848"/>
+    </linearGradient>
+    <linearGradient id="lsBubbleAi" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="lsLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <pattern id="lsGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#14b8a6" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="lsBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#lsBg)"/>
+  <rect width="1600" height="900" fill="url(#lsGrid)"/>
+  <circle cx="1180" cy="450" r="520" fill="url(#lsGlow1)"/>
+  <circle cx="1180" cy="450" r="340" fill="url(#lsGlow2)"/>
+
+  <g transform="translate(1180,450)" opacity="0.4" stroke-width="2" fill="none">
+    <circle r="160" stroke="#14b8a6" opacity="0.9"/>
+    <circle r="220" stroke="#f59e0b" opacity="0.5"/>
+    <circle r="290" stroke="#14b8a6" opacity="0.35"/>
+    <circle r="370" stroke="#f59e0b" opacity="0.2"/>
+  </g>
+
+  <!-- phone / chat -->
+  <g transform="translate(1180,450)">
+    <g filter="url(#lsBlur)" opacity="0.5">
+      <rect x="-150" y="-260" width="300" height="520" rx="44" fill="#14b8a6" opacity="0.22"/>
+    </g>
+    <rect x="-160" y="-270" width="320" height="540" rx="46" fill="none" stroke="url(#lsEdge)" stroke-width="6"/>
+    <rect x="-150" y="-260" width="300" height="520" rx="40" fill="url(#lsPanel)"/>
+    <rect x="-150" y="-260" width="300" height="520" rx="40" fill="none" stroke="#1a3d4a" stroke-width="2"/>
+
+    <g transform="translate(0,-230)">
+      <circle r="18" fill="#25D366"/>
+      <text x="28" y="6" font-family="'Segoe UI', sans-serif" font-size="14" fill="#b8e8de" letter-spacing="0.5">WhatsApp · Înscrieri</text>
+    </g>
+
+    <g transform="translate(-130,-175)">
+      <rect width="220" height="52" rx="18" fill="url(#lsBubbleIn)"/>
+      <text x="16" y="22" font-family="'Segoe UI', sans-serif" font-size="13" fill="#c5ebe3">Avei loc la Cambridge B2</text>
+      <text x="16" y="40" font-family="'Segoe UI', sans-serif" font-size="13" fill="#c5ebe3">pentru septembrie?</text>
+    </g>
+
+    <g transform="translate(-90,-100)">
+      <rect width="230" height="68" rx="18" fill="url(#lsBubbleAi)"/>
+      <text x="14" y="24" font-family="'Segoe UI', sans-serif" font-size="12" fill="#042f2e">Sunt un asistent AI. Da </text>
+      <text x="14" y="42" font-family="'Segoe UI', sans-serif" font-size="12" fill="#042f2e">deschid Flow-ul de înscriere</text>
+      <text x="14" y="58" font-family="'Segoe UI', sans-serif" font-size="12" fill="#042f2e">i rezerv testul de nivel.</text>
+    </g>
+
+    <g transform="translate(-130,-10)">
+      <rect width="240" height="90" rx="16" fill="#0a1e28" stroke="#14b8a6" stroke-width="1.5"/>
+      <text x="16" y="28" font-family="'Segoe UI', sans-serif" font-size="12" fill="#f59e0b" letter-spacing="1">WHATSAPP FLOW</text>
+      <text x="16" y="50" font-family="'Segoe UI', sans-serif" font-size="13" fill="#e2f7f2">Vârst · Nivel · Campus</text>
+      <text x="16" y="70" font-family="'Segoe UI', sans-serif" font-size="13" fill="#e2f7f2">Slot test · Plat avans</text>
+    </g>
+
+    <g transform="translate(-100,110)">
+      <rect width="200" height="40" rx="20" fill="#f59e0b"/>
+      <text x="28" y="26" font-family="'Segoe UI', sans-serif" font-size="14" fill="#1a1204" font-weight="600">Loc rezervat </text>
+    </g>
+  </g>
+
+  <!-- left copy -->
+  <g transform="translate(90,160)">
+    <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="18" fill="#14b8a6" letter-spacing="4">CASE STUDY</text>
+    <text x="0" y="70" font-family="'Segoe UI', sans-serif" font-size="52" fill="#f0fdfa" font-weight="700">September</text>
+    <text x="0" y="130" font-family="'Segoe UI', sans-serif" font-size="52" fill="#f0fdfa" font-weight="700">enrollment,</text>
+    <text x="0" y="190" font-family="'Segoe UI', sans-serif" font-size="52" fill="#f59e0b" font-weight="700">without chaos</text>
+    <rect x="0" y="230" width="420" height="2" fill="url(#lsLine)"/>
+    <text x="0" y="280" font-family="'Segoe UI', sans-serif" font-size="20" fill="#9ec8bf">Language school · Instagram + WhatsApp</text>
+    <text x="0" y="315" font-family="'Segoe UI', sans-serif" font-size="20" fill="#9ec8bf">AI agent · Flows ahead of Oct 1 2026</text>
+
+    <g transform="translate(0,380)">
+      <rect width="150" height="90" rx="14" fill="#0c2430" stroke="#1a4a58" stroke-width="1"/>
+      <text x="20" y="38" font-family="'Segoe UI', sans-serif" font-size="28" fill="#14b8a6" font-weight="700">48h</text>
+      <text x="20" y="68" font-family="'Segoe UI', sans-serif" font-size="13" fill="#9ec8bf">reply ’ booked</text>
+    </g>
+    <g transform="translate(170,380)">
+      <rect width="150" height="90" rx="14" fill="#0c2430" stroke="#1a4a58" stroke-width="1"/>
+      <text x="20" y="38" font-family="'Segoe UI', sans-serif" font-size="28" fill="#f59e0b" font-weight="700">62%</text>
+      <text x="20" y="68" font-family="'Segoe UI', sans-serif" font-size="13" fill="#9ec8bf">billable msgs</text>
+    </g>
+    <g transform="translate(340,380)">
+      <rect width="150" height="90" rx="14" fill="#0c2430" stroke="#1a4a58" stroke-width="1"/>
+      <text x="20" y="38" font-family="'Segoe UI', sans-serif" font-size="28" fill="#14b8a6" font-weight="700">3×</text>
+      <text x="20" y="68" font-family="'Segoe UI', sans-serif" font-size="13" fill="#9ec8bf">enrollments</text>
+    </g>
+  </g>
+</svg>

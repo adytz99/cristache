@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" role="img" aria-label="Land Auto mobile shop">
+  <rect width="390" height="844" fill="#0b1220"/>
+  <rect width="390" height="72" fill="#071018"/>
+  <text x="195" y="44" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#f8fafc">LAND AUTO</text>
+  <defs>
+    <radialGradient id="glow" cx="70%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="16" y="88" width="358" height="210" rx="18" fill="#111827"/>
+  <rect x="16" y="88" width="358" height="210" rx="18" fill="url(#glow)"/>
+  <ellipse cx="268" cy="188" rx="78" ry="38" fill="#7dd3fc" opacity="0.35"/>
+  <ellipse cx="268" cy="188" rx="42" ry="18" fill="#e0f2fe" opacity="0.8"/>
+  <text x="36" y="140" font-family="Inter, Segoe UI, sans-serif" font-size="13" letter-spacing="2" fill="#38bdf8">LAND AUTO</text>
+  <text x="36" y="178" font-family="Inter, Segoe UI, sans-serif" font-size="28" font-weight="800" fill="#ffffff">Lumini Xenon</text>
+  <text x="36" y="212" font-family="Inter, Segoe UI, sans-serif" font-size="28" font-weight="800" fill="#ffffff">Accesorii</text>
+  <rect x="36" y="232" width="128" height="32" rx="16" fill="#38bdf8"/>
+  <text x="100" y="253" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#0b1220">Cumpara acum</text>
+  <text x="20" y="328" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="1" fill="#94a3b8">FLASH SALE · CATALOG API</text>
+  <g transform="translate(16,348)">
+    <rect width="172" height="210" rx="14" fill="#111827"/>
+    <rect x="12" y="12" width="148" height="96" rx="10" fill="#0f172a"/>
+    <circle cx="86" cy="60" r="28" fill="#38bdf8" opacity="0.35"/>
+    <text x="16" y="132" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#64748b">Becuri auto</text>
+    <text x="16" y="154" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Kit Xenon H7</text>
+    <text x="16" y="184" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="800" fill="#38bdf8">38,10 lei</text>
+  </g>
+  <g transform="translate(202,348)">
+    <rect width="172" height="210" rx="14" fill="#111827"/>
+    <rect x="12" y="12" width="148" height="96" rx="10" fill="#0f172a"/>
+    <circle cx="86" cy="60" r="28" fill="#facc15" opacity="0.35"/>
+    <text x="16" y="132" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#64748b">Becuri auto</text>
+    <text x="16" y="154" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Balast HID Canbus</text>
+    <text x="16" y="184" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="800" fill="#38bdf8">21,67 lei</text>
+  </g>
+  <g transform="translate(16,574)">
+    <rect width="358" height="88" rx="14" fill="#111827"/>
+    <text x="20" y="36" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Catalog din API distribuitor</text>
+    <text x="20" y="60" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#94a3b8">Stoc si preturi sincronizate, fara re-tastare SKU.</text>
+  </g>
+  <rect y="780" width="390" height="64" fill="#071018"/>
+  <text x="48" y="818" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#38bdf8">Acasa</text>
+  <text x="148" y="818" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#64748b">Shop</text>
+  <text x="236" y="818" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#64748b">Wishlist</text>
+  <text x="328" y="818" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#64748b">Cont</text>
+</svg>

@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Romanian physiotherapy clinic Instagram WhatsApp AI booking automation case study">
+  <defs>
+    <linearGradient id="ptBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02080c"/>
+      <stop offset="55%" stop-color="#04161a"/>
+      <stop offset="100%" stop-color="#020610"/>
+    </linearGradient>
+    <radialGradient id="ptGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.34"/>
+      <stop offset="70%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ptGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.24"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ptPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1f24"/>
+      <stop offset="100%" stop-color="#041014"/>
+    </linearGradient>
+    <linearGradient id="ptEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="ptStream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2dd4bf" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ptLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <pattern id="ptGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#2dd4bf" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="ptBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#ptBg)"/>
+  <rect width="1600" height="900" fill="url(#ptGrid)"/>
+  <circle cx="1180" cy="420" r="520" fill="url(#ptGlow1)"/>
+  <circle cx="1180" cy="420" r="340" fill="url(#ptGlow2)"/>
+
+  <g transform="translate(1180,420)" opacity="0.4" stroke-width="2" fill="none">
+    <circle r="170" stroke="#2dd4bf" opacity="0.9"/>
+    <circle r="230" stroke="#38bdf8" opacity="0.55"/>
+    <circle r="300" stroke="#2dd4bf" opacity="0.4"/>
+    <circle r="380" stroke="#67e8f9" opacity="0.22"/>
+  </g>
+
+  <g transform="translate(1180,420)">
+    <g filter="url(#ptBlur)" opacity="0.55">
+      <rect x="-150" y="-205" width="300" height="410" rx="16" fill="#2dd4bf" opacity="0.22"/>
+    </g>
+    <rect x="-160" y="-215" width="320" height="430" rx="18" fill="none" stroke="url(#ptEdge)" stroke-width="6"/>
+    <rect x="-150" y="-205" width="300" height="410" rx="14" fill="url(#ptPanel)"/>
+    <rect x="-150" y="-205" width="300" height="410" rx="14" fill="none" stroke="#0c1f24" stroke-width="2"/>
+
+    <g transform="translate(-128,-176)" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="13" fill="#99f6e4">
+      <text x="0" y="0" font-size="11" fill="#38bdf8" letter-spacing="3">FIZIOTERAPIE · BOOKING</text>
+      <text x="0" y="28">PACIENT  GENUNCHI · ACL</text>
+      <text x="0" y="52">CANAL  INSTAGRAM · 21:14</text>
+      <text x="0" y="76">INTENT  PROGRAMARE</text>
+      <text x="0" y="100">FLOW  INTAKE · 1 MSG</text>
+      <text x="0" y="124">CLINIC  BUCURETI</text>
+      <text x="0" y="148">TERAPEUT  DR. A </text>
+
+      <line x1="0" y1="168" x2="244" y2="168" stroke="#2dd4bf" stroke-opacity="0.4"/>
+
+      <text x="0" y="194" fill="#38bdf8">CNAS · BILET TRIMITERE</text>
+      <text x="0" y="218" fill="#38bdf8">e-FACTURA B2C · QUEUED</text>
+      <text x="0" y="242" fill="#99f6e4">NO-SHOW · -58%</text>
+
+      <line x1="0" y1="262" x2="244" y2="262" stroke="#2dd4bf" stroke-opacity="0.4"/>
+
+      <text x="0" y="288" fill="#a5f3fc">AI · 9.2K MSG / LUN</text>
+      <text x="0" y="312" font-size="11" fill="#38bdf8" letter-spacing="3">SLOT CONFIRMED </text>
+    </g>
+
+    <g transform="translate(78,-188)">
+      <circle cx="24" cy="24" r="20" fill="none" stroke="#38bdf8" stroke-width="2"/>
+      <path d="M 24 10 L 24 28 L 34 34" fill="none" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 660 240 Q 880 280 1020 330" fill="none" stroke="url(#ptStream)" stroke-width="2"/>
+    <path d="M 660 360 Q 880 380 1020 405" fill="none" stroke="url(#ptStream)" stroke-width="2"/>
+    <path d="M 660 480 Q 880 470 1020 470" fill="none" stroke="url(#ptStream)" stroke-width="2"/>
+    <path d="M 660 600 Q 880 560 1020 540" fill="none" stroke="url(#ptStream)" stroke-width="2"/>
+  </g>
+
+  <g font-family="'JetBrains Mono', 'Consolas', monospace" font-size="11" fill="#99f6e4">
+    <g transform="translate(556,225)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#041014" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="6" y="20" fill="#bae6fd" letter-spacing="2">INSTAGRAM</text>
+    </g>
+    <g transform="translate(556,345)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#041014" stroke="#2dd4bf" stroke-opacity="0.6"/>
+      <text x="10" y="20" letter-spacing="2">WHATSAPP</text>
+    </g>
+    <g transform="translate(556,465)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#041014" stroke="#2dd4bf" stroke-opacity="0.6"/>
+      <text x="18" y="20" letter-spacing="2">FLOWS</text>
+    </g>
+    <g transform="translate(556,585)">
+      <rect x="0" y="0" width="104" height="32" rx="4" fill="#041014" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="6" y="20" fill="#bae6fd" letter-spacing="2">e-FACTURA</text>
+    </g>
+  </g>
+
+  <g transform="translate(110,190)" font-family="'Orbitron', 'Segoe UI', sans-serif">
+    <text x="0" y="0" font-size="18" fill="#38bdf8" letter-spacing="6">CASE STUDY // 13</text>
+    <text x="0" y="70" font-size="48" font-weight="800" fill="#ffffff" letter-spacing="2">PHYSIO · AI BOOKING</text>
+    <text x="0" y="120" font-size="28" fill="#a5f3fc" letter-spacing="3">INSTAGRAM · WHATSAPP FLOWS</text>
+
+    <g transform="translate(0,180)">
+      <rect x="0" y="0" width="260" height="90" rx="6" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#99f6e4" letter-spacing="3">DM REPLY · 24/7</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#2dd4bf">&lt;45s</text>
+    </g>
+
+    <g transform="translate(280,180)">
+      <rect x="0" y="0" width="240" height="90" rx="6" fill="none" stroke="#38bdf8" stroke-width="2"/>
+      <text x="20" y="38" font-size="16" fill="#bae6fd" letter-spacing="3">NO-SHOWS</text>
+      <text x="20" y="78" font-size="44" font-weight="800" fill="#38bdf8">-58%</text>
+    </g>
+
+    <g transform="translate(0,310)" font-size="14" fill="#94a3b8" letter-spacing="2">
+      <text>WHATSAPP FLOWS · ART. 50 · CNAS · e-FACTURA · n8n · OPENAI</text>
+    </g>
+  </g>
+
+  <g transform="translate(0,724)">
+    <rect x="0" y="0" width="1600" height="80" fill="#041014" opacity="0.4"/>
+    <g stroke="#2dd4bf" stroke-width="2" opacity="0.35">
+      <line x1="0" y1="78" x2="1600" y2="78"/>
+    </g>
+    <g fill="none" stroke="#1e293b" stroke-width="2" opacity="0.9">
+      <g transform="translate(200,22)">
+        <circle cx="24" cy="24" r="22" fill="#0c1f24" stroke="#2dd4bf" stroke-width="1.5"/>
+        <path d="M 24 10 L 24 28 L 34 34" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(640,18)">
+        <rect x="0" y="14" width="50" height="50" rx="6" fill="#0c1f24" stroke="#38bdf8" stroke-width="1.5"/>
+        <path d="M 16 30 L 24 38 L 38 24" fill="none" stroke="#2dd4bf" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(1080,22)">
+        <circle cx="24" cy="24" r="22" fill="#0c1f24" stroke="#38bdf8" stroke-width="1.5"/>
+        <path d="M 24 10 L 24 28 L 34 34" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(1400,18)">
+        <rect x="0" y="14" width="50" height="50" rx="6" fill="#0c1f24" stroke="#2dd4bf" stroke-width="1.5"/>
+        <path d="M 16 30 L 24 38 L 38 24" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+      </g>
+    </g>
+  </g>
+
+  <rect x="0" y="870" width="1600" height="2" fill="url(#ptLine)"/>
+</svg>
