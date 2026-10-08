@@ -78,7 +78,19 @@ export function Footer({ dictionary }: { dictionary: any }) {
           ))}
         </div>
 
-        <div className="mt-12 border-t border-beige/15 pt-6 text-center text-xs tracking-wide text-ivory/40">
+        <div className="mt-12 flex justify-center border-t border-beige/15 pt-8">
+          <a href="https://reclamatiisal.anpc.ro/" target="_blank" rel="noopener noreferrer">
+            <Image
+              src="/images/anpc-sal.png"
+              alt="ANPC. Soluționarea alternativă a litigiilor"
+              width={693}
+              height={179}
+              className="h-16 w-auto max-w-full"
+            />
+          </a>
+        </div>
+
+        <div className="mt-6 text-center text-xs tracking-wide text-ivory/40">
           {dictionary.footer.rights}
         </div>
       </div>
