@@ -90,7 +90,15 @@ export function Footer({ dictionary }: { dictionary: any }) {
           </a>
         </div>
 
-        <div className="mt-6 text-center text-xs tracking-wide text-ivory/40">
+        <p className="mt-6 text-center text-xs leading-relaxed tracking-wide text-ivory/25">
+          S.C. ATELIERUL NEGRU S.R.L.
+          <br />
+          Cui: 42681706
+          <br />
+          Nr. Reg. Com: J40/6967/2020
+        </p>
+
+        <div className="mt-3 text-center text-xs tracking-wide text-ivory/40">
           {dictionary.footer.rights}
         </div>
       </div>
