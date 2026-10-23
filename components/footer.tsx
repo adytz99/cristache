@@ -95,7 +95,7 @@ export function Footer({ dictionary }: { dictionary: any }) {
           <br />
           Cui: 42681706
           <br />
-          Nr. Reg. Com: J40/6967/2020
+          Nr. Reg. Com: J2020006967400
         </p>
 
         <div className="mt-3 text-center text-xs tracking-wide text-ivory/40">
