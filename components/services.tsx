@@ -1,11 +1,11 @@
 import Link from "next/link"
-import { ArrowRight, Check, Clapperboard, Database, Globe, Megaphone, Scissors, Smartphone, Target, Layers } from "lucide-react"
+import { ArrowRight, Bot, Check, Clapperboard, Database, Globe, Megaphone, Smartphone, Target, Layers } from "lucide-react"
 import { homeCardService } from "@/lib/services-data"
 
 const icons = {
   strategy: Target,
   production: Clapperboard,
-  post: Scissors,
+  automation: Bot,
   ads: Megaphone,
   web: Globe,
   mobile: Smartphone,

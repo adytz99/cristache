@@ -9,6 +9,8 @@ import { JsonLd } from "@/components/json-ld"
 import { getDictionary } from "@/lib/get-dictionary"
 import { getService, services } from "@/lib/services-data"
 import { projectsForService } from "@/lib/projects-data"
+import { caseStudies } from "@/lib/blog-data"
+import { blogTitle } from "@/lib/blog-seo"
 import { serviceSchema } from "@/lib/schema"
 import { pageMetadata } from "@/lib/seo-utils"
 
@@ -36,6 +38,12 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const labels = dictionary.servicesPage
   const projects = projectsForService(service.slug).slice(0, 3)
   const related = service.related.map((relatedSlug) => getService(relatedSlug)).filter(Boolean)
+  // The case studies on the blog are all automation projects, so they back up
+  // the automation and platform pages.
+  const studies =
+    service.slug === "automatizari-ai" || service.slug === "platforme-online"
+      ? [...caseStudies].sort((a, b) => b.date.localeCompare(a.date)).slice(0, service.slug === "automatizari-ai" ? 6 : 3)
+      : []
 
   return (
     <div className="min-h-screen bg-black">
@@ -56,7 +64,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               <span className="text-ivory/70">{service.name}</span>
             </nav>
             <span className="block text-sm uppercase tracking-[0.18em] text-beige">{service.eyebrow}</span>
-            <h1 className="text-4xl text-ivory md:text-6xl">{service.name}</h1>
+            <h1 className="text-4xl text-ivory md:text-6xl">{service.h1}</h1>
             <p className="text-lg leading-relaxed text-ivory/75 md:text-xl">{service.intro}</p>
             <div className="flex flex-col gap-4 pt-2 sm:flex-row">
               <Link href="/contact" className="btn-primary">
@@ -102,7 +110,24 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           </div>
         </section>
 
-        <section className="py-20">
+        {service.sections && service.sections.length > 0 && (
+          <section className="py-20">
+            <div className="container max-w-3xl space-y-14">
+              {service.sections.map((section) => (
+                <div key={section.heading} className="space-y-4">
+                  <h2 className="text-3xl text-ivory md:text-4xl">{section.heading}</h2>
+                  {section.paragraphs.map((paragraph) => (
+                    <p key={paragraph.slice(0, 40)} className="text-lg leading-relaxed text-ivory/70">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <section className={service.sections?.length ? "border-t border-beige/15 py-20" : "py-20"}>
           <div className="container">
             <h2 className="mb-10 text-center text-4xl text-ivory">{labels.steps}</h2>
             <ol className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
@@ -144,6 +169,40 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     </div>
                   </Link>
                 ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {studies.length > 0 && (
+          <section className="border-t border-beige/15 py-20">
+            <div className="container">
+              <h2 className="mb-10 text-center text-4xl text-ivory">{labels.caseStudies}</h2>
+              <ul className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                {studies.map((study) => (
+                  <li key={study.slug}>
+                    <Link
+                      href={`/blog/${study.slug}`}
+                      className="flex h-full flex-col rounded-3xl border border-beige/15 bg-white/[0.03] p-7 transition-colors hover:border-beige/40"
+                    >
+                      <span className="text-xs uppercase tracking-[0.16em] text-beige">{study.content.industry}</span>
+                      <h3 className="mt-3 text-xl leading-snug text-ivory">{blogTitle(study)}</h3>
+                      <p className="mt-3 text-sm text-ivory/55">
+                        <span className="font-semibold text-beige">{study.content.heroStat.value}</span>{" "}
+                        {study.content.heroStat.label}
+                      </p>
+                      <span className="mt-auto inline-flex items-center gap-2 pt-5 text-sm text-beige">
+                        {labels.readStudy}
+                        <ArrowRight className="h-4 w-4" />
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-10 text-center">
+                <Link href="/blog" className="btn-outline">
+                  {labels.allStudies}
+                </Link>
               </div>
             </div>
           </section>

@@ -9,9 +9,9 @@ import { breadcrumbSchema } from "@/lib/schema"
 import { pageMetadata, siteUrl } from "@/lib/seo-utils"
 
 export const metadata = pageMetadata({
-  title: "Servicii: conținut, social media, web, aplicații mobile",
+  title: "Servicii: site-uri, platforme, automatizări AI",
   description:
-    "Creare conținut, social media marketing, campanii ADS, dezvoltare web, aplicații mobile, platforme online cu plăți și baze de date. Vezi ce include fiecare serviciu.",
+    "Realizare site-uri și magazine online, platforme cu plăți, automatizări AI, aplicații mobile și baze de date, plus conținut, social media și campanii ADS.",
   path: "/servicii",
 })
 

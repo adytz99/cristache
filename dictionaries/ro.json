@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Cristache | Creare conținut, social media, web și aplicații mobile",
-    "description": "Studio din București pentru creare conținut, social media marketing, campanii ADS, site-uri, magazine online, aplicații mobile, platforme cu plăți și baze de date.",
-    "keywords": "creare conținut, social media marketing, campanii ADS, TikTok Ads, dezvoltare web, magazine online, aplicații mobile, platforme online, integrare plăți, baze de date, București, Cristache"
+    "title": "Realizare site-uri, platforme și automatizări | Cristache",
+    "description": "Realizare site-uri, magazine online și platforme cu plăți și automatizări AI, în București. Plus conținut, social media și campanii ADS, aceeași echipă.",
+    "keywords": "realizare site-uri, realizare site de prezentare, magazin online, platforme online, automatizări AI, chatbot WhatsApp, aplicații mobile, București, Cristache"
   },
   "header": {
     "home": "Acasă",
@@ -19,10 +19,10 @@
     "titleLine2": "Web & Creative",
     "titleLine3": "",
     "titleLine4": "",
-    "description": "Filmăm, publicăm și promovăm brandul tău pe social media, apoi construim site-ul, aplicația sau platforma prin care clienții cumpără. Totul într-un singur loc, cu aceiași oameni de la brief până la lansare.",
+    "description": "Construim site-ul, magazinul sau platforma prin care clienții te găsesc și cumpără, cu plăți și automatizări care îți scot munca manuală. Apoi aducem oameni pe ele prin conținut, social media și campanii. Aceeași echipă, de la brief până la lansare.",
     "demo": "Cere o propunere",
     "services": "Vezi serviciile",
-    "heading": "Creare conținut, social media, site-uri și aplicații mobile"
+    "heading": "Realizare site-uri, magazine online și platforme cu automatizări, în București"
   },
   "features": {
     "title": "De ce Cristache",
@@ -74,8 +74,63 @@
   "services": {
     "title": "Ce facem pentru",
     "titleHighlight": " brandul tău",
-    "description": "Alegi doar serviciile de care ai nevoie acum. Conținutul, reclamele și produsul digital pot fi luate separat sau împreună.",
+    "description": "Construim site-uri, platforme și automatizări, apoi le promovăm prin conținut și campanii. Poți lua un singur serviciu sau mai multe împreună.",
     "items": {
+      "web": {
+        "title": "Realizare site-uri",
+        "subtitle": "Rapide și ușor de găsit",
+        "description": "Site-uri de prezentare și magazine online gândite întâi pentru telefon.",
+        "features": [
+          "Design adaptat pe mobil",
+          "Pagini de prezentare și magazine",
+          "Viteză și structură clară",
+          "Formulare și integrări"
+        ]
+      },
+      "platforms": {
+        "title": "Platforme online",
+        "subtitle": "Conturi, administrare, plăți",
+        "description": "Un singur flux pentru înscrieri, plăți, abonamente și echipă.",
+        "features": [
+          "Conturi, roluri și fluxuri",
+          "Panou de administrare",
+          "Integrare plăți",
+          "Creștere fără rescriere de la zero"
+        ]
+      },
+      "automation": {
+        "title": "Automatizări AI",
+        "subtitle": "Mai puțină muncă manuală",
+        "description": "Agenți AI și fluxuri automate pentru mesaje, programări și facturi.",
+        "features": [
+          "Chatbot WhatsApp și Instagram",
+          "Programări automate",
+          "CRM, Stripe și e-Factura",
+          "Aprobare umană unde contează"
+        ]
+      },
+      "mobile": {
+        "title": "Aplicații mobile",
+        "subtitle": "iOS și Android",
+        "description": "De la ecranele desenate până la aplicația publicată în store-uri.",
+        "features": [
+          "Interfață atentă",
+          "Dezvoltare pentru ambele platforme",
+          "Backend și API",
+          "Publicare în store-uri"
+        ]
+      },
+      "data": {
+        "title": "Baze de date",
+        "subtitle": "O singură sursă de adevăr",
+        "description": "Structură, rapoarte și backup pentru datele de care depinzi.",
+        "features": [
+          "Modelare și structură",
+          "Stocare sigură",
+          "Interogări și rapoarte",
+          "Backup și acces controlat"
+        ]
+      },
       "strategy": {
         "title": "Strategie",
         "subtitle": "Ce spui, cui și când",
@@ -98,17 +153,6 @@
           "Structură de hashtag-uri"
         ]
       },
-      "post": {
-        "title": "Post-producție",
-        "subtitle": "Gata de publicat",
-        "description": "Montaj, culoare și subtitrări care țin atenția până la final.",
-        "features": [
-          "Montaj și ritm",
-          "Corecție de culoare",
-          "Subtitrări",
-          "Formate pentru reach organic"
-        ]
-      },
       "ads": {
         "title": "Campanii ADS",
         "subtitle": "Buget urmărit pe rezultat",
@@ -118,50 +162,6 @@
           "Instagram Ads",
           "Facebook Ads",
           "Google Ads"
-        ]
-      },
-      "web": {
-        "title": "Dezvoltare web",
-        "subtitle": "Rapide și ușor de găsit",
-        "description": "Site-uri de prezentare și magazine online gândite întâi pentru telefon.",
-        "features": [
-          "Design adaptat pe mobil",
-          "Pagini de prezentare și magazine",
-          "Viteză și structură clară",
-          "Formulare și integrări"
-        ]
-      },
-      "mobile": {
-        "title": "Aplicații mobile",
-        "subtitle": "iOS și Android",
-        "description": "De la ecranele desenate până la aplicația publicată în store-uri.",
-        "features": [
-          "Interfață atentă",
-          "Dezvoltare pentru ambele platforme",
-          "Backend și API",
-          "Publicare în store-uri"
-        ]
-      },
-      "platforms": {
-        "title": "Platforme online",
-        "subtitle": "Conturi, administrare, plăți",
-        "description": "Un singur flux pentru înscrieri, plăți, abonamente și echipă.",
-        "features": [
-          "Conturi, roluri și fluxuri",
-          "Panou de administrare",
-          "Integrare plăți",
-          "Creștere fără rescriere de la zero"
-        ]
-      },
-      "data": {
-        "title": "Baze de date",
-        "subtitle": "O singură sursă de adevăr",
-        "description": "Structură, rapoarte și backup pentru datele de care depinzi.",
-        "features": [
-          "Modelare și structură",
-          "Stocare sigură",
-          "Interogări și rapoarte",
-          "Backup și acces controlat"
         ]
       }
     },
@@ -274,11 +274,11 @@
     "ctaContact": "Scrie-ne"
   },
   "footer": {
-    "description": "Studio de conținut și produs digital din București.",
+    "description": "Site-uri, platforme și automatizări din București.",
     "services": "Servicii",
     "content": "Creare conținut",
     "social": "Social media marketing",
-    "development": "Dezvoltare web",
+    "development": "Realizare site-uri",
     "platforms": "Platforme online",
     "company": "Companie",
     "about": "Despre noi",
@@ -293,7 +293,8 @@
     "rights": "© 2026 Cristache. Toate drepturile rezervate.",
     "ads": "Campanii ADS",
     "mobile": "Aplicații mobile",
-    "data": "Baze de date"
+    "data": "Baze de date",
+    "automation": "Automatizări AI"
   },
   "despre": {
     "hero": {
@@ -377,8 +378,8 @@
     }
   },
   "blog": {
-    "metaTitle": "Blog și studii de caz",
-    "metaDescription": "Studii de caz despre automatizări, social media, WhatsApp, Instagram și produse digitale pentru afaceri din România.",
+    "metaTitle": "Studii de caz: automatizări AI pentru firme",
+    "metaDescription": "Studii de caz din proiecte reale: chatbot WhatsApp, agenți AI pe Instagram, programări automate, e-Factura și platforme pentru firme din România.",
     "eyebrow": "Studii de caz",
     "title": "Din proiecte",
     "titleHighlight": "reale",
@@ -388,11 +389,11 @@
     "toolsUsed": "Unelte folosite",
     "relatedTitle": "Alte studii de caz",
     "cta": {
-      "title": "Vrei un proiect",
-      "titleHighlight": "în aceeași notă?",
-      "description": "Scrie-ne ce vrei să existe online. Revenim cu o direcție și următorii pași.",
+      "title": "Vrei o automatizare",
+      "titleHighlight": "ca aceasta?",
+      "description": "Spune-ne unde pierde echipa ta timp: mesaje, programări, oferte sau facturi. Revenim cu o propunere de flux automat și pașii următori.",
       "consultation": "Scrie-ne",
-      "contact": "Vezi proiectele"
+      "contact": "Vezi serviciul de automatizări"
     }
   },
   "cookie": {
@@ -898,7 +899,11 @@
     "items": [
       {
         "question": "Ce servicii oferă Cristache?",
-        "answer": "Cristache oferă creare conținut, social media marketing, campanii ADS pe TikTok, Meta și Google, dezvoltare de site-uri și magazine online, aplicații mobile pentru iOS și Android, platforme online cu integrare de plăți și baze de date. Poți lua un singur serviciu sau mai multe împreună."
+        "answer": "Cristache realizează site-uri de prezentare și magazine online, platforme online cu plăți și automatizări AI, aplicații mobile pentru iOS și Android și baze de date. Pe lângă partea de produs, ne ocupăm de creare conținut, social media marketing și campanii ADS pe TikTok, Meta și Google. Poți lua un singur serviciu sau mai multe împreună."
+      },
+      {
+        "question": "Ce automatizări puteți face pentru firma mea?",
+        "answer": "Automatizăm de obicei mesajele și back-office-ul: un agent AI care răspunde pe WhatsApp și Instagram, programări direct în calendar, cereri trimise automat în CRM, remindere, plăți și facturi pregătite pentru e-Factura. Deciziile importante, cum ar fi o ofertă sau un contract, rămân la un om din echipa ta."
       },
       {
         "question": "Unde lucrați?",
@@ -925,8 +930,8 @@
   },
   "servicesPage": {
     "eyebrow": "Servicii",
-    "title": "Conținut, promovare și produs digital",
-    "intro": "Șapte servicii care pot fi luate separat sau împreună: creare conținut, social media marketing, campanii ADS, dezvoltare web, aplicații mobile, platforme online cu plăți și baze de date.",
+    "title": "Site-uri, platforme, automatizări și promovare",
+    "intro": "Opt servicii care pot fi luate separat sau împreună: realizare site-uri și magazine online, platforme online cu plăți, automatizări AI, aplicații mobile, baze de date, creare conținut, social media marketing și campanii ADS.",
     "more": "Vezi ce include",
     "includes": "Ce include",
     "deliverables": "Ce primești",
@@ -939,6 +944,9 @@
     "allServices": "Toate serviciile",
     "ctaTitle": "Vrei o propunere pentru proiectul tău?",
     "ctaDesc": "Spune-ne ce vrei să obții. Îți răspundem în maxim 24 de ore cu pașii următori.",
-    "ctaButton": "Cere o propunere"
+    "ctaButton": "Cere o propunere",
+    "caseStudies": "Studii de caz",
+    "readStudy": "Citește studiul de caz",
+    "allStudies": "Toate studiile de caz"
   }
 }

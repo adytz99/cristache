@@ -7,13 +7,14 @@ export function Footer({ dictionary }: { dictionary: any }) {
     {
       title: dictionary.footer.services,
       links: [
+        { href: "/servicii/dezvoltare-web", label: dictionary.footer.development },
+        { href: "/servicii/platforme-online", label: dictionary.footer.platforms },
+        { href: "/servicii/automatizari-ai", label: dictionary.footer.automation },
+        { href: "/servicii/aplicatii-mobile", label: dictionary.footer.mobile },
+        { href: "/servicii/baze-de-date", label: dictionary.footer.data },
         { href: "/servicii/creare-continut", label: dictionary.footer.content },
         { href: "/servicii/social-media-marketing", label: dictionary.footer.social },
         { href: "/servicii/campanii-ads", label: dictionary.footer.ads },
-        { href: "/servicii/dezvoltare-web", label: dictionary.footer.development },
-        { href: "/servicii/aplicatii-mobile", label: dictionary.footer.mobile },
-        { href: "/servicii/platforme-online", label: dictionary.footer.platforms },
-        { href: "/servicii/baze-de-date", label: dictionary.footer.data },
       ],
     },
     {

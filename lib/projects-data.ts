@@ -27,6 +27,7 @@ export type ServiceSlug =
   | "aplicatii-mobile"
   | "platforme-online"
   | "baze-de-date"
+  | "automatizari-ai"
 
 export type Project = {
   id: string
@@ -231,7 +232,7 @@ export const projects: Project[] = [
     letter: "C",
     technologies: ["Node.js", "API", "AI"],
     features: ["Secvențe de email", "Evidența cererilor", "Chatbot AI"],
-    services: ["platforme-online", "baze-de-date"],
+    services: ["automatizari-ai", "platforme-online", "baze-de-date"],
   },
   {
     id: "luxury-residence",
@@ -273,7 +274,7 @@ export const projects: Project[] = [
     letter: "P",
     technologies: ["Python", "API", "AI"],
     features: ["Automatizare campanii", "Analiză rezultate", "Urmărire ROI"],
-    services: ["campanii-ads", "social-media-marketing"],
+    services: ["automatizari-ai", "campanii-ads", "social-media-marketing"],
   },
 ]
 

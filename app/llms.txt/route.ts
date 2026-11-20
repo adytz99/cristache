@@ -7,7 +7,7 @@ export const dynamic = "force-static"
 export function GET() {
   const body = `# Cristache
 
-> Cristache este un studio de conținut și produs digital din București, România. Oferă creare conținut, social media marketing, campanii ADS, dezvoltare web, aplicații mobile iOS și Android, platforme online cu integrare de plăți și baze de date.
+> Cristache este un studio digital din București, România. Realizează site-uri de prezentare și magazine online, platforme online cu plăți și automatizări AI (chatbot WhatsApp și Instagram, programări, CRM, e-Factura), aplicații mobile iOS și Android și baze de date. Oferă și creare conținut, social media marketing și campanii ADS.
 
 Administratori: Adrian Cristin Cristache și Nicoleta Alexandra Cristache.
 Email: contact@cristache.ro

@@ -10,6 +10,7 @@ import { getDictionary } from "@/lib/get-dictionary"
 import { caseStudies, getCaseStudy } from "@/lib/blog-data"
 import { pageMetadata } from "@/lib/seo-utils"
 import { articleSchema } from "@/lib/schema"
+import { blogTitle } from "@/lib/blog-seo"
 import { JsonLd } from "@/components/json-ld"
 
 export async function generateStaticParams() {
@@ -26,7 +27,7 @@ export async function generateMetadata({
   if (!study) return {}
   const content = study.content
   return pageMetadata({
-    title: content.title,
+    title: blogTitle(study),
     description: content.excerpt,
     path: `/blog/${slug}`,
     type: "article",
@@ -47,7 +48,14 @@ export default async function CaseStudyPage({
   const content = study.content
   const dateLocale = "ro-RO"
 
-  const related = caseStudies.filter((cs) => cs.slug !== study.slug).slice(0, 2)
+  // Related studies: most shared tags first, newest first on ties.
+  const tags = new Set(content.tags)
+  const related = caseStudies
+    .filter((cs) => cs.slug !== study.slug)
+    .map((cs) => ({ cs, shared: cs.content.tags.filter((tag) => tags.has(tag)).length }))
+    .sort((a, b) => b.shared - a.shared || b.cs.date.localeCompare(a.cs.date))
+    .slice(0, 2)
+    .map(({ cs }) => cs)
 
   return (
     <div className="min-h-screen bg-black">
@@ -256,7 +264,7 @@ export default async function CaseStudyPage({
                 size="lg"
                 className="border-beige text-beige hover:bg-beige hover:text-slate-900 px-8 py-4 text-lg"
               >
-                <Link href={"/contact"}>{dictionary.blog.cta.contact}</Link>
+                <Link href="/servicii/automatizari-ai">{dictionary.blog.cta.contact}</Link>
               </Button>
             </div>
           </div>
