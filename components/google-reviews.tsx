@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
 import { Star } from "lucide-react"
 import { useInView } from "@/hooks/use-in-view"
 import type { GoogleReviewsData } from "@/lib/google-reviews"
@@ -12,6 +12,7 @@ type Labels = {
   seeAll: string
   writeReview: string
   source: string
+  goTo: string
 }
 
 // Start loading a little before the section scrolls into view. Kept outside
@@ -53,6 +54,43 @@ export function GoogleReviews({ labels }: { labels: Labels }) {
   const { ref, isInView } = useInView(observerOptions)
   const [data, setData] = useState<GoogleReviewsData | null>(null)
   const [failed, setFailed] = useState(false)
+  const trackRef = useRef<HTMLUListElement>(null)
+  const [active, setActive] = useState(0)
+  const frame = useRef(0)
+
+  // Mobile carousel: the active dot follows the slide closest to the centre.
+  const syncActive = useCallback(() => {
+    cancelAnimationFrame(frame.current)
+    frame.current = requestAnimationFrame(() => {
+      const track = trackRef.current
+      if (!track) return
+      const centre = track.scrollLeft + track.clientWidth / 2
+      let closest = 0
+      let distance = Infinity
+      Array.from(track.children).forEach((child, index) => {
+        const slide = child as HTMLElement
+        const gap = Math.abs(slide.offsetLeft + slide.offsetWidth / 2 - centre)
+        if (gap < distance) {
+          distance = gap
+          closest = index
+        }
+      })
+      setActive(closest)
+    })
+  }, [])
+
+  useEffect(() => () => cancelAnimationFrame(frame.current), [])
+
+  const goTo = (index: number) => {
+    const track = trackRef.current
+    const slide = track?.children[index] as HTMLElement | undefined
+    if (!track || !slide) return
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    track.scrollTo({
+      left: slide.offsetLeft - (track.clientWidth - slide.offsetWidth) / 2,
+      behavior: reduceMotion ? "auto" : "smooth",
+    })
+  }
 
   useEffect(() => {
     if (!isInView || data || failed) return
@@ -98,59 +136,94 @@ export function GoogleReviews({ labels }: { labels: Labels }) {
         {!data && (
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3" aria-hidden="true">
             {[0, 1, 2].map((index) => (
-              <div key={index} className="h-56 animate-pulse rounded-3xl bg-white/70" />
+              <div
+                key={index}
+                className={`h-56 animate-pulse rounded-3xl bg-white/70 ${index > 0 ? "hidden md:block" : ""}`}
+              />
             ))}
           </div>
         )}
 
         {data && (
-          <ul className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {data.reviews.map((review) => (
-              <li key={review.id} className="flex flex-col rounded-3xl bg-white p-7 shadow-sm">
-                <div className="flex items-center gap-3">
-                  {review.authorPhoto ? (
-                    // eslint-disable-next-line @next/next/no-img-element -- Google profile photo, shown as returned by the API
-                    <img
-                      src={review.authorPhoto}
-                      alt=""
-                      width={40}
-                      height={40}
-                      loading="lazy"
-                      referrerPolicy="no-referrer"
-                      className="h-10 w-10 rounded-full object-cover"
-                    />
-                  ) : (
-                    <span className="flex h-10 w-10 items-center justify-center rounded-full bg-beige text-sm font-semibold">
-                      {review.authorName.charAt(0).toUpperCase()}
-                    </span>
-                  )}
-                  <div className="min-w-0">
-                    {review.authorUrl ? (
-                      <a
-                        href={review.authorUrl}
-                        target="_blank"
-                        rel="noopener noreferrer nofollow"
-                        className="block truncate font-medium text-ink hover:text-beige-deep"
-                      >
-                        {review.authorName}
-                      </a>
+          <>
+            <ul
+              ref={trackRef}
+              onScroll={syncActive}
+              aria-label={labels.title}
+              className="relative -mx-8 flex snap-x snap-mandatory gap-4 overflow-x-auto overscroll-x-contain px-8 py-2 [scrollbar-width:none] md:mx-0 md:grid md:grid-cols-2 md:gap-5 md:overflow-visible md:p-0 lg:grid-cols-3 [&::-webkit-scrollbar]:hidden"
+            >
+              {data.reviews.map((review, index) => (
+                <li
+                  key={review.id}
+                  aria-label={`${index + 1} / ${data.reviews.length}`}
+                  className="flex w-full shrink-0 snap-center flex-col rounded-3xl bg-white p-7 shadow-sm md:w-auto"
+                >
+                  <div className="flex items-center gap-3">
+                    {review.authorPhoto ? (
+                      // eslint-disable-next-line @next/next/no-img-element -- Google profile photo, shown as returned by the API
+                      <img
+                        src={review.authorPhoto}
+                        alt=""
+                        width={40}
+                        height={40}
+                        loading="lazy"
+                        referrerPolicy="no-referrer"
+                        className="h-10 w-10 rounded-full object-cover"
+                      />
                     ) : (
-                      <span className="block truncate font-medium text-ink">{review.authorName}</span>
+                      <span className="flex h-10 w-10 items-center justify-center rounded-full bg-beige text-sm font-semibold">
+                        {review.authorName.charAt(0).toUpperCase()}
+                      </span>
                     )}
-                    <span className="text-xs text-ink/50">{review.relativeTime}</span>
+                    <div className="min-w-0">
+                      {review.authorUrl ? (
+                        <a
+                          href={review.authorUrl}
+                          target="_blank"
+                          rel="noopener noreferrer nofollow"
+                          className="block truncate font-medium text-ink hover:text-beige-deep"
+                        >
+                          {review.authorName}
+                        </a>
+                      ) : (
+                        <span className="block truncate font-medium text-ink">{review.authorName}</span>
+                      )}
+                      <span className="text-xs text-ink/50">{review.relativeTime}</span>
+                    </div>
                   </div>
-                </div>
-                <div className="mt-4">
-                  <Stars rating={review.rating} />
-                </div>
-                <p className="mt-3 line-clamp-6 flex-1 whitespace-pre-line text-ink/75">{review.text}</p>
-                <p className="mt-5 flex items-center gap-2 text-xs text-ink/45">
-                  <GoogleMark />
-                  {labels.source}
-                </p>
-              </li>
-            ))}
-          </ul>
+                  <div className="mt-4">
+                    <Stars rating={review.rating} />
+                  </div>
+                  <p className="mt-3 line-clamp-6 flex-1 whitespace-pre-line text-ink/75">{review.text}</p>
+                  <p className="mt-5 flex items-center gap-2 text-xs text-ink/45">
+                    <GoogleMark />
+                    {labels.source}
+                  </p>
+                </li>
+              ))}
+            </ul>
+  
+            {data.reviews.length > 1 && (
+              <div className="mt-6 flex items-center justify-center gap-2 md:hidden">
+                {data.reviews.map((review, index) => (
+                  <button
+                    key={review.id}
+                    type="button"
+                    onClick={() => goTo(index)}
+                    aria-label={labels.goTo.replace("{n}", String(index + 1)).replace("{total}", String(data.reviews.length))}
+                    aria-current={index === active ? "true" : undefined}
+                    className="flex h-6 items-center justify-center px-0.5"
+                  >
+                    <span
+                      className={`block h-2 rounded-full transition-all duration-300 ${
+                        index === active ? "w-6 bg-ink" : "w-2 bg-ink/25"
+                      }`}
+                    />
+                  </button>
+                ))}
+              </div>
+            )}
+          </>
         )}
 
         {data && (

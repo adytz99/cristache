@@ -920,7 +920,8 @@
     "basedOn": "{count} recenzii pe Google",
     "seeAll": "Vezi toate recenziile",
     "writeReview": "Lasă o recenzie",
-    "source": "Recenzie de pe Google"
+    "source": "Recenzie de pe Google",
+    "goTo": "Recenzia {n} din {total}"
   },
   "servicesPage": {
     "eyebrow": "Servicii",
