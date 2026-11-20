@@ -13,6 +13,8 @@ Administratori: Adrian Cristin Cristache și Nicoleta Alexandra Cristache.
 Email: contact@cristache.ro
 Telefon: +40 735 371 775
 Locație: București, România
+Instagram (Adrian Cristache): https://www.instagram.com/adrian_cristache
+TikTok (Adrian Cristache): https://www.tiktok.com/@adicrs9
 Limbă: română
 
 ## Servicii
@@ -21,7 +23,7 @@ ${services.map((service) => `- [${service.name}](${siteUrl}/servicii/${service.s
 
 ## Proiecte
 
-${projects.map((project) => `- ${project.title}: ${project.description}`).join("\n")}
+${projects.map((project) => `- ${project.title}${project.url.startsWith("http") ? ` (${project.url})` : ""}: ${project.description}`).join("\n")}
 
 ## Pagini principale
 

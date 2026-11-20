@@ -294,7 +294,8 @@
     "ads": "Campanii ADS",
     "mobile": "Aplicații mobile",
     "data": "Baze de date",
-    "automation": "Automatizări AI"
+    "automation": "Automatizări AI",
+    "follow": "Urmărește-ne"
   },
   "despre": {
     "hero": {
@@ -906,6 +907,10 @@
         "answer": "Automatizăm de obicei mesajele și back-office-ul: un agent AI care răspunde pe WhatsApp și Instagram, programări direct în calendar, cereri trimise automat în CRM, remindere, plăți și facturi pregătite pentru e-Factura. Deciziile importante, cum ar fi o ofertă sau un contract, rămân la un om din echipa ta."
       },
       {
+        "question": "Cât costă un site?",
+        "answer": "Un site costă între 800 € și 2.500 €, în funcție de tip. Un site de prezentare cu câteva pagini pornește de la 800 €, iar site-urile cu mai multe pagini și magazinele online ajung până la 2.500 €. Integrările cu ERP, platformele online și automatizările se ofertează separat, după o scurtă analiză."
+      },
+      {
         "question": "Unde lucrați?",
         "answer": "Suntem în București și lucrăm cu clienți din toată România și cu firme din America. Filmările au loc de obicei la locația clientului, iar proiectele web și mobile se desfășoară online, cu întâlniri stabilite la fiecare etapă."
       },
@@ -947,6 +952,9 @@
     "ctaButton": "Cere o propunere",
     "caseStudies": "Studii de caz",
     "readStudy": "Citește studiul de caz",
-    "allStudies": "Toate studiile de caz"
+    "allStudies": "Toate studiile de caz",
+    "price": "Preț",
+    "priceNote": "în funcție de tipul de site",
+    "liveSites": "Site-uri realizate de noi"
   }
 }

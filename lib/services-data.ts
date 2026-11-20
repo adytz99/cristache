@@ -15,6 +15,8 @@ export type Service = {
   deliverables: string[]
   forWho: string[]
   steps: { title: string; description: string }[]
+  /** Price range in EUR, shown on the page and in the Service schema. */
+  price?: { min: number; max: number }
   sections?: { heading: string; paragraphs: string[] }[]
   faq: ServiceFaq[]
   related: ServiceSlug[]
@@ -23,13 +25,13 @@ export type Service = {
 export const services: Service[] = [
   {
     slug: "dezvoltare-web",
-    name: "Dezvoltare web",
+    name: "Realizare site-uri",
     h1: "Realizare site-uri de prezentare și magazine online",
     eyebrow: "Site-uri de prezentare și magazine online",
     metaTitle: "Realizare site-uri și magazine online în București",
     metaDescription:
-      "Realizare site-uri de prezentare și magazine online rapide pe mobil, cu SEO tehnic, plăți și integrări. Next.js, Shopify, WordPress. Cristache, București.",
-    short: "Site-uri de prezentare și magazine online, rapide pe mobil și ușor de găsit în Google.",
+      "Realizare site-uri de prezentare și magazine online rapide pe mobil, cu SEO tehnic, plăți și integrări. Între 800 € și 2.500 €. Cristache, București.",
+    short: "Site-uri de prezentare și magazine online, rapide pe mobil și ușor de găsit în Google. Între 800 € și 2.500 €.",
     intro:
       "Construim site-uri de prezentare și magazine online care se încarcă repede, arată bine pe telefon și pot fi găsite în Google. Ne ocupăm de structură, design, texte, formulare, plăți și integrări, apoi de lansare și de măsurare. Îți spunem sincer dacă ai nevoie de un site simplu sau de ceva mai complex.",
     includes: [
@@ -37,7 +39,7 @@ export const services: Service[] = [
       "Design adaptat pe mobil",
       "Dezvoltare pe Next.js, Shopify sau WordPress",
       "SEO tehnic și date structurate",
-      "Formulare, plăți și integrări",
+      "Formulare, plăți și integrări cu CRM sau ERP",
       "Lansare, domeniu și măsurare trafic",
     ],
     deliverables: [
@@ -57,7 +59,15 @@ export const services: Service[] = [
       { title: "Dezvoltare", description: "Construim, conectăm formularele și plățile, testăm." },
       { title: "Lansare", description: "Publicăm, verificăm indexarea și urmărim primele rezultate." },
     ],
+    price: { min: 800, max: 2500 },
     sections: [
+      {
+        heading: "Cât costă un site",
+        paragraphs: [
+          "Un site costă între 800 € și 2.500 €, în funcție de tipul lui. Un site de prezentare cu câteva pagini pornește de la 800 €. Site-urile cu mai multe pagini de servicii, blog sau texte scrise de noi și magazinele online, cu produse, plăți și livrare, ajung până la 2.500 €.",
+          "Integrările cu ERP-ul firmei, sincronizările cu furnizori sau fluxurile de tip platformă, cu conturi și abonamente, se ofertează separat, după o scurtă analiză. Primești de la început o propunere scrisă, cu livrabilele, etapele și prețul.",
+        ],
+      },
       {
         heading: "Site de prezentare sau magazin online",
         paragraphs: [
@@ -75,7 +85,7 @@ export const services: Service[] = [
       {
         heading: "Integrări care îți scot munca manuală",
         paragraphs: [
-          "Un site bun nu se oprește la formular. Putem trimite cererile direct în CRM, putem sincroniza produsele, stocul și prețurile prin API, cum am făcut pentru Land Auto, sau putem conecta plăți, facturare și emailuri automate. Când fluxul devine mai complex, site-ul se poate extinde într-o platformă online, fără să fie rescris de la zero.",
+          "Un site bun nu se oprește la formular. Putem trimite cererile direct în CRM, putem conecta magazinul la ERP-ul firmei și la catalogul furnizorului, ca produsele, stocul și prețurile să se actualizeze singure, cum am făcut pentru Land Auto, sau putem conecta plăți, facturare și emailuri automate. Când fluxul devine mai complex, site-ul se poate extinde într-o platformă online, fără să fie rescris de la zero.",
         ],
       },
     ],
@@ -103,7 +113,7 @@ export const services: Service[] = [
       {
         question: "Cât costă realizarea unui site?",
         answer:
-          "Prețul depinde de numărul de pagini, de cine scrie textele, de funcțiile necesare, de exemplu plăți, programări sau sincronizare de produse, și de platforma aleasă. După o discuție scurtă primești o propunere cu livrabilele, etapele și costul, ca să știi de la început ce plătești.",
+          "Un site costă între 800 € și 2.500 €, în funcție de tip: un site de prezentare cu câteva pagini pornește de la 800 €, iar site-urile mai mari și magazinele online ajung până la 2.500 €. Integrările cu ERP sau cu furnizori se ofertează separat. După o discuție scurtă primești o propunere cu livrabilele, etapele și prețul final.",
       },
       {
         question: "Domeniul și site-ul rămân ale mele?",

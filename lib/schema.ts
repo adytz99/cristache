@@ -12,6 +12,7 @@ export const people = [
     jobTitle: "Administrator",
     image: `${siteUrl}/images/adrian-cristache.jpg`,
     description: "Conduce direcția de produs, web, aplicații și platforme.",
+    sameAs: ["https://www.instagram.com/adrian_cristache", "https://www.tiktok.com/@adicrs9"],
   },
   {
     id: `${siteUrl}/despre#nicoleta-cristache`,
@@ -19,6 +20,7 @@ export const people = [
     jobTitle: "Administrator",
     image: `${siteUrl}/images/nicoleta-cristache.jpg`,
     description: "Conduce conținutul, social media și relația cu clienții.",
+    sameAs: [] as string[],
   },
 ]
 
@@ -113,6 +115,21 @@ export function serviceSchema(service: Service) {
         url,
         provider: { "@id": orgId },
         areaServed: { "@type": "Country", name: "România" },
+        ...(service.price
+          ? {
+              offers: {
+                "@type": "Offer",
+                url,
+                priceCurrency: "EUR",
+                priceSpecification: {
+                  "@type": "PriceSpecification",
+                  minPrice: service.price.min,
+                  maxPrice: service.price.max,
+                  priceCurrency: "EUR",
+                },
+              },
+            }
+          : {}),
         hasOfferCatalog: {
           "@type": "OfferCatalog",
           name: service.name,
@@ -172,6 +189,7 @@ export function aboutSchema() {
         jobTitle: person.jobTitle,
         image: person.image,
         description: person.description,
+        ...(person.sameAs.length ? { sameAs: person.sameAs } : {}),
         worksFor: { "@id": orgId },
       })),
       {

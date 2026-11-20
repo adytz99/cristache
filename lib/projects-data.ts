@@ -96,15 +96,16 @@ export const projects: Project[] = [
   {
     id: "landauto",
     title: "Land Auto",
-    description: "Magazin de iluminat și accesorii auto, cu catalogul preluat direct de la distribuitor.",
-    outcome: "Produsele, stocul și prețurile se sincronizează prin API, fără liste copiate de mână.",
+    description:
+      "Magazin de iluminat și accesorii auto, conectat la ERP-ul firmei și la catalogul distribuitorului.",
+    outcome: "Produsele, stocul și prețurile se sincronizează automat cu ERP-ul și cu distribuitorul, fără liste copiate de mână.",
     category: "ecommerce",
     categoryLabel: "E-commerce",
     url: "https://landauto.ro",
     image: "/images/landauto-ro-mobile.png",
     letter: "L",
-    technologies: ["API distribuitor", "Sincronizare catalog", "Checkout"],
-    features: ["Integrare API cu distribuitorul", "Catalog actualizat automat", "Checkout pe mobil"],
+    technologies: ["Integrare ERP", "API distribuitor", "Sincronizare catalog"],
+    features: ["Integrare cu ERP-ul firmei", "Integrare API cu distribuitorul", "Stoc și prețuri actualizate automat", "Checkout pe mobil"],
     services: ["dezvoltare-web", "baze-de-date"],
   },
   {
@@ -279,3 +280,8 @@ export const projects: Project[] = [
 ]
 
 export const projectsForService = (slug: ServiceSlug) => projects.filter((project) => project.services.includes(slug))
+
+export const isLiveUrl = (url: string) => url.startsWith("https://") || url.startsWith("http://")
+
+// "https://www.landauto.ro/" -> "landauto.ro", for link labels.
+export const projectDomain = (url: string) => url.replace(/^https?:\/\//, "").replace(/^www\./, "").replace(/\/$/, "")

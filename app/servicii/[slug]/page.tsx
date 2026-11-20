@@ -1,14 +1,14 @@
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
-import { ArrowLeft, ArrowRight, Check } from "lucide-react"
+import { ArrowLeft, ArrowRight, ArrowUpRight, Check } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { FaqList } from "@/components/faq-list"
 import { JsonLd } from "@/components/json-ld"
 import { getDictionary } from "@/lib/get-dictionary"
 import { getService, services } from "@/lib/services-data"
-import { projectsForService } from "@/lib/projects-data"
+import { isLiveUrl, projectDomain, projectsForService } from "@/lib/projects-data"
 import { caseStudies } from "@/lib/blog-data"
 import { blogTitle } from "@/lib/blog-seo"
 import { serviceSchema } from "@/lib/schema"
@@ -36,7 +36,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
   const dictionary = await getDictionary()
   const labels = dictionary.servicesPage
-  const projects = projectsForService(service.slug).slice(0, 3)
+  const serviceProjects = projectsForService(service.slug)
+  const projects = serviceProjects.slice(0, 3)
+  const liveSites = serviceProjects.filter((project) => isLiveUrl(project.url))
+  const euro = (value: number) => `${value.toLocaleString("ro-RO")} €`
   const related = service.related.map((relatedSlug) => getService(relatedSlug)).filter(Boolean)
   // The case studies on the blog are all automation projects, so they back up
   // the automation and platform pages.
@@ -66,6 +69,15 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <span className="block text-sm uppercase tracking-[0.18em] text-beige">{service.eyebrow}</span>
             <h1 className="text-4xl text-ivory md:text-6xl">{service.h1}</h1>
             <p className="text-lg leading-relaxed text-ivory/75 md:text-xl">{service.intro}</p>
+            {service.price && (
+              <p className="inline-flex flex-wrap items-baseline gap-x-3 gap-y-1 rounded-2xl border border-beige/25 px-5 py-3">
+                <span className="text-xs uppercase tracking-[0.16em] text-beige">{labels.price}</span>
+                <span className="font-serif text-2xl text-ivory">
+                  {euro(service.price.min)} – {euro(service.price.max)}
+                </span>
+                <span className="text-sm text-ivory/55">{labels.priceNote}</span>
+              </p>
+            )}
             <div className="flex flex-col gap-4 pt-2 sm:flex-row">
               <Link href="/contact" className="btn-primary">
                 {labels.ctaButton}
@@ -148,28 +160,60 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               <h2 className="mb-10 text-center text-4xl text-ivory">{labels.projects}</h2>
               <div className="grid gap-6 md:grid-cols-3">
                 {projects.map((project) => (
-                  <Link
+                  <div
                     key={project.id}
-                    href="/portofoliu"
-                    className="group overflow-hidden rounded-3xl border border-beige/15 bg-white/[0.03]"
+                    className="group flex flex-col overflow-hidden rounded-3xl border border-beige/15 bg-white/[0.03]"
                   >
-                    <div className="relative aspect-[4/5] overflow-hidden bg-beige/10">
-                      <Image
-                        src={project.image}
-                        alt={`${project.title}: ${project.description}`}
-                        fill
-                        unoptimized={typeof project.image === "string" && project.image.endsWith(".svg")}
-                        sizes="(max-width: 768px) 100vw, 33vw"
-                        className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                    <div className="space-y-2 p-6">
-                      <h3 className="text-2xl text-ivory">{project.title}</h3>
-                      <p className="text-sm text-ivory/60">{project.outcome}</p>
-                    </div>
-                  </Link>
+                    <Link href="/portofoliu" className="block">
+                      <div className="relative aspect-[4/5] overflow-hidden bg-beige/10">
+                        <Image
+                          src={project.image}
+                          alt={`${project.title}: ${project.description}`}
+                          fill
+                          unoptimized={typeof project.image === "string" && project.image.endsWith(".svg")}
+                          sizes="(max-width: 768px) 100vw, 33vw"
+                          className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                        />
+                      </div>
+                      <div className="space-y-2 p-6 pb-3">
+                        <h3 className="text-2xl text-ivory">{project.title}</h3>
+                        <p className="text-sm text-ivory/60">{project.outcome}</p>
+                      </div>
+                    </Link>
+                    {isLiveUrl(project.url) && (
+                      <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-auto inline-flex items-center gap-1.5 px-6 pb-6 text-sm text-beige hover:text-ivory"
+                      >
+                        {projectDomain(project.url)}
+                        <ArrowUpRight className="h-4 w-4" />
+                      </a>
+                    )}
+                  </div>
                 ))}
               </div>
+              {liveSites.length > 3 && (
+                <div className="mx-auto mt-12 max-w-4xl text-center">
+                  <h3 className="text-sm uppercase tracking-[0.16em] text-beige">{labels.liveSites}</h3>
+                  <ul className="mt-5 flex flex-wrap justify-center gap-3">
+                    {liveSites.map((project) => (
+                      <li key={project.id}>
+                        <a
+                          href={project.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 rounded-full border border-beige/25 px-4 py-2 text-sm text-ivory/80 transition-colors hover:border-beige hover:text-beige"
+                        >
+                          {projectDomain(project.url)}
+                          <ArrowUpRight className="h-3.5 w-3.5" />
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           </section>
         )}
