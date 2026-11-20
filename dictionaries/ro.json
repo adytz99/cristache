@@ -914,6 +914,14 @@
       }
     ]
   },
+  "reviews": {
+    "title": "Ce spun clienții",
+    "description": "Recenzii lăsate pe Google de oamenii cu care am lucrat.",
+    "basedOn": "{count} recenzii pe Google",
+    "seeAll": "Vezi toate recenziile",
+    "writeReview": "Lasă o recenzie",
+    "source": "Recenzie de pe Google"
+  },
   "servicesPage": {
     "eyebrow": "Servicii",
     "title": "Conținut, promovare și produs digital",

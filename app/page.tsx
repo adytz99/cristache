@@ -8,6 +8,8 @@ import { Features } from "@/components/features"
 import { Stats } from "@/components/stats"
 import { CTA } from "@/components/cta"
 import { HomeFaq } from "@/components/home-faq"
+import { GoogleReviews } from "@/components/google-reviews"
+import { googleReviewsConfigured } from "@/lib/google-reviews"
 import { getDictionary } from "@/lib/get-dictionary"
 
 export default async function HomePage() {
@@ -22,6 +24,7 @@ export default async function HomePage() {
         <Features dictionary={dictionary} />
         <Stats dictionary={dictionary} />
         <Process dictionary={dictionary} />
+        {googleReviewsConfigured() && <GoogleReviews labels={dictionary.reviews} />}
         <CTA dictionary={dictionary} />
         <HomeFaq dictionary={dictionary} />
         <FinalCTA dictionary={dictionary} />
